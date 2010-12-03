@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		37E2149712A5EBDE00BBAAB3 /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2149412A5EBBE00BBAAB3 /* libXNI.a */; };
+		37F62E24129CD97B000CB950 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F62E23129CD97B000CB950 /* Score.m */; };
+		B504BD48126F0E5C00ACAC3D /* Pong3D.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BD47126F0E5C00ACAC3D /* Pong3D.m */; };
+		B504BD4C126F0E7F00ACAC3D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */; };
+		B504BD4E126F0E7F00ACAC3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */; };
+		B504BDA8126F180E00ACAC3D /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDA7126F180E00ACAC3D /* Level.m */; };
+		B504BDAB126F181E00ACAC3D /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDAA126F181E00ACAC3D /* Scene.m */; };
+		B504BDAE126F18C900ACAC3D /* Level1.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDAD126F18C900ACAC3D /* Level1.m */; };
+		B504BDCF126F201400ACAC3D /* Racket.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDCE126F201400ACAC3D /* Racket.m */; };
+		B504BDFD126F289F00ACAC3D /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDFC126F289F00ACAC3D /* Sprite.m */; };
+		B504BE01126F28B500ACAC3D /* GameRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BE00126F28B500ACAC3D /* GameRenderer.m */; };
+		B5438D83127083D100A1D71C /* TextureAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = B5438D82127083D100A1D71C /* TextureAtlas.png */; };
+		EA31BB8012779D2100F63859 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BB7F12779D2100F63859 /* Ball.m */; };
+		EA31BB981277A23A00F63859 /* rackets.png in Resources */ = {isa = PBXBuildFile; fileRef = EA31BB961277A23A00F63859 /* rackets.png */; };
+		EA31BB9B1277A34000F63859 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = EA31BB991277A34000F63859 /* ball.png */; };
+		EA31BBAB1277A38900F63859 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA01277A38900F63859 /* NSObject+SBJSON.m */; };
+		EA31BBAC1277A38900F63859 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA21277A38900F63859 /* NSString+SBJSON.m */; };
+		EA31BBAD1277A38900F63859 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA41277A38900F63859 /* SBJSON.m */; };
+		EA31BBAE1277A38900F63859 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA61277A38900F63859 /* SBJsonBase.m */; };
+		EA31BBAF1277A38900F63859 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA81277A38900F63859 /* SBJsonParser.m */; };
+		EA31BBB01277A38900F63859 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBAA1277A38900F63859 /* SBJsonWriter.m */; };
+		EA31BE5E1277BA6D00F63859 /* positions.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA31BE5D1277BA6D00F63859 /* positions.txt */; };
+		EA31BF0C1277C3F300F63859 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BF0B1277C3F300F63859 /* Background.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E2149312A5EBBE00BBAAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libXNI.a */;
+			remoteInfo = XNI;
+		};
+		37E2149512A5EBBE00BBAAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5C6FDD3126DD292002ED666 /* libXNI.a */;
+			remoteInfo = "XNI Release";
+		};
+		37E2149812A5EC0300BBAAB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* XNI */;
+			remoteInfo = XNI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Pong3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Pong3D_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pong3D_Prefix.pch; sourceTree = "<group>"; };
+		37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XNI.xcodeproj; path = ../XNI/XNI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		37F62E22129CD97B000CB950 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		37F62E23129CD97B000CB950 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Pong3D-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pong3D-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B504BD46126F0E5C00ACAC3D /* Pong3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pong3D.h; sourceTree = "<group>"; };
+		B504BD47126F0E5C00ACAC3D /* Pong3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pong3D.m; sourceTree = "<group>"; };
+		B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B504BDA6126F180E00ACAC3D /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		B504BDA7126F180E00ACAC3D /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		B504BDA9126F181E00ACAC3D /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		B504BDAA126F181E00ACAC3D /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		B504BDAC126F18C900ACAC3D /* Level1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level1.h; sourceTree = "<group>"; };
+		B504BDAD126F18C900ACAC3D /* Level1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level1.m; sourceTree = "<group>"; };
+		B504BDC0126F1A1600ACAC3D /* Namespace.Pong3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Namespace.Pong3D.h; sourceTree = "<group>"; };
+		B504BDC1126F1A6300ACAC3D /* Namespace.Pong3D.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Namespace.Pong3D.classes.h; sourceTree = "<group>"; };
+		B504BDCD126F201400ACAC3D /* Racket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Racket.h; sourceTree = "<group>"; };
+		B504BDCE126F201400ACAC3D /* Racket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Racket.m; sourceTree = "<group>"; };
+		B504BDE4126F247100ACAC3D /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		B504BDE7126F256100ACAC3D /* Namespace.Pong3D.protocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Namespace.Pong3D.protocols.h; sourceTree = "<group>"; };
+		B504BDFB126F289F00ACAC3D /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		B504BDFC126F289F00ACAC3D /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		B504BDFF126F28B500ACAC3D /* GameRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRenderer.h; sourceTree = "<group>"; };
+		B504BE00126F28B500ACAC3D /* GameRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRenderer.m; sourceTree = "<group>"; };
+		B5438D82127083D100A1D71C /* TextureAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureAtlas.png; sourceTree = "<group>"; };
+		D1647725128C00CB004DCC9C /* CollisionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionObject.h; sourceTree = "<group>"; };
+		EA31BB7E12779D2100F63859 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		EA31BB7F12779D2100F63859 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
+		EA31BB961277A23A00F63859 /* rackets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rackets.png; sourceTree = "<group>"; };
+		EA31BB991277A34000F63859 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		EA31BB9E1277A38900F63859 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		EA31BB9F1277A38900F63859 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		EA31BBA01277A38900F63859 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		EA31BBA11277A38900F63859 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		EA31BBA21277A38900F63859 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		EA31BBA31277A38900F63859 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		EA31BBA41277A38900F63859 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		EA31BBA51277A38900F63859 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		EA31BBA61277A38900F63859 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		EA31BBA71277A38900F63859 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		EA31BBA81277A38900F63859 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		EA31BBA91277A38900F63859 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		EA31BBAA1277A38900F63859 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		EA31BE5D1277BA6D00F63859 /* positions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = positions.txt; sourceTree = "<group>"; };
+		EA31BF0A1277C3F300F63859 /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
+		EA31BF0B1277C3F300F63859 /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2149712A5EBDE00BBAAB3 /* libXNI.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				B504BD4C126F0E7F00ACAC3D /* OpenGLES.framework in Frameworks */,
+				B504BD4E126F0E7F00ACAC3D /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Pong3D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA31BE5D1277BA6D00F63859 /* positions.txt */,
+				EA31BB991277A34000F63859 /* ball.png */,
+				EA31BB961277A23A00F63859 /* rackets.png */,
+				B5438D82127083D100A1D71C /* TextureAtlas.png */,
+				8D1107310486CEB800E47090 /* Pong3D-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */,
+				EA31BB9D1277A38900F63859 /* JSON */,
+				B504BD45126F0E4A00ACAC3D /* Classes */,
+				28EEBF621118D79A00187D67 /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Pong3D_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */,
+				B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E2148C12A5EBBE00BBAAB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E2149412A5EBBE00BBAAB3 /* libXNI.a */,
+				37E2149612A5EBBE00BBAAB3 /* libXNI.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B504BD45126F0E4A00ACAC3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDC0126F1A1600ACAC3D /* Namespace.Pong3D.h */,
+				B504BDC1126F1A6300ACAC3D /* Namespace.Pong3D.classes.h */,
+				B504BDE7126F256100ACAC3D /* Namespace.Pong3D.protocols.h */,
+				B504BDE3126F244900ACAC3D /* Protocols */,
+				B504BDFA126F288F00ACAC3D /* Graphics */,
+				B504BDCA126F1F7E00ACAC3D /* Scene */,
+				B504BD46126F0E5C00ACAC3D /* Pong3D.h */,
+				B504BD47126F0E5C00ACAC3D /* Pong3D.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B504BDCA126F1F7E00ACAC3D /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDCC126F1FA000ACAC3D /* Objects */,
+				B504BDCB126F1F8B00ACAC3D /* Levels */,
+				B504BDA6126F180E00ACAC3D /* Level.h */,
+				B504BDA7126F180E00ACAC3D /* Level.m */,
+				B504BDA9126F181E00ACAC3D /* Scene.h */,
+				B504BDAA126F181E00ACAC3D /* Scene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		B504BDCB126F1F8B00ACAC3D /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDAC126F18C900ACAC3D /* Level1.h */,
+				B504BDAD126F18C900ACAC3D /* Level1.m */,
+			);
+			name = Levels;
+			sourceTree = "<group>";
+		};
+		B504BDCC126F1FA000ACAC3D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDCD126F201400ACAC3D /* Racket.h */,
+				B504BDCE126F201400ACAC3D /* Racket.m */,
+				EA31BB7E12779D2100F63859 /* Ball.h */,
+				EA31BB7F12779D2100F63859 /* Ball.m */,
+				EA31BF0A1277C3F300F63859 /* Background.h */,
+				EA31BF0B1277C3F300F63859 /* Background.m */,
+				37F62E22129CD97B000CB950 /* Score.h */,
+				37F62E23129CD97B000CB950 /* Score.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		B504BDE3126F244900ACAC3D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDE4126F247100ACAC3D /* GameObject.h */,
+				D1647725128C00CB004DCC9C /* CollisionObject.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		B504BDFA126F288F00ACAC3D /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B504BDFB126F289F00ACAC3D /* Sprite.h */,
+				B504BDFC126F289F00ACAC3D /* Sprite.m */,
+				B504BDFF126F28B500ACAC3D /* GameRenderer.h */,
+				B504BE00126F28B500ACAC3D /* GameRenderer.m */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		EA31BB9D1277A38900F63859 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				EA31BB9E1277A38900F63859 /* JSON.h */,
+				EA31BB9F1277A38900F63859 /* NSObject+SBJSON.h */,
+				EA31BBA01277A38900F63859 /* NSObject+SBJSON.m */,
+				EA31BBA11277A38900F63859 /* NSString+SBJSON.h */,
+				EA31BBA21277A38900F63859 /* NSString+SBJSON.m */,
+				EA31BBA31277A38900F63859 /* SBJSON.h */,
+				EA31BBA41277A38900F63859 /* SBJSON.m */,
+				EA31BBA51277A38900F63859 /* SBJsonBase.h */,
+				EA31BBA61277A38900F63859 /* SBJsonBase.m */,
+				EA31BBA71277A38900F63859 /* SBJsonParser.h */,
+				EA31BBA81277A38900F63859 /* SBJsonParser.m */,
+				EA31BBA91277A38900F63859 /* SBJsonWriter.h */,
+				EA31BBAA1277A38900F63859 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Pong3D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Pong3D" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E2149912A5EC0300BBAAB3 /* PBXTargetDependency */,
+			);
+			name = Pong3D;
+			productName = XniTemplate;
+			productReference = 1D6058910D05DD3D006BFB54 /* Pong3D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Pong3D" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 37E2148C12A5EBBE00BBAAB3 /* Products */;
+					ProjectRef = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Pong3D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		37E2149412A5EBBE00BBAAB3 /* libXNI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXNI.a;
+			remoteRef = 37E2149312A5EBBE00BBAAB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37E2149612A5EBBE00BBAAB3 /* libXNI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXNI.a;
+			remoteRef = 37E2149512A5EBBE00BBAAB3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5438D83127083D100A1D71C /* TextureAtlas.png in Resources */,
+				EA31BB981277A23A00F63859 /* rackets.png in Resources */,
+				EA31BB9B1277A34000F63859 /* ball.png in Resources */,
+				EA31BE5E1277BA6D00F63859 /* positions.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				B504BD48126F0E5C00ACAC3D /* Pong3D.m in Sources */,
+				B504BDA8126F180E00ACAC3D /* Level.m in Sources */,
+				B504BDAB126F181E00ACAC3D /* Scene.m in Sources */,
+				B504BDAE126F18C900ACAC3D /* Level1.m in Sources */,
+				B504BDCF126F201400ACAC3D /* Racket.m in Sources */,
+				B504BDFD126F289F00ACAC3D /* Sprite.m in Sources */,
+				B504BE01126F28B500ACAC3D /* GameRenderer.m in Sources */,
+				EA31BB8012779D2100F63859 /* Ball.m in Sources */,
+				EA31BBAB1277A38900F63859 /* NSObject+SBJSON.m in Sources */,
+				EA31BBAC1277A38900F63859 /* NSString+SBJSON.m in Sources */,
+				EA31BBAD1277A38900F63859 /* SBJSON.m in Sources */,
+				EA31BBAE1277A38900F63859 /* SBJsonBase.m in Sources */,
+				EA31BBAF1277A38900F63859 /* SBJsonParser.m in Sources */,
+				EA31BBB01277A38900F63859 /* SBJsonWriter.m in Sources */,
+				EA31BF0C1277C3F300F63859 /* Background.m in Sources */,
+				37F62E24129CD97B000CB950 /* Score.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E2149912A5EC0300BBAAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XNI;
+			targetProxy = 37E2149812A5EC0300BBAAB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Pong3D_Prefix.pch;
+				INFOPLIST_FILE = "Pong3D-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../XNI\"",
+				);
+				PRODUCT_NAME = Pong3D;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Pong3D_Prefix.pch;
+				INFOPLIST_FILE = "Pong3D-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = Pong3D;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = build;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../XNI/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "../XNI/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Pong3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Pong3D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

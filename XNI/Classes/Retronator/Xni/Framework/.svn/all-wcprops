@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework
+END
+Protocols.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/Protocols.m
+END
+IDrawable.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/IDrawable.h
+END
+Quaternion.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/25/XNI/Classes/Retronator/Xni/Framework/Quaternion.m
+END
+GameComponentCollectionEventArgs.m
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/GameComponentCollectionEventArgs.m
+END
+GameServiceContainer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/GameServiceContainer.h
+END
+GameTime.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/GameTime.m
+END
+DrawableGameComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/DrawableGameComponent.h
+END
+GameWindow.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/GameWindow.h
+END
+GameServiceContainer.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/GameServiceContainer.m
+END
+DrawableGameComponent.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/DrawableGameComponent.m
+END
+GameView.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/XNI/Classes/Retronator/Xni/Framework/GameView.h
+END
+Rectangle.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Rectangle.h
+END
+Matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/30/XNI/Classes/Retronator/Xni/Framework/Matrix.h
+END
+IGameComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/IGameComponent.h
+END
+GameWindow.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/GameWindow.m
+END
+GameHost.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/GameHost.h
+END
+GameComponentCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/GameComponentCollection.h
+END
+Matrix.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/30/XNI/Classes/Retronator/Xni/Framework/Matrix.m
+END
+MatrixStruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/25/XNI/Classes/Retronator/Xni/Framework/MatrixStruct.h
+END
+GameView.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/GameView.m
+END
+Rectangle.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Rectangle.m
+END
+Game.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/Game.h
+END
+RectangleStruct.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/6/XNI/Classes/Retronator/Xni/Framework/RectangleStruct.h
+END
+IUpdatable.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/IUpdatable.h
+END
+GraphicsDeviceManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/GraphicsDeviceManager.h
+END
+GameHost.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/GameHost.m
+END
+GameComponentCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/GameComponentCollection.m
+END
+Game.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Game.m
+END
+Color.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/Color.h
+END
+GraphicsDeviceManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/GraphicsDeviceManager.m
+END
+Color.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/Color.m
+END
+Vector2.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/37/XNI/Classes/Retronator/Xni/Framework/Vector2.h
+END
+Vector3.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Vector3.h
+END
+Retronator.Xni.Framework.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/Retronator.Xni.Framework.h
+END
+Vector2Struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/25/XNI/Classes/Retronator/Xni/Framework/Vector2Struct.h
+END
+Vector2.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/37/XNI/Classes/Retronator/Xni/Framework/Vector2.m
+END
+Vector3.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Vector3.m
+END
+Vector3Struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Vector3Struct.h
+END
+Vector4Struct.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/25/XNI/Classes/Retronator/Xni/Framework/Vector4Struct.h
+END
+GameComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/GameComponent.h
+END
+GameComponent.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/GameComponent.m
+END
+FrameworkEnums.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/FrameworkEnums.h
+END
+GameViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/GameViewController.h
+END
+GameWindow+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/GameWindow+Internal.h
+END
+GameViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/GameViewController.m
+END
+IGraphicsDeviceManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/IGraphicsDeviceManager.h
+END
+Retronator.Xni.Framework.classes.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/Retronator.Xni.Framework.classes.h
+END
+Protocols.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/Protocols.h
+END
+Quaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/25/XNI/Classes/Retronator/Xni/Framework/Quaternion.h
+END
+GameComponentCollectionEventArgs.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/GameComponentCollectionEventArgs.h
+END
+GameTime.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8/XNI/Classes/Retronator/Xni/Framework/GameTime.h
+END

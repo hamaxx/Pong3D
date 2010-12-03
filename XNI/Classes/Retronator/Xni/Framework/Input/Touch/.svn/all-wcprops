@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Input/Touch
+END
+TouchPanel+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel+Internal.h
+END
+TouchLocation.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/34/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchLocation.h
+END
+TouchCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/34/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchCollection.h
+END
+TouchLocation.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchLocation.m
+END
+GestureSample.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/32/XNI/Classes/Retronator/Xni/Framework/Input/Touch/GestureSample.h
+END
+TouchPanel.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel.h
+END
+Retronator.Xni.Framework.Input.Touch.classes.h
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/33/XNI/Classes/Retronator/Xni/Framework/Input/Touch/Retronator.Xni.Framework.Input.Touch.classes.h
+END
+TouchCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/34/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchCollection.m
+END
+GestureSample.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/32/XNI/Classes/Retronator/Xni/Framework/Input/Touch/GestureSample.m
+END
+InputEnums.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/33/XNI/Classes/Retronator/Xni/Framework/Input/Touch/InputEnums.h
+END
+TouchPanel.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel.m
+END
+Retronator.Xni.Framework.Input.Touch.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/33/XNI/Classes/Retronator/Xni/Framework/Input/Touch/Retronator.Xni.Framework.Input.Touch.h
+END

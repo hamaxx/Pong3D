@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/28/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline
+END
+ContentItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentItem.h
+END
+ContentIdentity.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentIdentity.m
+END
+ContentImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentImporter.h
+END
+ContentItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentItem.m
+END
+ContentImporter.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentImporter.m
+END
+Retronator.Xni.Framework.Content.Pipeline.classes.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Retronator.Xni.Framework.Content.Pipeline.classes.h
+END
+TextureImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/TextureImporter.h
+END
+ContentIdentity.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentIdentity.h
+END
+Retronator.Xni.Framework.Content.Pipeline.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Retronator.Xni.Framework.Content.Pipeline.h
+END
+TextureImporter.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/28/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/TextureImporter.m
+END

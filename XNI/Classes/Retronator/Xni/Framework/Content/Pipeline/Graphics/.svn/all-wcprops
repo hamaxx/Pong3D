@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics
+END
+VectorConverter.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/VectorConverter.h
+END
+MipmapChain.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/MipmapChain.m
+END
+TextureContent.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/TextureContent.h
+END
+VectorConverter.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/VectorConverter.m
+END
+Retronator.Xni.Framework.Content.Pipeline.Graphics.classes.h
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/Retronator.Xni.Framework.Content.Pipeline.Graphics.classes.h
+END
+TextureContent.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/TextureContent.m
+END
+MipmapChainCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/MipmapChainCollection.h
+END
+Retronator.Xni.Framework.Content.Pipeline.Graphics.h
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/Retronator.Xni.Framework.Content.Pipeline.Graphics.h
+END
+MipmapChainCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/MipmapChainCollection.m
+END
+BitmapContent.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/BitmapContent.h
+END
+ColorPixelBitmapContent.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/ColorPixelBitmapContent.h
+END
+PixelBitmapContent.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/PixelBitmapContent.h
+END
+BitmapContent.m
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/BitmapContent.m
+END
+ColorPixelBitmapContent.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/ColorPixelBitmapContent.m
+END
+PixelBitmapContent.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/PixelBitmapContent.m
+END
+Texture2DContent.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/Texture2DContent.h
+END
+MipmapChain.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/MipmapChain.h
+END
+Texture2DContent.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics/Texture2DContent.m
+END
