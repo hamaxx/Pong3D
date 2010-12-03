@@ -17,6 +17,7 @@
 #define Section_Arc (6.28/Sections_In_Band)
 
 #define ballR 1.5
+#define ballSpeed 0.8
 
 @implementation Ball
 
@@ -78,10 +79,13 @@
 		Vector3 *a = [o collide:speed :position : accel :ballR];
 		
 		if ([a length] > 0) {
-			accel.x = (accel.x + a.x/10) / 2;
-			accel.y = (accel.y + a.y/10) / 2;
+			accel.x = (accel.x + pow(a.x, 2)/7) / 2;
+			accel.y = (accel.y + pow(a.y, 2)/7) / 2;
+			
+			if (fabsf(speed.z) < 1) speed.z *= 1.5;
+			
+			//NSLog(@"%f %f",  pow(a.x, 2),  pow(a.y, 2));
 		}
-		//[accel multiplyBy:1.0/([accel length] + 1)];
 	}
 	[newBall collisions];
 }
@@ -97,10 +101,9 @@
 		
 		[self collisions];
 	
-		[accel multiplyBy:0.95];
+		[accel multiplyBy:0.96];
 		
-		if (fabsf(speed.z) < 1) speed.z *= 1.2;
-		if (fabsf(speed.z) > 1) speed.z = speed.z < 0 ? -1 : 1;
+		if (fabsf(speed.z) > 1) speed.z = speed.z < 0 ? -ballSpeed : ballSpeed;
 		
 		[newBall move];
 	}
@@ -164,7 +167,7 @@
 }
 
 - (void) serve : (Vector3 *) racketSpeed {
-	speed.z = -1;
+	speed.z = -ballSpeed;
 	
 	accel.x = racketSpeed.x / 60;
 	accel.y = racketSpeed.y / 60;

@@ -116,6 +116,8 @@ CGFloat racketH = 3.0;
 	
 	if (fabsf(thePosition.y - position.y) < racketH / 2) {
 		CGFloat d = (fabsf(thePosition.x - position.x) - racketW / 2) / radius;
+		if (fabsf(d) < 0.5) d = d < 0 ? -0.5 : 0.5;
+		
 		CGFloat newSpeed = (fabsf(theSpeed.z) + fabsf(theSpeed.x)) / 2;
 		
 		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * d;
@@ -125,6 +127,8 @@ CGFloat racketH = 3.0;
 		
 	} else if (fabsf(thePosition.x - position.x) < racketW / 2){
 		CGFloat d = (fabsf(thePosition.y - position.y) - racketH / 2) / radius;
+		if (fabsf(d) < 0.5) d = d < 0 ? -0.5 : 0.5;
+		
 		CGFloat newSpeed = (fabsf(theSpeed.z) + fabsf(theSpeed.y)) / 2;
 		
 		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * d;
@@ -134,7 +138,12 @@ CGFloat racketH = 3.0;
 	} else {
 		CGFloat dx = (fabsf(thePosition.x - position.x) - racketW / 2) / radius;
 		CGFloat dy = (fabsf(thePosition.y - position.y) - racketH / 2) / radius;
+		if (fabsf(dx) < 0.5) dx = dx < 0 ? -0.5 : 0.5;
+		if (fabsf(dy) < 0.5) dy = dy < 0 ? -0.5 : 0.5;
+		
 		CGFloat newSpeed = (fabsf(theSpeed.z) + fabsf(theSpeed.x) + fabsf(theSpeed.y)) / 3;
+		
+		NSLog(@"dx %f, dy %f, ns %f", dx, dy, newSpeed);
 		
 		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * sqrt(dx * dy);
 		theSpeed.x = newSpeed * (thePosition.x > position.x ? 1 : -1) / dx;
