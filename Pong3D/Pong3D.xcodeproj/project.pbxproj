@@ -41,21 +41,21 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libXNI.a */;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
 			remoteInfo = XNI;
 		};
 		37E2149512A5EBBE00BBAAB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = B5C6FDD3126DD292002ED666 /* libXNI.a */;
+			remoteGlobalIDString = B5C6FDD3126DD292002ED666;
 			remoteInfo = "XNI Release";
 		};
 		37E2149812A5EC0300BBAAB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D /* XNI */;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
 			remoteInfo = XNI;
 		};
 /* End PBXContainerItemProxy section */

@@ -16,33 +16,65 @@ CGFloat screenW1 = 10;
 CGFloat screenH1 = 15;
 
 - (void) loadContent:(GraphicsDevice *) content{
-	NSLog(@"background load content");
-	vertexArray = [[VertexPositionColorArray alloc] initWithInitialCapacity:2];
+	vertexArray = [[VertexPositionColorArray alloc] initWithInitialCapacity:80];
+	positionVertex = [[VertexPositionColorArray alloc] initWithInitialCapacity:8];
 	
 	VertexPositionColorStruct vertex;
 	
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 11; i++) {
 		int z = -i*5;
 		
-		vertex.color = [Color white].packedValue;
+		if (i < 10) {
+			vertex.color = [Color white].packedValue;
+		} else {
+			vertex.color = [Color yellow].packedValue;
+			z = 0;
+		}
+
+			
 		vertex.position = *[Vector3 vectorWithX:-10 y:-15 z:z].data;
-		[vertexArray addVertex:&vertex];
-		
+		if (i < 10) {
+			[vertexArray addVertex:&vertex];
+		} else {
+			[positionVertex addVertex:&vertex];
+		}
+
 		vertex.position = *[Vector3 vectorWithX:-10 y:15 z:z].data;
-		[vertexArray addVertex:&vertex];
-		[vertexArray addVertex:&vertex];
+		if (i < 10) {
+			[vertexArray addVertex:&vertex];
+			[vertexArray addVertex:&vertex];
+		} else {
+			[positionVertex addVertex:&vertex];
+			[positionVertex addVertex:&vertex];
+		}
 		
 		vertex.position = *[Vector3 vectorWithX:10 y:15 z:z].data;
-		[vertexArray addVertex:&vertex];
-		[vertexArray addVertex:&vertex];
+		if (i < 10) {
+			[vertexArray addVertex:&vertex];
+			[vertexArray addVertex:&vertex];
+		} else {
+			[positionVertex addVertex:&vertex];
+			[positionVertex addVertex:&vertex];
+		}
 		
 		vertex.position = *[Vector3 vectorWithX:10 y:-15 z:z].data;
-		[vertexArray addVertex:&vertex];
-		[vertexArray addVertex:&vertex];
+		if (i < 10) {
+			[vertexArray addVertex:&vertex];
+			[vertexArray addVertex:&vertex];
+		} else {
+			[positionVertex addVertex:&vertex];
+			[positionVertex addVertex:&vertex];
+		}
 		
 		vertex.position = *[Vector3 vectorWithX:-10 y:-15 z:z].data;
-		[vertexArray addVertex:&vertex];
+		if (i < 10) {
+			[vertexArray addVertex:&vertex];
+		} else {
+			[positionVertex addVertex:&vertex];
+		}
 	}
+	
+	NSLog(@"background load content %d %d", [vertexArray count], [positionVertex count]);
 }
 
 - (Vector3 *) collide: (Vector3 *) theSpeed :(Vector3 *) thePosition : (Vector3 *)theAccel :(NSInteger) radius {
@@ -62,19 +94,25 @@ CGFloat screenH1 = 15;
 }
 
 - (void) draw:(BasicEffect *)effect :(GraphicsDevice *)graphicsDevice: (SpriteBatch *)spriteBatch {
+	effect.world = [Matrix identity];
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
 	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeLineList
-										 vertices:vertexArray startingAt:0 count:40];
+										vertices:vertexArray startingAt:0 count:40];
+	
+	effect.world = [Matrix createTranslation:[Vector3 vectorWithX:0 y:0 z:ball.position.z]];
+	[[effect.currentTechnique.passes objectAtIndex:0] apply];
+	
+	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeLineList
+									vertices:positionVertex startingAt:0 count:4];
 	
 	effect.world = [Matrix identity];
 }
 
-- (id) init
-{
+- (id) initWithBall:(Ball *) b {
 	self = [super init];
 	if (self != nil) {
-
+		ball = b;
 	}
 	return self;
 }

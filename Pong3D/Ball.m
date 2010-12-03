@@ -130,7 +130,7 @@
 }
 
 - (void) restartPosition {
-	NSLog(@"%@ %@", speed, accel);
+	//NSLog(@"%@ %@", speed, accel);
 	position = [[Vector3 vectorWithX:0.0 y:0.0 z:-ballR] retain];
 	served = NO;
 	failed = NO;
@@ -168,7 +168,7 @@
 	
 	timer = [[NSDate dateWithTimeIntervalSinceNow:0] timeIntervalSince1970];
 	
-	NSLog(@"serve");
+	NSLog(@"serve %@", accel);
 }
 
 - (id) initWithScore: (Score *) s

@@ -12,6 +12,9 @@
 
 @interface Background : NSObject <GameObject, CollisionObject> {
 	VertexPositionColorArray *vertexArray;
+	VertexPositionColorArray *positionVertex;
+	
+	Ball *ball;
 }
 
 @end

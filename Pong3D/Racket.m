@@ -195,7 +195,7 @@ CGFloat racketH = 3.0;
 	if (computerSpeed > 12) computerSpeed = 12;
 	if (computerSpeed < 7) computerSpeed = 7;
 	
-	NSLog(@"%f", computerSpeed);
+	//NSLog(@"%f", computerSpeed);
 	
 	speed.x = -1 * (position.x - ballPosition.x) / computerSpeed;
 	speed.y = -1 * (position.y - ballPosition.y) / computerSpeed;

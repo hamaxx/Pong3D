@@ -24,7 +24,7 @@
 		ball = [[Ball alloc] initWithScore:score];
 		home = [[Racket alloc] initWithBall:ball:0];
 		opponent = [[Racket alloc] initWithBall:ball:1];
-		background = [[Background alloc] init];
+		background = [[Background alloc] initWithBall:ball];
 		
 		[ball addCollisionObject:home];
 		[ball addCollisionObject:opponent];

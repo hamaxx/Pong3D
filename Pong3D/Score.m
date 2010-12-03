@@ -89,6 +89,11 @@
 - (void) addScore: (NSInteger) side {
 	if (side == 0) home--;
 	else away--;
+	
+	if (home <= 0 || away <= 0) {
+		home = 5;
+		away = 5;
+	}
 }
 
 - (id) init
