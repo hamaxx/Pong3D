@@ -99,6 +99,9 @@
 	
 		[accel multiplyBy:0.95];
 		
+		if (fabsf(speed.z) < 1) speed.z *= 1.2;
+		if (fabsf(speed.z) > 1) speed.z = speed.z < 0 ? -1 : 1;
+		
 		[newBall move];
 	}
 	

@@ -103,8 +103,6 @@ CGFloat racketH = 3.0;
 	
 	if (fabsf(thePosition.x - position.x) < racketW && fabsf(thePosition.y - position.y) < racketH) {
 		theSpeed.z = (fabsf(theSpeed.z) > 1 ? 1 : fabsf(theSpeed.z)) * (thePosition.z < -25 ? 1 : -1);
-		if (fabsf(theSpeed.z) < 1) theSpeed.z *= 1.2;
-		if (fabsf(theSpeed.z) > 1) theSpeed.z = theSpeed.z < 0 ? -1 : 1;
 		return speed;
 	}
 
