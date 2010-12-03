@@ -132,9 +132,19 @@ CGFloat racketH = 3.0;
 		theSpeed.y = newSpeed * (thePosition.y > position.y ? 1 : -1) / d;
 		
 		return [Vector3 zero];
-	}	
+	} else {
+		CGFloat dx = (abs(thePosition.x - position.x) - racketW / 2) / radius;
+		CGFloat dy = (abs(thePosition.y - position.y) - racketH / 2) / radius;
+		CGFloat newSpeed = (fabsf(theSpeed.z) + fabsf(theSpeed.x) + fabsf(theSpeed.y)) / 3;
 		
+		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * dx * dy;
+		theSpeed.x = newSpeed * (thePosition.x > position.x ? 1 : -1) / dx;
+		theSpeed.y = newSpeed * (thePosition.y > position.y ? 1 : -1) / dy;
 		
+		return [Vector3 zero];
+	}
+		
+	NSLog(@"end stop");	
 	
 	[ball stop: self];
 	return [Vector3 zero];
