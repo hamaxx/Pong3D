@@ -118,6 +118,8 @@
 }
 
 - (void) stop: (Racket *) r {
+	NSLog(@"stop %@", speed);
+	
 	speed = [[Vector3 vectorWithX:0.0 y:0.0 z:0.0] retain];
 	accel = [[Vector3 vectorWithX:0.0 y:0.0 z:0.0] retain];
 	failed = YES;

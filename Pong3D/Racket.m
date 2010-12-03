@@ -104,6 +104,7 @@ CGFloat racketH = 3.0;
 	if (fabsf(thePosition.x - position.x) < racketW && fabsf(thePosition.y - position.y) < racketH) {
 		theSpeed.z = (fabsf(theSpeed.z) > 1 ? 1 : fabsf(theSpeed.z)) * (thePosition.z < -25 ? 1 : -1);
 		if (fabsf(theSpeed.z) < 1) theSpeed.z *= 1.2;
+		if (fabsf(theSpeed.z) > 1) theSpeed.z = theSpeed.z < 0 ? -1 : 1;
 		return speed;
 	}
 
@@ -115,8 +116,8 @@ CGFloat racketH = 3.0;
 	//theSpeed.x *= 0.9;
 	//theSpeed.y *= 0.9;
 	
-	if (ABS(thePosition.y - position.y) < racketH / 2) {
-		CGFloat d = (abs(thePosition.x - position.x) - racketW / 2) / radius;
+	if (fabsf(thePosition.y - position.y) < racketH / 2) {
+		CGFloat d = (fabsf(thePosition.x - position.x) - racketW / 2) / radius;
 		CGFloat newSpeed = (fabsf(theSpeed.z) + fabsf(theSpeed.x)) / 2;
 		
 		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * d;
@@ -125,7 +126,7 @@ CGFloat racketH = 3.0;
 		return [Vector3 zero];
 		
 	} else if (fabsf(thePosition.x - position.x) < racketW / 2){
-		CGFloat d = (abs(thePosition.y - position.y) - racketH / 2) / radius;
+		CGFloat d = (fabsf(thePosition.y - position.y) - racketH / 2) / radius;
 		CGFloat newSpeed = (fabsf(theSpeed.z) + fabsf(theSpeed.y)) / 2;
 		
 		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * d;
@@ -133,8 +134,8 @@ CGFloat racketH = 3.0;
 		
 		return [Vector3 zero];
 	} else {
-		CGFloat dx = (abs(thePosition.x - position.x) - racketW / 2) / radius;
-		CGFloat dy = (abs(thePosition.y - position.y) - racketH / 2) / radius;
+		CGFloat dx = (fabsf(thePosition.x - position.x) - racketW / 2) / radius;
+		CGFloat dy = (fabsf(thePosition.y - position.y) - racketH / 2) / radius;
 		CGFloat newSpeed = (fabsf(theSpeed.z) + fabsf(theSpeed.x) + fabsf(theSpeed.y)) / 3;
 		
 		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * sqrt(dx * dy);
