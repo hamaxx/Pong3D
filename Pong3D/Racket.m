@@ -137,7 +137,7 @@ CGFloat racketH = 3.0;
 		CGFloat dy = (abs(thePosition.y - position.y) - racketH / 2) / radius;
 		CGFloat newSpeed = (fabsf(theSpeed.z) + fabsf(theSpeed.x) + fabsf(theSpeed.y)) / 3;
 		
-		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * dx * dy;
+		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * sqrt(dx * dy);
 		theSpeed.x = newSpeed * (thePosition.x > position.x ? 1 : -1) / dx;
 		theSpeed.y = newSpeed * (thePosition.y > position.y ? 1 : -1) / dy;
 		
@@ -168,7 +168,9 @@ CGFloat racketH = 3.0;
 
 	} else {
 		if (touchState == YES && ball.served == NO) {
-			[ball serve:speed];
+			if (fabsf(0.0f - position.x) < racketW && fabsf(0.0f - position.y) < racketH) {
+				[ball serve:speed];
+			}
 		}
 		
 		if (touchState == YES && ball.failed == YES) {

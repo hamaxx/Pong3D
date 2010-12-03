@@ -1,10 +1,10 @@
 92f1735e056c20843d4d636d83fdccf1 d1bb73b62e3cdd8ad81277c09305bb34 ffffffffffffffffffffffffffffffff 442 /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app
 00000000000000000000000000000000 3c522c5d68edf309c8c8828d8364094b ffffffffffffffffffffffffffffffff 102 /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app.dSYM
 36fa9dcf67d5dbbd34ca382654672c0d f14b2515b11e544b60ab6bd1dc990f0d ffffffffffffffffffffffffffffffff 948520 /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D
-bb4ddc7b2689e07f6d509dfac132ca38 6a22c139791e973f5d9735451d69a0d5 ffffffffffffffffffffffffffffffff 461096 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D
-e641a10f5275d179d87e614bd7155e89 01d421826a377d84dc73f1d25f291869 ffffffffffffffffffffffffffffffff 483208 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D
-43210d3ce326c314c6510c2b01d0a583 9c4833d7e801b2cc27309cda7413b484 ffffffffffffffffffffffffffffffff 80888 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Racket.o
-86f13dc3de0bc334dd3ce6bbfae06e3d 5836eed179f43966537569ae701f6f8e ffffffffffffffffffffffffffffffff 84128 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Racket.o
+bb4ddc7b2689e6456d509dfac132ca59 6a22c139791e973f5d9735451d69a0d5 ffffffffffffffffffffffffffffffff 461096 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D
+e641a10f5275d743d87e614bd7155ee8 01d421826a377d84dc73f1d25f291869 ffffffffffffffffffffffffffffffff 483244 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D
+43210d3ce326c52ec6510c2b01d0a5e2 9c4833d7e801b2cc27309cda7413b484 ffffffffffffffffffffffffffffffff 81152 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Racket.o
+86f13dc3de0bc50edd3ce6bbfae06e5c 5836eed179f43966537569ae701f6f8e ffffffffffffffffffffffffffffffff 84600 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Racket.o
 43210d3cafe7e0d8c6510c2b01d09a0f 7ac13f31cef2eb44e08af78f42aa6187 ffffffffffffffffffffffffffffffff 63404 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Score.o
 86f13dc392cae0f8dd3ce6bbfae051b1 abd483766a246ea0890f40710c757b72 ffffffffffffffffffffffffffffffff 64948 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Score.o
 43210d3cafeb5405c6510c2b01d09ca6 0d9ad4517e3c5f5c2e9d47af1b2fc717 ffffffffffffffffffffffffffffffff 67004 /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Background.o
