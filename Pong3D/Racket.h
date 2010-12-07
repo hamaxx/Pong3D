@@ -30,7 +30,8 @@
 	BOOL touchState;
 	
 	CGFloat computerSpeed;
-	CGFloat computerAcc;
+	CGFloat computerAccX;
+	CGFloat computerAccY;
 }
 
 @property (nonatomic) NSInteger side;

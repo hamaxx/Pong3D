@@ -9,7 +9,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 3775E8CE1281CF0500914232 /* XniArchitecture */;
-		activeSDKPreference = iphoneos4.2;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Pong3D */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Pong3D */,
@@ -77,8 +77,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 313292233;
-			PBXWorkspaceStateSaveDate = 313292233;
+			PBXPerProjectTemplateStateSaveDate = 313449958;
+			PBXWorkspaceStateSaveDate = 313449958;
 		};
 		perUserProjectItems = {
 			37357FD712908F2600E445F8 = 37357FD712908F2600E445F8 /* PBXTextBookmark */;
@@ -190,7 +190,7 @@
 		fRef = B504BDCD126F201400ACAC3D /* Racket.h */;
 		name = "Racket.h: 33";
 		rLen = 0;
-		rLoc = 674;
+		rLoc = 675;
 		rType = 0;
 		vrLen = 772;
 		vrLoc = 0;
@@ -210,7 +210,7 @@
 		fRef = B504BDCE126F201400ACAC3D /* Racket.m */;
 		name = "Racket.m: 20";
 		rLen = 0;
-		rLoc = 375;
+		rLoc = 379;
 		rType = 0;
 		vrLen = 2121;
 		vrLoc = 0;
@@ -220,7 +220,7 @@
 		fRef = B504BDCE126F201400ACAC3D /* Racket.m */;
 		name = "Racket.m: 222";
 		rLen = 0;
-		rLoc = 6853;
+		rLoc = 6934;
 		rType = 0;
 		vrLen = 2089;
 		vrLoc = 5931;
@@ -477,16 +477,16 @@
 	};
 	B504BDCD126F201400ACAC3D /* Racket.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 914}}";
-			sepNavSelRange = "{674, 0}";
-			sepNavVisRange = "{0, 772}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 939}}";
+			sepNavSelRange = "{698, 0}";
+			sepNavVisRange = "{0, 796}";
 		};
 	};
 	B504BDCE126F201400ACAC3D /* Racket.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 3757}}";
-			sepNavSelRange = "{6493, 0}";
-			sepNavVisRange = "{5908, 2113}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 3705}}";
+			sepNavSelRange = "{6798, 0}";
+			sepNavVisRange = "{5812, 2245}";
 		};
 	};
 	B504BDE4126F247100ACAC3D /* GameObject.h */ = {

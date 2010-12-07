@@ -14,10 +14,10 @@
 @implementation Racket
 @synthesize side;
 
-CGFloat screenW = 10.0;
-CGFloat screenH = 15.0;
-CGFloat racketW = 2.5;
-CGFloat racketH = 2.5;
+CGFloat screenW = 10.0f;
+CGFloat screenH = 15.0f;
+CGFloat racketW = 2.5f;
+CGFloat racketH = 2.5f;
 
 CGFloat avgRackSpeed = 11.0f;
 CGFloat rackDiv = 5.0f;
@@ -101,7 +101,10 @@ CGFloat rackDiv = 5.0f;
 		return nil;
 	}
 	
-	//thePosition.z = thePosition.z > -25 ? -radius : -50 + radius; 
+	if (side == 1) {
+		computerAccX = (((float)(rand() % 1000000) / 1000000.0f - 0.5f) / 3.0f) * screenW * rackDiv;
+		computerAccY = (((float)(rand() % 1000000) / 1000000.0f - 0.5f) / 3.0f) * screenH * rackDiv;
+	}
 	
 	
 	if (fabsf(thePosition.x - position.x) < racketW && fabsf(thePosition.y - position.y) < racketH) {
@@ -218,18 +221,16 @@ CGFloat rackDiv = 5.0f;
 	if (computerSpeed > avgRackSpeed + rackDiv) computerSpeed = avgRackSpeed + rackDiv;
 	if (computerSpeed < avgRackSpeed - rackDiv) computerSpeed = avgRackSpeed - rackDiv;
 	
-	computerAcc += ((float)(rand() % 1000000) / 1000000.0f - 0.5f) / 10.0f;
-	if (computerAcc > avgRackSpeed) computerAcc = avgRackSpeed;
-	if (computerAcc < -avgRackSpeed) computerAcc = -avgRackSpeed;
+	CGFloat accX = 0;
+	CGFloat accY = 0;
+	//if (ball.served && !ball.failed) {
+		accX = computerAccX / (fabsf(ball.position.z) + 1);
+		accY = computerAccY / (fabsf(ball.position.z) + 1);
+	//}
+	NSLog(@"%f %f", accY, accX);
 	
-	CGFloat acc = 0;
-	if (ball.served && !ball.failed) {
-		acc = (computerSpeed - (avgRackSpeed - rackDiv)) / (fabsf(ball.position.z) + 1);
-	}
-	//NSLog(@"%f %f", computerSpeed, acc);
-	
-	speed.x = -1 * (position.x - ballPosition.x + acc) * computerSpeed / 100.0f;
-	speed.y = -1 * (position.y - ballPosition.y + acc) * computerSpeed / 100.0f;
+	speed.x = -1 * (position.x - ballPosition.x + accX) * computerSpeed / 100.0f;
+	speed.y = -1 * (position.y - ballPosition.y + accY) * computerSpeed / 100.0f;
 	
 	[position add:speed];
 	
