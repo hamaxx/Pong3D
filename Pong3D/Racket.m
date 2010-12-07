@@ -16,8 +16,11 @@
 
 CGFloat screenW = 10.0;
 CGFloat screenH = 15.0;
-CGFloat racketW = 3.0;
-CGFloat racketH = 3.0;
+CGFloat racketW = 2.5;
+CGFloat racketH = 2.5;
+
+CGFloat avgRackSpeed = 11.0f;
+CGFloat rackDiv = 5.0f;
 
 /*
 - (void) loadContent:(GraphicsDevice *)content {
@@ -95,7 +98,7 @@ CGFloat racketH = 3.0;
 
 - (Vector3 *) collide: (Vector3 *) theSpeed :(Vector3 *) thePosition : (Vector3 *)theAccel :(NSInteger) radius {
 	if (fabsf(thePosition.z - position.z) > radius) {
-		return [Vector3 zero];
+		return nil;
 	}
 	
 	//thePosition.z = thePosition.z > -25 ? -radius : -50 + radius; 
@@ -211,14 +214,22 @@ CGFloat racketH = 3.0;
 		}
 	}
 	
-	computerSpeed += (rand() % 3) - 1.0f;
-	if (computerSpeed > 12) computerSpeed = 12;
-	if (computerSpeed < 7) computerSpeed = 7;
+	computerSpeed += ((float)(rand() % 1000000) / 1000000.0f - 0.5f);
+	if (computerSpeed > avgRackSpeed + rackDiv) computerSpeed = avgRackSpeed + rackDiv;
+	if (computerSpeed < avgRackSpeed - rackDiv) computerSpeed = avgRackSpeed - rackDiv;
 	
-	//NSLog(@"%f", computerSpeed);
+	computerAcc += ((float)(rand() % 1000000) / 1000000.0f - 0.5f) / 10.0f;
+	if (computerAcc > avgRackSpeed) computerAcc = avgRackSpeed;
+	if (computerAcc < -avgRackSpeed) computerAcc = -avgRackSpeed;
 	
-	speed.x = -1 * (position.x - ballPosition.x) / computerSpeed;
-	speed.y = -1 * (position.y - ballPosition.y) / computerSpeed;
+	CGFloat acc = 0;
+	if (ball.served && !ball.failed) {
+		acc = (computerSpeed - (avgRackSpeed - rackDiv)) / (fabsf(ball.position.z) + 1);
+	}
+	//NSLog(@"%f %f", computerSpeed, acc);
+	
+	speed.x = -1 * (position.x - ballPosition.x + acc) * computerSpeed / 100.0f;
+	speed.y = -1 * (position.y - ballPosition.y + acc) * computerSpeed / 100.0f;
 	
 	[position add:speed];
 	
@@ -253,7 +264,7 @@ CGFloat racketH = 3.0;
 		speed = [[Vector3 alloc] init];
 		sprites = nil;
 		touchState = NO;
-		computerSpeed = 10;
+		computerSpeed = 5;
 	}
 	return self;
 }
