@@ -12,12 +12,17 @@
 
 @interface ContentReader : NSObject {
 	ContentManager *contentManager;
-	id content;
+	NSMutableArray *contentStack; 
+	
+	CFMutableDictionaryRef sharedResources;
 }
 
 - (id) initWithContentManager:(ContentManager*)theContentManager Content:(id)theContent;
 
 @property (nonatomic, readonly) ContentManager *contentManager;
 @property (nonatomic, readonly) id content;
+
+- (id) readObjectFrom:(id)source;
+- (id) readSharedResourceFrom:(id)source;
 
 @end

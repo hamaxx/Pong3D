@@ -7,12 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "System.classes.h"
+
+@class XniAdaptiveArray;
 
 #import "Retronator.Xni.Framework.Graphics.classes.h"
 
 @interface VertexArray : NSObject {
-    AdaptiveArray *array;
+    XniAdaptiveArray *array;
 }
 
 - (id) initWithItemSize:(int)itemSize initialCapacity:(int)initialCapacity;

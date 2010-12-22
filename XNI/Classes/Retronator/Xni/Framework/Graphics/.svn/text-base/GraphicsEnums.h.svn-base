@@ -26,8 +26,8 @@ typedef enum {
 } BlendFunction;
 
 typedef enum {
-	BufferUsageNone,
-	BufferUsageWriteOnly
+	BufferUsageNone = GL_DYNAMIC_DRAW,
+	BufferUsageWriteOnly = GL_STATIC_DRAW
 } BufferUsage;
 
 typedef enum {
@@ -66,9 +66,10 @@ typedef enum {
 } CubeMapFace;
 
 typedef enum {
-	CullModeCullClockwiseFace,
-	CullModeCullCounterClockwiseFace,
-	CullModeNone
+	// The opengl values correspond to which face is front facing, which is opposite of culled
+	CullModeNone,
+	CullModeCullClockwiseFace = GL_CCW,
+	CullModeCullCounterClockwiseFace = GL_CW
 } CullMode;
 
 typedef enum {
@@ -104,8 +105,8 @@ typedef enum {
 } GraphicsProfile;
 
 typedef enum {
-    IndexElementSizeSixteenBits = 2,
-	IndexElementSizeThrityTwoBits = 4,
+	IndexElementSizeSixteenBits = 2,
+	//IndexElementSizeThrityTwoBits = 4,
 } IndexElementSize;
 
 typedef enum {
@@ -127,11 +128,6 @@ typedef enum {
 	RenderTargetUsagePlatformContents,
 	RenderTargetUsagePreserveContents
 } RenderTargetUsage;
-
-typedef enum {
-    ResourceUsageStatic = GL_STATIC_DRAW,
-    ResourceUsageDynamic = GL_DYNAMIC_DRAW
-} ResourceUsage;
 
 typedef enum {
     ResourceTypeTexture2D = GL_TEXTURE_2D,
@@ -232,12 +228,12 @@ typedef enum {
     VertexElementUsageColor = GL_COLOR_ARRAY,
     VertexElementUsageTextureCoordinate = GL_TEXTURE_COORD_ARRAY,
     VertexElementUsagePointSize = GL_POINT_SIZE_ARRAY_OES,
-	//VertexElementUsageBinormal,
-	//VertexElementUsageBlendIndices,
-	//VertexElementUsageBlendWeight,
-	//VertexElementUsageDepth,
-	//VertexElementUsageFog,
-	//VertexElementUsageSample,
-	//VertexElementUsageTangent,
-	//VertexElementUsageTessellateFactor
+	VertexElementUsageBinormal,
+	VertexElementUsageBlendIndices,
+	VertexElementUsageBlendWeight,
+	VertexElementUsageDepth,
+	VertexElementUsageFog,
+	VertexElementUsageSample,
+	VertexElementUsageTangent,
+	VertexElementUsageTessellateFactor
 } VertexElementUsage;

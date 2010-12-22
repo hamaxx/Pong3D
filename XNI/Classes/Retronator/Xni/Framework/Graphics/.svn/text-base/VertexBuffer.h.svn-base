@@ -11,11 +11,21 @@
 #import "GraphicsResource.h"
 
 @interface VertexBuffer : GraphicsResource {
-    uint bufferId;
+    uint bufferID;
+	BufferUsage bufferUsage;
+	int vertexCount;
 	VertexDeclaration *vertexDeclaration;
 }
 
-@property (nonatomic, readonly) uint bufferId;
+- (id) initWithGraphicsDevice:(GraphicsDevice *)theGraphicsDevice
+			vertexDeclaration:(VertexDeclaration*)theVertexDeclaration
+				  vertexCount:(int)theVertexCount
+						usage:(BufferUsage)theBufferUsage;
+
+@property (nonatomic, readonly) BufferUsage bufferUsage;
+@property (nonatomic, readonly) int vertexCount;
 @property (nonatomic, readonly) VertexDeclaration *vertexDeclaration;
+
+- (void) setData:(VertexArray*)data;
 
 @end

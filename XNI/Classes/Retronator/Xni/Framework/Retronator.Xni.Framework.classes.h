@@ -2,8 +2,9 @@
 @class Protocols;
 
 // Data structures
+#import "PointStruct.h"
 #import "RectangleStruct.h"
-@class Rectangle, Color;
+@class XniPoint, Rectangle, Color;
 
 // Game
 @protocol IGraphicsDeviceManager;

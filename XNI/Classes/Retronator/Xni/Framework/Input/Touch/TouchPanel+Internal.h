@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 
 #import "TouchPanel.h"
 
 @interface TouchPanel (Internal)
 
+- (void) setView:(UIView *)theView;
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event;
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event;

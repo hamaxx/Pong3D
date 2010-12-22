@@ -21,15 +21,15 @@
     return self;
 }
 
-- (id) initWithStruct: (Vector4Struct*)vectorData {
+- (id) initWithVector4Struct: (Vector4Struct*)vectorData {
     if (self = [super init]) {
         data = *vectorData;
     }
     return self;
 }
 
-- (id) initWithVector: (Vector4*)vector {
-    return [self initWithStruct:vector.data];  
+- (id) initWithVector4: (Vector4*)vector {
+    return [self initWithVector4Struct:vector.data];  
 }
 
 + (Vector4*) vectorWithX:(float)x y:(float)y z:(float)z w:(float)w {
@@ -37,11 +37,11 @@
 }
 
 + (Vector4*) vectorWithStruct: (Vector4Struct*)vectorData {
-    return [[[Vector4 alloc] initWithStruct:vectorData] autorelease];
+    return [[[Vector4 alloc] initWithVector4Struct:vectorData] autorelease];
 }
 
 + (Vector4*) vectorWithVector: (Vector4*)vector {
-    return [[[Vector4 alloc] initWithVector:vector] autorelease];
+    return [[[Vector4 alloc] initWithVector4:vector] autorelease];
 }
 
 // PROPERTIES
@@ -110,9 +110,15 @@
     Vector4Normalize(&data);
     return self;
 }
+
 - (Vector4*) negate {
     Vector4Negate(&data);
     return self;
+}
+
+- (Vector4*) set:(Vector4 *)value {
+	data = *value.data;
+	return self;
 }
 
 - (Vector4*) add:(Vector4*)value {
@@ -133,6 +139,23 @@
 - (Vector4*) transformWith:(Matrix*)matrix {
     Vector4Transform(self.data, matrix.data, self.data);
     return self;
+}
+
+- (id) copyWithZone:(NSZone *)zone {
+	return [[Vector4 allocWithZone:zone] initWithVector4Struct:&data];
+}
+
+- (BOOL) equals:(Vector4*)vector {
+	if (!vector) return NO;
+	return vector.data->x == data.x && vector.data->y == data.y &&
+	vector.data->z == data.z && vector.data->w == data.w;
+}
+
+- (BOOL) isEqual:(id)object {
+    if ([object isKindOfClass:[Vector4 class]]) {
+        return [self equals:object];
+    }
+    return NO;
 }
 
 - (NSString *) description {

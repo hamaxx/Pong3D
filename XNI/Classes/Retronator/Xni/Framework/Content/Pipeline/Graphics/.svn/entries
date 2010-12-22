@@ -1,14 +1,14 @@
 10
 
 dir
-40
+51
 http://xni.googlecode.com/svn/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Graphics
 http://xni.googlecode.com/svn
 
 
 
-2010-09-21T21:46:53.337584Z
-23
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -26,16 +26,16 @@ zxretro@gmail.com
 
 ac433895-eea3-a490-d80a-17149a75e588
 
-VectorConverter.h
+GeometryContent.m
 file
 
 
 
 
-2010-12-01T02:33:10.000000Z
-175ab177cd930e289a0d16010853e75b
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:49.000000Z
+2d1e24d528823a2638be06ead7743e06
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -58,7 +58,41 @@ zxretro@gmail.com
 
 
 
-467
+651
+
+BasicMaterialContent.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+d288b9bfd5d879fac83bfd39be07d3f0
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1100
 
 MipmapChain.m
 file
@@ -66,10 +100,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-531b711234f17b280bf7a27430171fd8
-2010-09-16T17:49:35.699541Z
-19
+2010-12-22T21:57:49.000000Z
+67769ada048f2ef70d708931ae2b7cf0
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -100,10 +134,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-69802b1e9114b1a929f5d26fa7bc45da
-2010-09-16T17:49:35.699541Z
-19
+2010-12-22T21:57:49.000000Z
+dd2f496ab54be6230e88812fd844d796
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -126,18 +160,18 @@ zxretro@gmail.com
 
 
 
-666
+694
 
-VectorConverter.m
+MeshContent.m
 file
 
 
 
 
-2010-12-01T02:33:10.000000Z
-581ec1593d7ff2bd5a460ef649f29b9a
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:49.000000Z
+28dc2614804c5e361b8f1a2bb5322df0
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -160,7 +194,75 @@ zxretro@gmail.com
 
 
 
-1379
+562
+
+NodeContentCollection.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+c1682d6253f0e342c8c44d4fece11794
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+262
+
+BasicMaterialContent.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+1712398a235615562913e97e10244ff4
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2133
 
 Retronator.Xni.Framework.Content.Pipeline.Graphics.classes.h
 file
@@ -168,10 +270,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-fd013b2c52e6353e42bfbde5a9521967
-2010-09-16T17:49:35.699541Z
-19
+2010-12-22T21:57:49.000000Z
+559c389fa0e013f2bde9aa0c5f2c3d4b
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -194,7 +296,7 @@ zxretro@gmail.com
 
 
 
-153
+493
 
 TextureContent.m
 file
@@ -230,16 +332,16 @@ zxretro@gmail.com
 
 1435
 
-MipmapChainCollection.h
+NodeContentCollection.m
 file
 
 
 
 
-2010-12-01T02:33:10.000000Z
-c2c27f17fb4d2886a65efecab6b7a730
-2010-09-16T17:49:35.699541Z
-19
+2010-12-22T21:57:49.000000Z
+f6bbad688cc64f9f769f1f6e95e58410
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -262,7 +364,619 @@ zxretro@gmail.com
 
 
 
-503
+455
+
+IndirectPositionCollection.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+95d772d7e9f4bd13bbaf89cdd3cf151f
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+607
+
+VertexChannel.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+2473f3266420a7d384a40aba6503e274
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+748
+
+IndirectPositionCollection.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+22009b68e07e638b1a6377909b914231
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+956
+
+VertexChannel.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+d893a49b3c03fd91060b3341f40a703d
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1349
+
+NodeContent.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+c9e1aefffaabb592aa400cde8fb13cdb
+2010-12-08T04:57:47.314282Z
+43
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+738
+
+PositionCollection.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+7447958d8c252c11c124d5e2a7234e6f
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+288
+
+IndexCollection.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+f5f48fe3830863c3765bc62b1207e8d8
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+272
+
+NodeContent.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+a6a2ada75f4737011f25543a2a403d02
+2010-12-08T04:57:47.314282Z
+43
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+860
+
+PositionCollection.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+65324e40877867cd871bc358ed8cba22
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+314
+
+IndexCollection.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+d756adb70f232c507639b0f44c502e91
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+269
+
+MaterialContent.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+47c0f4d4ed599ceccadeebd9db04f68a
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+423
+
+VectorConverter.h
+file
+
+
+
+
+2010-12-01T02:33:10.000000Z
+175ab177cd930e289a0d16010853e75b
+2010-09-21T21:46:53.337584Z
+23
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+467
+
+VertexChannelNames.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+d875aae5f5ee38af335ba25d123322b0
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+998
+
+MaterialContent.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+a30dd9243b9d81bfb4721cb66d3a0873
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+478
+
+VectorConverter.m
+file
+
+
+
+
+2010-12-01T02:33:10.000000Z
+581ec1593d7ff2bd5a460ef649f29b9a
+2010-09-21T21:46:53.337584Z
+23
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1379
+
+VertexChannelNames.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+c6fdea7021e1692225dc787aee8e1b60
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4867
+
+MipmapChainCollection.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+91a5786598894b49c240a13eaf37b3b4
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+323
+
+GeometryContentCollection.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+cf7cce0cca5bab7823774f43fc9bf072
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+270
 
 Retronator.Xni.Framework.Content.Pipeline.Graphics.h
 file
@@ -270,10 +984,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-8ccc8878ae5cecbeb78afdbbcb52975d
-2010-09-16T17:49:35.699541Z
-19
+2010-12-22T21:57:49.000000Z
+334b4bb77815b8e03f642fddff70d505
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -296,7 +1010,41 @@ zxretro@gmail.com
 
 
 
-202
+673
+
+TextureReferenceDictionary.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+2d4fc6cc069d335f6affb5f3372fe28a
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+396
 
 MipmapChainCollection.m
 file
@@ -304,10 +1052,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-44cc140d15cf6a9fa12cc9a26c609725
-2010-09-16T17:49:35.699541Z
-19
+2010-12-22T21:57:49.000000Z
+d7e996ed89f567541f2d28f925e45dfa
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -330,7 +1078,7 @@ zxretro@gmail.com
 
 
 
-825
+352
 
 BitmapContent.h
 file
@@ -338,10 +1086,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-5de4db41da0eb8d14394970587d44b75
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:49.000000Z
+7ef2aa4d21c8091a8c82261757cbc062
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -364,7 +1112,41 @@ zxretro@gmail.com
 
 
 
-557
+581
+
+GeometryContentCollection.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+b9702b523a888a4bb8a212468bf82bb1
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+475
 
 ColorPixelBitmapContent.h
 file
@@ -372,10 +1154,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-17df7e1ea28bea851bc42cef74dabd5d
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:49.000000Z
+54f5fd92663c1642f466341fa0d6ccdb
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -398,7 +1180,41 @@ zxretro@gmail.com
 
 
 
-525
+433
+
+VertexContent.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+1b7f66bc485b259362cf4a8e16c6691d
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1131
 
 PixelBitmapContent.h
 file
@@ -406,10 +1222,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-2e64d5e3aadd7745b37d3b6f1688dfc8
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:49.000000Z
+a6ba9329015756c50bfa63284bf1133c
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -432,7 +1248,41 @@ zxretro@gmail.com
 
 
 
-498
+480
+
+TextureReferenceDictionary.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+21fc19f6dcc06efa24bdf954459d0ebb
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+341
 
 BitmapContent.m
 file
@@ -440,10 +1290,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-f9c5f1ce97e12f1515c1ad5d2f5f69d9
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:49.000000Z
+f91f1cbf22be2e78e0a218a9d042096f
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -466,7 +1316,7 @@ zxretro@gmail.com
 
 
 
-527
+661
 
 ColorPixelBitmapContent.m
 file
@@ -474,10 +1324,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-e0f86d292b8fe3adb24ae1b4656fb65d
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:49.000000Z
+68aab356ecc424e2525f7d7516822470
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -500,7 +1350,41 @@ zxretro@gmail.com
 
 
 
-737
+589
+
+VertexContent.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+e88f6bf7209d64539552421e45189563
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4309
 
 PixelBitmapContent.m
 file
@@ -508,10 +1392,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-6f57912b30a2cd77c05b1d248f5546bd
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:49.000000Z
+318a8c84a8df38d7df573137d786d81c
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -534,7 +1418,7 @@ zxretro@gmail.com
 
 
 
-1224
+1179
 
 Texture2DContent.h
 file
@@ -570,16 +1454,16 @@ zxretro@gmail.com
 
 427
 
-MipmapChain.h
+VertexChannelCollection.h
 file
 
 
 
 
-2010-12-01T02:33:10.000000Z
-d0163b0b00fa30f84bbfd2ce48cb6c02
-2010-09-16T17:49:35.699541Z
-19
+2010-12-22T21:57:49.000000Z
+c3d4ab051c1953582f7372408f9d7789
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -602,7 +1486,7 @@ zxretro@gmail.com
 
 
 
-484
+977
 
 Texture2DContent.m
 file
@@ -610,10 +1494,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-677f65586e13f491ee23a63f197da246
-2010-09-16T17:49:35.699541Z
-19
+2010-12-22T21:57:49.000000Z
+bdda5c72adf5f18b2381c3d7975c1fe8
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -636,5 +1520,141 @@ zxretro@gmail.com
 
 
 
-654
+636
+
+MipmapChain.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+fe70704d808eca443cc98bf9acbcf79f
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+485
+
+GeometryContent.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+9400e0aa6e7010eef1b212e23d720d37
+2010-12-08T04:57:47.314282Z
+43
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+772
+
+MeshContent.h
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+ce764690d055fd34279438fbf7d4b875
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+507
+
+VertexChannelCollection.m
+file
+
+
+
+
+2010-12-22T21:57:49.000000Z
+41e43932614dc9c9a027f136b2559f39
+2010-12-08T04:57:47.314282Z
+43
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2581
 

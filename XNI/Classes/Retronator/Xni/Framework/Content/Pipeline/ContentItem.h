@@ -13,10 +13,11 @@
 @interface ContentItem : NSObject {
 	ContentIdentity *identity;
 	NSString *name;
+	OpaqueDataDictionary *opaqueData;
 }
 
 @property (nonatomic, retain) ContentIdentity *identity;
 @property (nonatomic, retain) NSString *name;
-
+@property (nonatomic, readonly) OpaqueDataDictionary *opaqueData;
 
 @end

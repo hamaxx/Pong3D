@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio
+END
+AudioEnums.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/AudioEnums.h
+END
+SoundEffect.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/SoundEffect.m
+END
+SoundEffectInstance.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/SoundEffectInstance.h
+END
+SoundEffect+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/SoundEffect+Internal.h
+END
+SoundEffectInstance.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/SoundEffectInstance.m
+END
+SoundEffectInstance+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/SoundEffectInstance+Internal.h
+END
+Retronator.Xni.Framework.Audio.classes.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/Retronator.Xni.Framework.Audio.classes.h
+END
+SoundEffect.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/SoundEffect.h
+END
+Retronator.Xni.Framework.Audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Audio/Retronator.Xni.Framework.Audio.h
+END

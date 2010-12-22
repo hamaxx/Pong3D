@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 62
-/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Graphics
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Graphics
 END
 BasicEffect.h
 K 25
@@ -9,23 +9,29 @@ svn:wc:ra_dav:version-url
 V 76
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/BasicEffect.h
 END
-VertexBufferBinding.h
-K 25
-svn:wc:ra_dav:version-url
-V 84
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexBufferBinding.h
-END
 EffectTechnique.h
 K 25
 svn:wc:ra_dav:version-url
 V 80
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/EffectTechnique.h
 END
+VertexBufferBinding.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexBufferBinding.h
+END
 BasicEffect.m
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Graphics/BasicEffect.m
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/BasicEffect.m
+END
+ModelBone.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelBone.h
 END
 VertexStructs.h
 K 25
@@ -33,23 +39,41 @@ svn:wc:ra_dav:version-url
 V 78
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexStructs.h
 END
-EffectTechnique.m
-K 25
-svn:wc:ra_dav:version-url
-V 80
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/EffectTechnique.m
-END
 VertexBufferBinding.m
 K 25
 svn:wc:ra_dav:version-url
 V 84
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexBufferBinding.m
 END
+EffectTechnique.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/EffectTechnique.m
+END
 GraphicsResource.h
 K 25
 svn:wc:ra_dav:version-url
 V 81
 /svn/!svn/ver/13/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsResource.h
+END
+Model+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/Model+Internal.h
+END
+ModelBone.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelBone.m
+END
+IndexBuffer+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/IndexBuffer+Internal.h
 END
 TextureCollection.h
 K 25
@@ -61,7 +85,25 @@ GraphicsResource.m
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/svn/!svn/ver/13/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsResource.m
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsResource.m
+END
+ModelMesh.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMesh.h
+END
+VertexBuffer+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexBuffer+Internal.h
+END
+GraphicsDevice.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsDevice.h
 END
 SamplerStateCollection.h
 K 25
@@ -69,17 +111,23 @@ svn:wc:ra_dav:version-url
 V 87
 /svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Graphics/SamplerStateCollection.h
 END
-GraphicsDevice.h
-K 25
-svn:wc:ra_dav:version-url
-V 79
-/svn/!svn/ver/35/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsDevice.h
-END
 TextureCollection.m
 K 25
 svn:wc:ra_dav:version-url
 V 82
 /svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Graphics/TextureCollection.m
+END
+ModelMesh.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMesh.m
+END
+GraphicsDevice.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsDevice.m
 END
 BlendState.h
 K 25
@@ -87,17 +135,11 @@ svn:wc:ra_dav:version-url
 V 75
 /svn/!svn/ver/21/XNI/Classes/Retronator/Xni/Framework/Graphics/BlendState.h
 END
-GraphicsDevice.m
-K 25
-svn:wc:ra_dav:version-url
-V 79
-/svn/!svn/ver/37/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsDevice.m
-END
 DirectionalLight.h
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/DirectionalLight.h
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/DirectionalLight.h
 END
 SamplerStateCollection.m
 K 25
@@ -115,13 +157,13 @@ VertexElement.h
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexElement.h
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexElement.h
 END
 DirectionalLight.m
 K 25
 svn:wc:ra_dav:version-url
 V 81
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/DirectionalLight.m
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/DirectionalLight.m
 END
 BlendState.m
 K 25
@@ -133,7 +175,7 @@ Texture2D.m
 K 25
 svn:wc:ra_dav:version-url
 V 74
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/Texture2D.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/Texture2D.m
 END
 RasterizerState.h
 K 25
@@ -141,11 +183,17 @@ svn:wc:ra_dav:version-url
 V 80
 /svn/!svn/ver/21/XNI/Classes/Retronator/Xni/Framework/Graphics/RasterizerState.h
 END
+VertexPositionNormalTextureArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionNormalTextureArray.h
+END
 VertexElement.m
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexElement.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexElement.m
 END
 Texture.h
 K 25
@@ -157,13 +205,19 @@ RasterizerState.m
 K 25
 svn:wc:ra_dav:version-url
 V 80
-/svn/!svn/ver/21/XNI/Classes/Retronator/Xni/Framework/Graphics/RasterizerState.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/RasterizerState.m
+END
+VertexPositionNormalTextureArray.m
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionNormalTextureArray.m
 END
 IndexBuffer.h
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/IndexBuffer.h
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/IndexBuffer.h
 END
 XniSamplerEventArgs.h
 K 25
@@ -183,23 +237,29 @@ svn:wc:ra_dav:version-url
 V 72
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/Texture.m
 END
-IndexBuffer.m
-K 25
-svn:wc:ra_dav:version-url
-V 76
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/IndexBuffer.m
-END
 XniSamplerEventArgs.m
 K 25
 svn:wc:ra_dav:version-url
 V 84
 /svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Graphics/XniSamplerEventArgs.m
 END
+IndexBuffer.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/IndexBuffer.m
+END
 SamplerState.m
 K 25
 svn:wc:ra_dav:version-url
 V 77
 /svn/!svn/ver/21/XNI/Classes/Retronator/Xni/Framework/Graphics/SamplerState.m
+END
+ModelMeshPart+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMeshPart+Internal.h
 END
 VertexPositionTexture.h
 K 25
@@ -211,13 +271,37 @@ Retronator.Xni.Framework.Graphics.h
 K 25
 svn:wc:ra_dav:version-url
 V 98
-/svn/!svn/ver/33/XNI/Classes/Retronator/Xni/Framework/Graphics/Retronator.Xni.Framework.Graphics.h
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/Retronator.Xni.Framework.Graphics.h
 END
 VertexPositionTexture.m
 K 25
 svn:wc:ra_dav:version-url
 V 86
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionTexture.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionTexture.m
+END
+ModelMeshCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMeshCollection.h
+END
+ModelEffectCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelEffectCollection.h
+END
+ModelEffectCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelEffectCollection.m
+END
+ModelMeshCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMeshCollection.m
 END
 VertexPositionColorArray.h
 K 25
@@ -225,23 +309,53 @@ svn:wc:ra_dav:version-url
 V 89
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionColorArray.h
 END
+Model.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/Model.h
+END
 VertexPositionColorArray.m
 K 25
 svn:wc:ra_dav:version-url
 V 89
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionColorArray.m
 END
+Model.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/Model.m
+END
+IndexArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/IndexArray.h
+END
+IndexArray.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/IndexArray.m
+END
 VertexArray.h
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexArray.h
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexArray.h
+END
+ModelBone+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelBone+Internal.h
 END
 Viewport.h
 K 25
 svn:wc:ra_dav:version-url
 V 73
-/svn/!svn/ver/26/XNI/Classes/Retronator/Xni/Framework/Graphics/Viewport.h
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/Viewport.h
 END
 HiDefGraphicsDevice.h
 K 25
@@ -249,11 +363,23 @@ svn:wc:ra_dav:version-url
 V 83
 /svn/!svn/ver/9/XNI/Classes/Retronator/Xni/Framework/Graphics/HiDefGraphicsDevice.h
 END
+ModelMeshPartCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMeshPartCollection.h
+END
 VertexArray.m
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexArray.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexArray.m
+END
+ModelBone+Internal.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelBone+Internal.m
 END
 VertexPositionTextureArray.h
 K 25
@@ -261,11 +387,11 @@ svn:wc:ra_dav:version-url
 V 91
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionTextureArray.h
 END
-Retronator.Xni.Framework.Graphics.classes.h
+VertexDeclaration.h
 K 25
 svn:wc:ra_dav:version-url
-V 106
-/svn/!svn/ver/33/XNI/Classes/Retronator/Xni/Framework/Graphics/Retronator.Xni.Framework.Graphics.classes.h
+V 82
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexDeclaration.h
 END
 EffectPass.h
 K 25
@@ -273,17 +399,11 @@ svn:wc:ra_dav:version-url
 V 75
 /svn/!svn/ver/29/XNI/Classes/Retronator/Xni/Framework/Graphics/EffectPass.h
 END
-VertexDeclaration.h
+Retronator.Xni.Framework.Graphics.classes.h
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexDeclaration.h
-END
-Viewport.m
-K 25
-svn:wc:ra_dav:version-url
-V 73
-/svn/!svn/ver/26/XNI/Classes/Retronator/Xni/Framework/Graphics/Viewport.m
+V 106
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/Retronator.Xni.Framework.Graphics.classes.h
 END
 TextureCollection+Internal.h
 K 25
@@ -291,23 +411,35 @@ svn:wc:ra_dav:version-url
 V 91
 /svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Graphics/TextureCollection+Internal.h
 END
+Viewport.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/Viewport.m
+END
 HiDefGraphicsDevice.m
 K 25
 svn:wc:ra_dav:version-url
-V 83
-/svn/!svn/ver/9/XNI/Classes/Retronator/Xni/Framework/Graphics/HiDefGraphicsDevice.m
+V 84
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/HiDefGraphicsDevice.m
+END
+ModelMeshPartCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMeshPartCollection.m
 END
 Vector4.h
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/!svn/ver/25/XNI/Classes/Retronator/Xni/Framework/Graphics/Vector4.h
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Graphics/Vector4.h
 END
-DepthStencilState.h
+ShortIndexArray.h
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/!svn/ver/21/XNI/Classes/Retronator/Xni/Framework/Graphics/DepthStencilState.h
+V 80
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ShortIndexArray.h
 END
 VertexPositionTextureArray.m
 K 25
@@ -315,17 +447,11 @@ svn:wc:ra_dav:version-url
 V 91
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionTextureArray.m
 END
-EffectPass.m
-K 25
-svn:wc:ra_dav:version-url
-V 75
-/svn/!svn/ver/29/XNI/Classes/Retronator/Xni/Framework/Graphics/EffectPass.m
-END
-VertexDeclaration.m
+DepthStencilState.h
 K 25
 svn:wc:ra_dav:version-url
 V 82
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexDeclaration.m
+/svn/!svn/ver/21/XNI/Classes/Retronator/Xni/Framework/Graphics/DepthStencilState.h
 END
 SamplerStateCollection+Internal.h
 K 25
@@ -333,17 +459,35 @@ svn:wc:ra_dav:version-url
 V 96
 /svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Graphics/SamplerStateCollection+Internal.h
 END
+VertexDeclaration.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexDeclaration.m
+END
+EffectPass.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/29/XNI/Classes/Retronator/Xni/Framework/Graphics/EffectPass.m
+END
+GraphicsDevice+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsDevice+Internal.h
+END
 Vector4.m
 K 25
 svn:wc:ra_dav:version-url
 V 72
-/svn/!svn/ver/25/XNI/Classes/Retronator/Xni/Framework/Graphics/Vector4.m
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Graphics/Vector4.m
 END
-DepthStencilState.m
+ShortIndexArray.m
 K 25
 svn:wc:ra_dav:version-url
-V 82
-/svn/!svn/ver/21/XNI/Classes/Retronator/Xni/Framework/Graphics/DepthStencilState.m
+V 80
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ShortIndexArray.m
 END
 Effect.h
 K 25
@@ -351,11 +495,17 @@ svn:wc:ra_dav:version-url
 V 71
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/Effect.h
 END
-Effect.m
+DepthStencilState.m
 K 25
 svn:wc:ra_dav:version-url
-V 71
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/Effect.m
+V 82
+/svn/!svn/ver/21/XNI/Classes/Retronator/Xni/Framework/Graphics/DepthStencilState.m
+END
+VertexPositionNormalTexture.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionNormalTexture.h
 END
 VertexPositionColor.h
 K 25
@@ -363,29 +513,53 @@ svn:wc:ra_dav:version-url
 V 84
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionColor.h
 END
+Effect.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/Effect.m
+END
+VertexPositionNormalTexture.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionNormalTexture.m
+END
+ModelMeshPart.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMeshPart.h
+END
 VertexPositionColor.m
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionColor.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionColor.m
 END
 VertexBuffer.h
 K 25
 svn:wc:ra_dav:version-url
 V 77
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexBuffer.h
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexBuffer.h
 END
 GraphicsEnums.h
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/33/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsEnums.h
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/GraphicsEnums.h
 END
 SpriteBatch.h
 K 25
 svn:wc:ra_dav:version-url
 V 76
 /svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Graphics/SpriteBatch.h
+END
+ModelMeshPart.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMeshPart.m
 END
 IGraphicsDeviceService.h
 K 25
@@ -397,13 +571,19 @@ VertexBuffer.m
 K 25
 svn:wc:ra_dav:version-url
 V 77
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexBuffer.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexBuffer.m
 END
 SpriteBatch.m
 K 25
 svn:wc:ra_dav:version-url
 V 76
-/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Graphics/SpriteBatch.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/SpriteBatch.m
+END
+ModelBoneCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelBoneCollection.h
 END
 VertexPositionColorTextureArray.h
 K 25
@@ -423,6 +603,18 @@ svn:wc:ra_dav:version-url
 V 84
 /svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/ReachGraphicsDevice.h
 END
+ModelMesh+Internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelMesh+Internal.h
+END
+ModelBoneCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/ModelBoneCollection.m
+END
 VertexPositionColorTextureArray.m
 K 25
 svn:wc:ra_dav:version-url
@@ -433,11 +625,11 @@ VertexPositionColorTexture.m
 K 25
 svn:wc:ra_dav:version-url
 V 91
-/svn/!svn/ver/26/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionColorTexture.m
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Graphics/VertexPositionColorTexture.m
 END
 ReachGraphicsDevice.m
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/!svn/ver/23/XNI/Classes/Retronator/Xni/Framework/Graphics/ReachGraphicsDevice.m
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Graphics/ReachGraphicsDevice.m
 END

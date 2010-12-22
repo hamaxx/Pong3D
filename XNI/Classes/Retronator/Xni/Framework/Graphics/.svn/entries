@@ -1,14 +1,14 @@
 10
 
 dir
-40
+51
 http://xni.googlecode.com/svn/XNI/Classes/Retronator/Xni/Framework/Graphics
 http://xni.googlecode.com/svn
 
 
 
-2010-11-15T17:23:13.831337Z
-40
+2010-12-14T23:28:16.818141Z
+47
 zxretro@gmail.com
 
 
@@ -60,40 +60,6 @@ zxretro@gmail.com
 
 1934
 
-VertexBufferBinding.h
-file
-
-
-
-
-2010-12-01T02:33:09.000000Z
-ca19743693f22a9fc68fe0244451192c
-2010-09-21T21:46:53.337584Z
-23
-zxretro@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-806
-
 EffectTechnique.h
 file
 
@@ -128,16 +94,16 @@ zxretro@gmail.com
 
 419
 
-BasicEffect.m
+VertexBufferBinding.h
 file
 
 
 
 
 2010-12-01T02:33:09.000000Z
-6e78fc4d1b16d3c81b37e149531ad1a3
-2010-11-02T09:29:19.409744Z
-36
+ca19743693f22a9fc68fe0244451192c
+2010-09-21T21:46:53.337584Z
+23
 zxretro@gmail.com
 
 
@@ -160,7 +126,75 @@ zxretro@gmail.com
 
 
 
-6697
+806
+
+BasicEffect.m
+file
+
+
+
+
+2010-12-22T21:57:44.000000Z
+debe117fc1c57d44da76ec80dcd09919
+2010-12-08T04:57:47.314282Z
+43
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6614
+
+ModelBone.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+29eada7fa96ab92b857e8a2b4c673604
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+657
 
 VertexStructs.h
 file
@@ -196,40 +230,6 @@ zxretro@gmail.com
 
 611
 
-EffectTechnique.m
-file
-
-
-
-
-2010-12-01T02:33:09.000000Z
-0a497f700700ecfa2632f0221a937723
-2010-09-21T21:46:53.337584Z
-23
-zxretro@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-515
-
 VertexBufferBinding.m
 file
 
@@ -264,6 +264,40 @@ zxretro@gmail.com
 
 1068
 
+EffectTechnique.m
+file
+
+
+
+
+2010-12-01T02:33:09.000000Z
+0a497f700700ecfa2632f0221a937723
+2010-09-21T21:46:53.337584Z
+23
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+515
+
 GraphicsResource.h
 file
 
@@ -297,6 +331,108 @@ zxretro@gmail.com
 
 
 665
+
+Model+Internal.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+c2a49eb77e8493a89b0788ab5bf3a01b
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+369
+
+ModelBone.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+9c26124140fd07b61ce3a8328a894f0c
+2010-12-08T04:57:47.314282Z
+43
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+845
+
+IndexBuffer+Internal.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+5581075cfe81ab5907310908c509a608
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+249
 
 TextureCollection.h
 file
@@ -338,10 +474,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-f642b3d98979f168e68a8ffc3932bc5b
-2010-09-01T14:55:24.106420Z
-13
+2010-12-22T21:57:45.000000Z
+d3151b27abd55296f64ed2da8852111b
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -364,7 +500,109 @@ zxretro@gmail.com
 
 
 
-440
+514
+
+ModelMesh.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+c288056bf4bce420431ae1a8ac0955d6
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+666
+
+VertexBuffer+Internal.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+dea4f4483a10475c91c9bfbf26f6d812
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+251
+
+GraphicsDevice.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+8e6078a7f505306595771485ad727d51
+2010-12-14T23:28:16.818141Z
+47
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4181
 
 SamplerStateCollection.h
 file
@@ -400,40 +638,6 @@ zxretro@gmail.com
 
 494
 
-GraphicsDevice.h
-file
-
-
-
-
-2010-12-01T02:33:09.000000Z
-12e5b633ebb941c6370300dedbf7028e
-2010-10-19T13:31:39.884744Z
-35
-zxretro@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3874
-
 TextureCollection.m
 file
 
@@ -468,16 +672,16 @@ zxretro@gmail.com
 
 937
 
-DirectionalLight.h
+ModelMesh.m
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-deb5c5836a5df6dd1910ab46f4c9ea27
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+ce58793756771a0530829659e183c4fa
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -500,7 +704,7 @@ zxretro@gmail.com
 
 
 
-631
+1692
 
 GraphicsDevice.m
 file
@@ -508,10 +712,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-0227e238f2d9a200920c0eb0783eff2e
-2010-11-03T08:58:03.293354Z
-37
+2010-12-22T21:57:45.000000Z
+832875e6b79a8055b822ba75673ddece
+2010-12-14T23:28:16.818141Z
+47
 zxretro@gmail.com
 
 
@@ -534,7 +738,41 @@ zxretro@gmail.com
 
 
 
-12385
+16892
+
+DirectionalLight.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+7432f871758327d16ab1943867c8e213
+2010-12-08T04:57:47.314282Z
+43
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+551
 
 BlendState.h
 file
@@ -644,10 +882,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-665d1b38f10ccdb6aa37bd216b8a7e09
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+9f74fe29f2d6d61b42bc35a1487ce3a0
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -670,7 +908,7 @@ zxretro@gmail.com
 
 
 
-1206
+1268
 
 DirectionalLight.m
 file
@@ -678,10 +916,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-25f3454a91c4a88d23807cbd48503cb2
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+fe803af0c3609a241ec228c78fba7ba6
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -704,7 +942,7 @@ zxretro@gmail.com
 
 
 
-634
+564
 
 BlendState.m
 file
@@ -746,10 +984,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-c721852723e35d8660b60d824ee03421
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+c389ae8e6c5cd220a150c05b01348fc2
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -772,7 +1010,7 @@ zxretro@gmail.com
 
 
 
-3022
+3073
 
 RasterizerState.h
 file
@@ -808,16 +1046,16 @@ zxretro@gmail.com
 
 812
 
-VertexElement.m
+VertexPositionNormalTextureArray.h
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-c81aa28df7d43365c986852fcb792d85
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+1fb23020b0ac425f09d1f051ee4d050f
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -840,7 +1078,41 @@ zxretro@gmail.com
 
 
 
-3226
+394
+
+VertexElement.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+8a6a156601ac28add4ec81a2a4d6315a
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3766
 
 Texture.h
 file
@@ -882,10 +1154,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-a5d28c7714fad07bfb94fc7cbf71aea1
-2010-09-16T20:01:42.059283Z
-21
+2010-12-22T21:57:45.000000Z
+cdd43704f81c3d7af09f8d9650a00564
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -908,7 +1180,41 @@ zxretro@gmail.com
 
 
 
-1363
+1424
+
+VertexPositionNormalTextureArray.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+44bfdcdc7705ad5ec4c9d41e0a8fe896
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+682
 
 IndexBuffer.h
 file
@@ -916,10 +1222,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-45b96536291e0bfb69688eb0a3394a97
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+a2d34f998af4bb64b6fd076b97202a44
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -942,7 +1248,7 @@ zxretro@gmail.com
 
 
 
-306
+751
 
 XniSamplerEventArgs.h
 file
@@ -1046,6 +1352,40 @@ zxretro@gmail.com
 
 486
 
+IndexBuffer.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+c9980b7b59c788c048cf776fd5870608
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+946
+
 XniSamplerEventArgs.m
 file
 
@@ -1080,40 +1420,6 @@ zxretro@gmail.com
 
 526
 
-IndexBuffer.m
-file
-
-
-
-
-2010-12-01T02:33:09.000000Z
-4047e300cc25082a0127c556338866d4
-2010-09-21T21:46:53.337584Z
-23
-zxretro@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-208
-
 SamplerState.m
 file
 
@@ -1147,6 +1453,40 @@ zxretro@gmail.com
 
 
 2926
+
+ModelMeshPart+Internal.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+f50d2e0c902c1041642e2c32c616460a
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+492
 
 VertexPositionTexture.h
 file
@@ -1188,10 +1528,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-0d0194fc09c7ca350becd0d2a3cfcc73
-2010-09-30T19:33:29.542412Z
-33
+2010-12-22T21:57:45.000000Z
+d95e83c52f1f5be27c8215a55fb69233
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -1214,7 +1554,7 @@ zxretro@gmail.com
 
 
 
-980
+1341
 
 VertexPositionTexture.m
 file
@@ -1222,10 +1562,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-e8c41db132563fdd5810b3e18c60bc46
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+cfff7a170ac0e326d028a209c6ef1699
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -1248,7 +1588,143 @@ zxretro@gmail.com
 
 
 
-1021
+1028
+
+ModelMeshCollection.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+2cae5d268ab7e649c4a85b9197d1d6ee
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+518
+
+ModelEffectCollection.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+3735b7ff38e8dfae56e2d0f1c028a743
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+362
+
+ModelEffectCollection.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+5b8c1032f63d86ecc325b7154dcb455f
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+309
+
+ModelMeshCollection.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+650fc21239ab0fa236ebf7ebc35ffbec
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+661
 
 VertexPositionColorArray.h
 file
@@ -1284,6 +1760,40 @@ zxretro@gmail.com
 
 369
 
+Model.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+2743f7672b5007b2ec4aa2c94599e3e5
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+743
+
 VertexPositionColorArray.m
 file
 
@@ -1318,16 +1828,16 @@ zxretro@gmail.com
 
 633
 
-VertexArray.h
+Model.m
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-fd2af678f3c994c8a4bdf953840ed257
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+cf80f4c46b66cf14951eed7ff488d776
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -1350,7 +1860,143 @@ zxretro@gmail.com
 
 
 
-647
+2506
+
+IndexArray.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+f7b0a4d12fbfe6b62e9deb0f9629ad4d
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+641
+
+IndexArray.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+9689ed50193fab5e6fe5117f68b3ffd7
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+817
+
+VertexArray.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+cef95927f31edf77c044320d5183c682
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+649
+
+ModelBone+Internal.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+ae074612b388a450983b56ccabbe4cd9
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+394
 
 Viewport.h
 file
@@ -1358,10 +2004,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-5e2fb15e3376b262aedac6b7a679fb7b
-2010-09-23T21:13:28.336755Z
-26
+2010-12-22T21:57:45.000000Z
+19373489790c7631c7adb9fecde756a1
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -1384,7 +2030,7 @@ zxretro@gmail.com
 
 
 
-630
+853
 
 HiDefGraphicsDevice.h
 file
@@ -1420,16 +2066,16 @@ zxretro@gmail.com
 
 255
 
-VertexArray.m
+ModelMeshPartCollection.h
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-ff72ace57705791fc105dab6a3b4ad5a
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+6feb74a98fbd7f9299be9250cd46c170
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -1452,7 +2098,75 @@ zxretro@gmail.com
 
 
 
-815
+373
+
+VertexArray.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+a87c2d33e7042bd6db4d2012a9479876
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+829
+
+ModelBone+Internal.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+9a65a6e31c579edd73dc0a364fb9ab4b
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+207
 
 VertexPositionTextureArray.h
 file
@@ -1488,16 +2202,16 @@ zxretro@gmail.com
 
 375
 
-Retronator.Xni.Framework.Graphics.classes.h
+VertexDeclaration.h
 file
 
 
 
 
 2010-12-01T02:33:09.000000Z
-ad6d2d5f601576d8887c1ed48f3dc5ce
-2010-09-30T19:33:29.542412Z
-33
+aac50a82e3ed20c757dd45871c0b4b10
+2010-09-21T21:46:53.337584Z
+23
 zxretro@gmail.com
 
 
@@ -1520,7 +2234,7 @@ zxretro@gmail.com
 
 
 
-694
+461
 
 EffectPass.h
 file
@@ -1556,16 +2270,16 @@ zxretro@gmail.com
 
 467
 
-VertexDeclaration.h
+Retronator.Xni.Framework.Graphics.classes.h
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-aac50a82e3ed20c757dd45871c0b4b10
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+46f36b5e13fca95288626ae8e40eaada
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -1588,41 +2302,7 @@ zxretro@gmail.com
 
 
 
-461
-
-Viewport.m
-file
-
-
-
-
-2010-12-01T02:33:09.000000Z
-e850cefa0916c70024ae2bc205d16493
-2010-09-23T21:13:28.336755Z
-26
-zxretro@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-566
+941
 
 TextureCollection+Internal.h
 file
@@ -1658,16 +2338,16 @@ zxretro@gmail.com
 
 328
 
-HiDefGraphicsDevice.m
+Viewport.m
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-b49e34580880032723dfd5f1ccef11b0
-2010-07-27T17:42:29.961219Z
-9
+2010-12-22T21:57:45.000000Z
+f63fb78356422ca8cc7cdca4496ba97e
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -1690,7 +2370,75 @@ zxretro@gmail.com
 
 
 
-316
+1964
+
+HiDefGraphicsDevice.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+8f02a9d514685251238dadbaff41b355
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+330
+
+ModelMeshPartCollection.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+cb23c7dd4155417abf7cf62edd14fb61
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+323
 
 Vector4.h
 file
@@ -1698,10 +2446,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-4e61a0f6c6ddadb6c58da2a78315f753
-2010-09-23T14:51:10.851064Z
-25
+2010-12-22T21:57:45.000000Z
+d4ca398837a3af4cf860ae2c5c43738c
+2010-12-14T23:28:16.818141Z
+47
 zxretro@gmail.com
 
 
@@ -1724,18 +2472,18 @@ zxretro@gmail.com
 
 
 
-1460
+1549
 
-DepthStencilState.h
+ShortIndexArray.h
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-31cb1f8a7feec56c63e341c21754de4e
-2010-09-16T20:01:42.059283Z
-21
+2010-12-22T21:57:45.000000Z
+51e5b60721b7d9b92947e73fcba8e977
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -1758,7 +2506,7 @@ zxretro@gmail.com
 
 
 
-1765
+327
 
 VertexPositionTextureArray.m
 file
@@ -1794,16 +2542,16 @@ zxretro@gmail.com
 
 645
 
-EffectPass.m
+DepthStencilState.h
 file
 
 
 
 
 2010-12-01T02:33:09.000000Z
-95bac42a0c615d487635f1be8c7878d4
-2010-09-30T19:00:06.583677Z
-29
+31cb1f8a7feec56c63e341c21754de4e
+2010-09-16T20:01:42.059283Z
+21
 zxretro@gmail.com
 
 
@@ -1826,41 +2574,7 @@ zxretro@gmail.com
 
 
 
-585
-
-VertexDeclaration.m
-file
-
-
-
-
-2010-12-01T02:33:09.000000Z
-aee717be471ce1993c22250e543ee70e
-2010-09-21T21:46:53.337584Z
-23
-zxretro@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-675
+1765
 
 SamplerStateCollection+Internal.h
 file
@@ -1896,16 +2610,118 @@ zxretro@gmail.com
 
 348
 
+VertexDeclaration.m
+file
+
+
+
+
+2010-12-01T02:33:09.000000Z
+aee717be471ce1993c22250e543ee70e
+2010-09-21T21:46:53.337584Z
+23
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+675
+
+EffectPass.m
+file
+
+
+
+
+2010-12-01T02:33:09.000000Z
+95bac42a0c615d487635f1be8c7878d4
+2010-09-30T19:00:06.583677Z
+29
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+585
+
+GraphicsDevice+Internal.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+02479f50e060763c7992d8d53a36eb64
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+665
+
 Vector4.m
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-d9cb0c0c616e723560845b9055171b9f
-2010-09-23T14:51:10.851064Z
-25
+2010-12-22T21:57:45.000000Z
+69aa282b8bb86b832f42139bdcbc2462
+2010-12-14T23:28:16.818141Z
+47
 zxretro@gmail.com
 
 
@@ -1928,18 +2744,18 @@ zxretro@gmail.com
 
 
 
-3787
+4316
 
-DepthStencilState.m
+ShortIndexArray.m
 file
 
 
 
 
-2010-12-01T02:33:09.000000Z
-b98b81c1855ac1d01c5f5804a1a106bd
-2010-09-16T20:01:42.059283Z
-21
+2010-12-22T21:57:45.000000Z
+20db32aaf5b2650948bd48785a93ab95
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -1962,7 +2778,7 @@ zxretro@gmail.com
 
 
 
-2121
+549
 
 Effect.h
 file
@@ -1998,16 +2814,16 @@ zxretro@gmail.com
 
 424
 
-Effect.m
+DepthStencilState.m
 file
 
 
 
 
 2010-12-01T02:33:09.000000Z
-1510a01ec71f7d039d4e5f2d9d9ec324
-2010-09-21T21:46:53.337584Z
-23
+b98b81c1855ac1d01c5f5804a1a106bd
+2010-09-16T20:01:42.059283Z
+21
 zxretro@gmail.com
 
 
@@ -2030,7 +2846,41 @@ zxretro@gmail.com
 
 
 
-225
+2121
+
+VertexPositionNormalTexture.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+acbb3871e30f20981594bd4e89cc5b6e
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+313
 
 VertexPositionColor.h
 file
@@ -2066,14 +2916,14 @@ zxretro@gmail.com
 
 296
 
-VertexPositionColor.m
+Effect.m
 file
 
 
 
 
 2010-12-01T02:33:09.000000Z
-7c12ccfe5bfc4a883c890f1c6f3ff26b
+1510a01ec71f7d039d4e5f2d9d9ec324
 2010-09-21T21:46:53.337584Z
 23
 zxretro@gmail.com
@@ -2098,7 +2948,109 @@ zxretro@gmail.com
 
 
 
-1003
+225
+
+VertexPositionNormalTexture.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+056a2b8963ad3877aa538a7b846d4b3d
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1292
+
+ModelMeshPart.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+85868d0294717f0e69f287660e43f4e1
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+823
+
+VertexPositionColor.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+c65727bdb4e4463c133416c381b6925e
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1010
 
 VertexBuffer.h
 file
@@ -2106,10 +3058,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-dc57ebc7116ff4bf79d31fdc490d7dda
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+774467aecea12cb466a46326c360992c
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -2132,7 +3084,7 @@ zxretro@gmail.com
 
 
 
-420
+769
 
 SpriteBatch.h
 file
@@ -2174,10 +3126,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-931cef4e2155bec77b7bbea667bb4c05
-2010-09-30T19:33:29.542412Z
-33
+2010-12-22T21:57:45.000000Z
+e8a62aa8279d0dad149fe0513f0e3a54
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -2200,7 +3152,41 @@ zxretro@gmail.com
 
 
 
-6069
+6078
+
+ModelMeshPart.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+32cec0e6d24b21a5d1d9eba3c5af312f
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1068
 
 IGraphicsDeviceService.h
 file
@@ -2242,10 +3228,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-192665bdd331405325cf3bc8cc3824bd
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+1bca2440ded4c67ab8fd8beda9535090
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -2268,7 +3254,7 @@ zxretro@gmail.com
 
 
 
-242
+1043
 
 SpriteBatch.m
 file
@@ -2276,10 +3262,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-99aa564e08833d5e94648c337657ec86
-2010-11-15T17:23:13.831337Z
-40
+2010-12-22T21:57:45.000000Z
+c34bbe7c4255963a91fb970198b637a6
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -2302,7 +3288,41 @@ zxretro@gmail.com
 
 
 
-15807
+15698
+
+ModelBoneCollection.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+c9b3b7a0d074038349ac90ba4af9cedb
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+516
 
 VertexPositionColorTextureArray.h
 file
@@ -2409,6 +3429,74 @@ zxretro@gmail.com
 PackedVector
 dir
 
+ModelMesh+Internal.h
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+d71a76740f12f3eba871f290cc2b2f94
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+333
+
+ModelBoneCollection.m
+file
+
+
+
+
+2010-12-22T21:57:45.000000Z
+82f408e474964dcd6a42f65c64ed5183
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+673
+
 VertexPositionColorTextureArray.m
 file
 
@@ -2449,10 +3537,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-b73a07dee4c05732c49661e4c5c6f05e
-2010-09-23T21:13:28.336755Z
-26
+2010-12-22T21:57:45.000000Z
+c4f6b8cddc7c1bee2cd186fe44a0239a
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -2475,7 +3563,7 @@ zxretro@gmail.com
 
 
 
-1274
+1281
 
 ReachGraphicsDevice.m
 file
@@ -2483,10 +3571,10 @@ file
 
 
 
-2010-12-01T02:33:09.000000Z
-d162251337d769006c3796e9a234194b
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:45.000000Z
+0113a6363b4b88014f735e3e862a5aa0
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -2509,5 +3597,5 @@ zxretro@gmail.com
 
 
 
-5094
+9282
 

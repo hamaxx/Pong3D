@@ -23,4 +23,12 @@
 @synthesize name;
 @synthesize tag;
 
+- (void) dealloc
+{
+	[name release];
+	[tag release];
+	[super dealloc];
+}
+
+
 @end

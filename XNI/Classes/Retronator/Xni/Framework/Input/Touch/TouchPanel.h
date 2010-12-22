@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #import "Retronator.Xni.Framework.classes.h"
 #import "Retronator.Xni.Framework.Input.Touch.classes.h"
 
 @interface TouchPanel : NSObject {
+	UIView *view;
+	
 	int displayWidth;
 	int displayHeight;
 	DisplayOrientation displayOrientation;

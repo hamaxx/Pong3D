@@ -11,12 +11,12 @@
 
 #import "Retronator.Xni.Framework.classes.h"
 
-@interface Rectangle : NSObject {
+@interface Rectangle : NSObject <NSCopying> {
 	RectangleStruct data;
 }
 
 - (id) initWithX:(int)x y:(int)y width:(int)width height:(int)height;
-- (id) initWithStruct:(RectangleStruct*) rectangleStruct;
+- (id) initWithRectangleStruct:(RectangleStruct*) rectangleStruct;
 - (id) initWithRectangle:(Rectangle*) rectangle;
 
 + (Rectangle*) rectangleWithX:(int)x y:(int)y width:(int)width height:(int)height;
@@ -28,8 +28,9 @@
 @property (nonatomic) int y;
 @property (nonatomic) int width;
 @property (nonatomic) int height;
-
 @property (nonatomic, readonly) RectangleStruct *data;
+
+- (Rectangle*) set:(Rectangle*)value;
 
 - (BOOL) equals:(Rectangle*)rectangle;
 

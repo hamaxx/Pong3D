@@ -12,11 +12,7 @@
 #import "Retronator.Xni.Framework.Graphics.PackedVector.classes.h"
 
 @interface ColorPixelBitmapContent : PixelBitmapContent {
-	Byte4* colorPixelData;
 }
-
-- (Byte4*) getPixelData;
-- (void) setPixelData:(Byte4*)sourceData;
 
 - (Byte4) getPixelAtX:(int)x y:(int)y;
 - (void) setPixelAtX:(int)x y:(int)y value:(Byte4)value;

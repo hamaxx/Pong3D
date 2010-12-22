@@ -26,7 +26,7 @@
     return self;
 }
 
-- (id) initWithStruct: (Vector4Struct*)quaternionData {
+- (id) initWithVector4Struct: (Vector4Struct*)quaternionData {
     if (self = [super init]) {
         data = *quaternionData;
     }
@@ -34,7 +34,7 @@
 }
 
 - (id) initWithQuaternion: (Quaternion*)quaternion {
-    return [self initWithStruct:quaternion.data];  
+    return [self initWithVector4Struct:quaternion.data];  
 }
 
 + (Quaternion*) quaternionWithX:(float)x y:(float)y z:(float)z w:(float)w {
@@ -46,7 +46,7 @@
 }
 
 + (Quaternion*) quaternionWithStruct: (Vector4Struct*)quaternionData {
-    return [[[Quaternion alloc] initWithData:(id)quaternionData] autorelease];
+    return [[[Quaternion alloc] initWithVector4Struct:quaternionData] autorelease];
 }
 
 + (Quaternion*) quaternionWithQuaternion: (Quaternion*)quaternion {
@@ -60,7 +60,7 @@
 }
 
 + (Quaternion *) rotationMatrix:(Matrix *)matrix {
-    Quaternion *result = [[Quaternion alloc] init];
+    Quaternion *result = [[[Quaternion alloc] init] autorelease];
     
     if ((matrix.data->m11 + matrix.data->m22 + matrix.data->m33) > 0.0F) {
         float M1 = sqrtf(matrix.data->m11 + matrix.data->m22 + matrix.data->m33 + 1);
@@ -184,6 +184,11 @@
     return self;
 }
 
+- (Quaternion*) set:(Quaternion *)value {
+	data = *value.data;
+	return self;
+}
+
 - (Quaternion *) add:(Quaternion *)value {
     Vector4Add(self.data, value.data, self.data);
     return self;
@@ -202,6 +207,23 @@
 - (Quaternion *) multiplyBy:(Quaternion *)value {
     QuaternionMultiply(self.data, value.data, self.data);
     return self;    
+}
+
+- (id) copyWithZone:(NSZone *)zone {
+	return [[Quaternion allocWithZone:zone] initWithVector4Struct:&data];
+}
+
+- (BOOL) equals:(Quaternion*)quaternion {
+	if (!quaternion) return NO;
+	return quaternion.data->x == data.x && quaternion.data->y == data.y &&
+	quaternion.data->z == data.z && quaternion.data->w == data.w;
+}
+
+- (BOOL) isEqual:(id)object {
+    if ([object isKindOfClass:[Vector4 class]]) {
+        return [self equals:object];
+    }
+    return NO;
 }
 
 - (NSString *) description {

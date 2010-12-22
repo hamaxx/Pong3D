@@ -21,11 +21,11 @@
 }
 
 - (MipmapChain*) mipmaps {
-	return [[self faces] objectAtIndex:0];
+	return [[self faces] itemAt:0];
 }
 
 - (void) setMipmaps:(MipmapChain *)value {
-	[[self faces] insertObject:value atIndex:0];
+	[[self faces] insert:value at:0];
 }
 
 - (void) validateWithGraphicsProfile:(GraphicsProfile)targetProfile {

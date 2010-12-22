@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 65
-/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Input/Touch
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Input/Touch
 END
 TouchPanel+Internal.h
 K 25
 svn:wc:ra_dav:version-url
 V 87
-/svn/!svn/ver/36/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel+Internal.h
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel+Internal.h
 END
 TouchLocation.h
 K 25
@@ -37,7 +37,7 @@ TouchPanel.h
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel.h
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel.h
 END
 Retronator.Xni.Framework.Input.Touch.classes.h
 K 25
@@ -67,7 +67,7 @@ TouchPanel.m
 K 25
 svn:wc:ra_dav:version-url
 V 78
-/svn/!svn/ver/40/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel.m
+/svn/!svn/ver/47/XNI/Classes/Retronator/Xni/Framework/Input/Touch/TouchPanel.m
 END
 Retronator.Xni.Framework.Input.Touch.h
 K 25

@@ -18,9 +18,100 @@
 		B5080704122E4EE900C330E2 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = B5080702122E4EE900C330E2 /* Texture2D.m */; };
 		B508070C122E4FBB00C330E2 /* GraphicsResource.h in Headers */ = {isa = PBXBuildFile; fileRef = B508070A122E4FBB00C330E2 /* GraphicsResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B508070D122E4FBB00C330E2 /* GraphicsResource.m in Sources */ = {isa = PBXBuildFile; fileRef = B508070B122E4FBB00C330E2 /* GraphicsResource.m */; };
+		B50FE47C12B88433003D4F1A /* SoundEffectContent+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B50FE47B12B88433003D4F1A /* SoundEffectContent+Internal.h */; };
+		B50FE48812B885BC003D4F1A /* SoundEffectReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B50FE48612B885BC003D4F1A /* SoundEffectReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B50FE48912B885BC003D4F1A /* SoundEffectReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B50FE48712B885BC003D4F1A /* SoundEffectReader.m */; };
+		B50FE50712B88F64003D4F1A /* SoundEffectInstance+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B50FE50612B88F64003D4F1A /* SoundEffectInstance+Internal.h */; };
+		B50FE76212B8B11C003D4F1A /* SoundEffect+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B50FE76112B8B11C003D4F1A /* SoundEffect+Internal.h */; };
+		B51ADC4F12B8358C004E2DB0 /* SoundEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC4D12B8358C004E2DB0 /* SoundEffect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC5012B8358C004E2DB0 /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADC4E12B8358C004E2DB0 /* SoundEffect.m */; };
+		B51ADC5A12B83868004E2DB0 /* AudioEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC5912B83868004E2DB0 /* AudioEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC5C12B83876004E2DB0 /* Retronator.Xni.Framework.Audio.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC5B12B83876004E2DB0 /* Retronator.Xni.Framework.Audio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC5E12B83888004E2DB0 /* Retronator.Xni.Framework.Audio.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC5D12B83888004E2DB0 /* Retronator.Xni.Framework.Audio.classes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC6112B838AD004E2DB0 /* SoundEffectInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC5F12B838AD004E2DB0 /* SoundEffectInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC6212B838AD004E2DB0 /* SoundEffectInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADC6012B838AD004E2DB0 /* SoundEffectInstance.m */; };
+		B51ADC6512B83E16004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC6412B83E16004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC6712B83E33004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC6612B83E33004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.classes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC7B12B83EE9004E2DB0 /* SongContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC7912B83EE9004E2DB0 /* SongContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC7C12B83EE9004E2DB0 /* SongContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADC7A12B83EE9004E2DB0 /* SongContent.m */; };
+		B51ADC7F12B83EFD004E2DB0 /* SongProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC7D12B83EFD004E2DB0 /* SongProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC8012B83EFD004E2DB0 /* SongProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADC7E12B83EFD004E2DB0 /* SongProcessor.m */; };
+		B51ADC8312B83F62004E2DB0 /* SoundEffectContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC8112B83F62004E2DB0 /* SoundEffectContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC8412B83F62004E2DB0 /* SoundEffectContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADC8212B83F62004E2DB0 /* SoundEffectContent.m */; };
+		B51ADC8712B83F75004E2DB0 /* SoundEffectProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC8512B83F75004E2DB0 /* SoundEffectProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC8812B83F75004E2DB0 /* SoundEffectProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADC8612B83F75004E2DB0 /* SoundEffectProcessor.m */; };
+		B51ADC9212B83FF2004E2DB0 /* AudioContentEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC9112B83FF2004E2DB0 /* AudioContentEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC9512B84088004E2DB0 /* AudioContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC9312B84088004E2DB0 /* AudioContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC9612B84088004E2DB0 /* AudioContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADC9412B84088004E2DB0 /* AudioContent.m */; };
+		B51ADC9912B84095004E2DB0 /* AudioFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADC9712B84095004E2DB0 /* AudioFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADC9A12B84095004E2DB0 /* AudioFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADC9812B84095004E2DB0 /* AudioFormat.m */; };
+		B51ADCCF12B84FD8004E2DB0 /* WavImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADCCD12B84FD8004E2DB0 /* WavImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADCD012B84FD8004E2DB0 /* WavImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADCCE12B84FD8004E2DB0 /* WavImporter.m */; };
+		B51ADCD312B84FE1004E2DB0 /* Mp3Importer.h in Headers */ = {isa = PBXBuildFile; fileRef = B51ADCD112B84FE1004E2DB0 /* Mp3Importer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B51ADCD412B84FE1004E2DB0 /* Mp3Importer.m in Sources */ = {isa = PBXBuildFile; fileRef = B51ADCD212B84FE1004E2DB0 /* Mp3Importer.m */; };
+		B52B2B4812ADAEEC00E8A377 /* Retronator.Xni.Framework.GamerServices.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = B52B2B4712ADAEEC00E8A377 /* Retronator.Xni.Framework.GamerServices.classes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52B2B4A12ADAEF800E8A377 /* Retronator.Xni.Framework.GamerServices.h in Headers */ = {isa = PBXBuildFile; fileRef = B52B2B4912ADAEF800E8A377 /* Retronator.Xni.Framework.GamerServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52B2B4D12ADAF1000E8A377 /* Guide.h in Headers */ = {isa = PBXBuildFile; fileRef = B52B2B4B12ADAF1000E8A377 /* Guide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52B2B4E12ADAF1000E8A377 /* Guide.m in Sources */ = {isa = PBXBuildFile; fileRef = B52B2B4C12ADAF1000E8A377 /* Guide.m */; };
+		B52B2B5012ADB20000E8A377 /* Guide+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B52B2B4F12ADB20000E8A377 /* Guide+Internal.h */; };
 		B52BACFB125527E200B308F6 /* TouchPanel+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B52BACF9125527E200B308F6 /* TouchPanel+Internal.h */; };
 		B52BADAD1255426600B308F6 /* FrameworkEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = B52BADAC1255426600B308F6 /* FrameworkEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B53649F2127DE08100CAE30C /* GameWindow+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B53649F1127DE08100CAE30C /* GameWindow+Internal.h */; };
+		B54543DD129B4705002A28BE /* BasicEffectReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B54543DB129B4705002A28BE /* BasicEffectReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54543DE129B4705002A28BE /* BasicEffectReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B54543DC129B4705002A28BE /* BasicEffectReader.m */; };
+		B54543E1129B4716002A28BE /* IndexBufferReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B54543DF129B4716002A28BE /* IndexBufferReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54543E2129B4716002A28BE /* IndexBufferReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B54543E0129B4716002A28BE /* IndexBufferReader.m */; };
+		B54543E5129B4727002A28BE /* VertexBufferReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B54543E3129B4727002A28BE /* VertexBufferReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54543E6129B4727002A28BE /* VertexBufferReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B54543E4129B4727002A28BE /* VertexBufferReader.m */; };
+		B54543E9129B473A002A28BE /* ModelMeshPartReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B54543E7129B473A002A28BE /* ModelMeshPartReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54543EA129B473A002A28BE /* ModelMeshPartReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B54543E8129B473A002A28BE /* ModelMeshPartReader.m */; };
+		B54543F7129B47A1002A28BE /* ModelMeshReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B54543F5129B47A1002A28BE /* ModelMeshReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B54543F8129B47A1002A28BE /* ModelMeshReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B54543F6129B47A1002A28BE /* ModelMeshReader.m */; };
+		B5454402129B4F4D002A28BE /* ContentManager+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5454401129B4F4D002A28BE /* ContentManager+Internal.h */; };
+		B54F9BC112A2CA1B00F7411F /* XImporterReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B54F9BBF12A2CA1B00F7411F /* XImporterReader.h */; };
+		B54F9BC212A2CA1B00F7411F /* XImporterReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B54F9BC012A2CA1B00F7411F /* XImporterReader.m */; };
+		B554F7B912A3B19100F20A0D /* TextureReferenceDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F7B712A3B19100F20A0D /* TextureReferenceDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F7BA12A3B19100F20A0D /* TextureReferenceDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B554F7B812A3B19100F20A0D /* TextureReferenceDictionary.m */; };
+		B554F7C112A3B48600F20A0D /* ExternalReference.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F7BF12A3B48600F20A0D /* ExternalReference.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F7C212A3B48600F20A0D /* ExternalReference.m in Sources */ = {isa = PBXBuildFile; fileRef = B554F7C012A3B48600F20A0D /* ExternalReference.m */; };
+		B554F7D312A3BD1B00F20A0D /* NamedValueDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F7D112A3BD1B00F20A0D /* NamedValueDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F7EA12A3C1B100F20A0D /* NamedValueDictionary.m.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F7D212A3BD1B00F20A0D /* NamedValueDictionary.m.h */; };
+		B554F7F312A3C23300F20A0D /* OpaqueDataDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F7F112A3C23300F20A0D /* OpaqueDataDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F7F412A3C23300F20A0D /* OpaqueDataDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B554F7F212A3C23300F20A0D /* OpaqueDataDictionary.m */; };
+		B554F8D012A3F3E400F20A0D /* ModelBone.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F8CE12A3F3E400F20A0D /* ModelBone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F8D112A3F3E400F20A0D /* ModelBone.m in Sources */ = {isa = PBXBuildFile; fileRef = B554F8CF12A3F3E400F20A0D /* ModelBone.m */; };
+		B554F8DF12A3F3FD00F20A0D /* ModelBoneCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F8DD12A3F3FD00F20A0D /* ModelBoneCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F8E012A3F3FD00F20A0D /* ModelBoneCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B554F8DE12A3F3FD00F20A0D /* ModelBoneCollection.m */; };
+		B554F8F312A3F6AB00F20A0D /* ReadOnlyCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F8F112A3F6AB00F20A0D /* ReadOnlyCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F8F512A3F6BE00F20A0D /* ReadOnlyCollection.m.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F8F212A3F6AB00F20A0D /* ReadOnlyCollection.m.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F94D12A4033600F20A0D /* ModelBoneContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F94B12A4033600F20A0D /* ModelBoneContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F94E12A4033600F20A0D /* ModelBoneContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B554F94C12A4033600F20A0D /* ModelBoneContent.m */; };
+		B554F95112A4034100F20A0D /* ModelBoneContentCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F94F12A4034100F20A0D /* ModelBoneContentCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F95212A4034100F20A0D /* ModelBoneContentCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B554F95012A4034100F20A0D /* ModelBoneContentCollection.m */; };
+		B554F99812A415AD00F20A0D /* ModelBoneContent+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F99712A415AD00F20A0D /* ModelBoneContent+Internal.h */; };
+		B554F9B512A427DD00F20A0D /* ModelBoneReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F9B312A427DD00F20A0D /* ModelBoneReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554F9B612A427DD00F20A0D /* ModelBoneReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B554F9B412A427DD00F20A0D /* ModelBoneReader.m */; };
+		B554F9D012A42DC600F20A0D /* IndexBuffer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F9CF12A42DC600F20A0D /* IndexBuffer+Internal.h */; };
+		B554F9DE12A42FD000F20A0D /* GraphicsDevice+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F9DD12A42FD000F20A0D /* GraphicsDevice+Internal.h */; };
+		B554F9EF12A433B500F20A0D /* VertexBuffer+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B554F9EE12A433B500F20A0D /* VertexBuffer+Internal.h */; };
+		B554FA0D12A4362B00F20A0D /* VertexDeclarationReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B554FA0B12A4362B00F20A0D /* VertexDeclarationReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554FA0E12A4362B00F20A0D /* VertexDeclarationReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B554FA0C12A4362B00F20A0D /* VertexDeclarationReader.m */; };
+		B554FA2212A43A3A00F20A0D /* ModelBone+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B554FA2012A43A3A00F20A0D /* ModelBone+Internal.h */; };
+		B554FC9A12A45A9D00F20A0D /* VertexPositionNormalTextureArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B554FC9812A45A9D00F20A0D /* VertexPositionNormalTextureArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554FC9B12A45A9D00F20A0D /* VertexPositionNormalTextureArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B554FC9912A45A9D00F20A0D /* VertexPositionNormalTextureArray.m */; };
+		B554FC9E12A45B3300F20A0D /* VertexPositionNormalTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B554FC9C12A45B3300F20A0D /* VertexPositionNormalTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B554FC9F12A45B3300F20A0D /* VertexPositionNormalTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = B554FC9D12A45B3300F20A0D /* VertexPositionNormalTexture.m */; };
+		B5672C6C129AFDCE00DE5AAC /* ModelMeshCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5672C6A129AFDCE00DE5AAC /* ModelMeshCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5672C6D129AFDCE00DE5AAC /* ModelMeshCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5672C6B129AFDCE00DE5AAC /* ModelMeshCollection.m */; };
+		B5672C7A129AFE8500DE5AAC /* ModelMeshPartCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5672C78129AFE8500DE5AAC /* ModelMeshPartCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5672C7B129AFE8500DE5AAC /* ModelMeshPartCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5672C79129AFE8500DE5AAC /* ModelMeshPartCollection.m */; };
+		B5672CC2129B02D100DE5AAC /* ModelEffectCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5672CC0129B02D100DE5AAC /* ModelEffectCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5672CC3129B02D100DE5AAC /* ModelEffectCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5672CC1129B02D100DE5AAC /* ModelEffectCollection.m */; };
+		B5672CD8129B0CAC00DE5AAC /* Model+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5672CD7129B0CAC00DE5AAC /* Model+Internal.h */; };
+		B5672CDA129B0CB700DE5AAC /* ModelMesh+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5672CD9129B0CB700DE5AAC /* ModelMesh+Internal.h */; };
+		B5672CDC129B0CC300DE5AAC /* ModelMeshPart+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5672CDB129B0CC300DE5AAC /* ModelMeshPart+Internal.h */; };
+		B5672D1A129B174100DE5AAC /* ModelReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B5672D18129B174100DE5AAC /* ModelReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5672D1B129B174100DE5AAC /* ModelReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B5672D19129B174100DE5AAC /* ModelReader.m */; };
 		B56CC50D123A6F3600B72347 /* MipmapChain.h in Headers */ = {isa = PBXBuildFile; fileRef = B56CC50B123A6F3600B72347 /* MipmapChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B56CC50E123A6F3600B72347 /* MipmapChain.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CC50C123A6F3600B72347 /* MipmapChain.m */; };
 		B56CC511123A739100B72347 /* MipmapChainCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B56CC50F123A739100B72347 /* MipmapChainCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,14 +125,17 @@
 		B56CC5C4123A927500B72347 /* ContentTypeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CC5C2123A927500B72347 /* ContentTypeReader.m */; };
 		B56CC5C7123A928A00B72347 /* ContentTypeReaderManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B56CC5C5123A928A00B72347 /* ContentTypeReaderManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B56CC5C8123A928A00B72347 /* ContentTypeReaderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CC5C6123A928A00B72347 /* ContentTypeReaderManager.m */; };
-		B56CC5CB123A92BB00B72347 /* Texture2DContentTypeReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B56CC5C9123A92BB00B72347 /* Texture2DContentTypeReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B56CC5CC123A92BB00B72347 /* Texture2DContentTypeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CC5CA123A92BB00B72347 /* Texture2DContentTypeReader.m */; };
+		B56CC5CB123A92BB00B72347 /* Texture2DReader.h in Headers */ = {isa = PBXBuildFile; fileRef = B56CC5C9123A92BB00B72347 /* Texture2DReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B56CC5CC123A92BB00B72347 /* Texture2DReader.m in Sources */ = {isa = PBXBuildFile; fileRef = B56CC5CA123A92BB00B72347 /* Texture2DReader.m */; };
 		B57E3665124BC23E00DDAA42 /* Viewport.h in Headers */ = {isa = PBXBuildFile; fileRef = B57E3663124BC23E00DDAA42 /* Viewport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B57E3666124BC23E00DDAA42 /* Viewport.m in Sources */ = {isa = PBXBuildFile; fileRef = B57E3664124BC23E00DDAA42 /* Viewport.m */; };
 		B57E36BE124BE2DD00DDAA42 /* VertexPositionColorTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B57E36BC124BE2DD00DDAA42 /* VertexPositionColorTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B57E36BF124BE2DD00DDAA42 /* VertexPositionColorTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = B57E36BD124BE2DD00DDAA42 /* VertexPositionColorTexture.m */; };
 		B57E36CC124BE36E00DDAA42 /* VertexPositionColorTextureArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B57E36CA124BE36E00DDAA42 /* VertexPositionColorTextureArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B57E36CD124BE36E00DDAA42 /* VertexPositionColorTextureArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B57E36CB124BE36E00DDAA42 /* VertexPositionColorTextureArray.m */; };
+		B594878212AEF3DA00EE601F /* PointStruct.h in Headers */ = {isa = PBXBuildFile; fileRef = B594878112AEF3DA00EE601F /* PointStruct.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B594878512AEF44900EE601F /* XniPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = B594878312AEF44900EE601F /* XniPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B594878612AEF44900EE601F /* XniPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = B594878412AEF44900EE601F /* XniPoint.m */; };
 		B59AD7F01236E07300F99511 /* ContentImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = B59AD7EE1236E07300F99511 /* ContentImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B59AD7F11236E07300F99511 /* ContentImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B59AD7EF1236E07300F99511 /* ContentImporter.m */; };
 		B59AD80C1236E21900F99511 /* Retronator.Xni.Framework.Content.Pipeline.h in Headers */ = {isa = PBXBuildFile; fileRef = B59AD80B1236E21900F99511 /* Retronator.Xni.Framework.Content.Pipeline.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -143,11 +237,53 @@
 		B5E78B6F12429B1A00DDD99A /* SamplerState.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E78B6D12429B1A00DDD99A /* SamplerState.m */; };
 		B5E78B7A12429BBD00DDD99A /* Effect.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E78B7812429BBD00DDD99A /* Effect.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5E78B7B12429BBD00DDD99A /* Effect.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E78B7912429BBD00DDD99A /* Effect.m */; };
+		B5E7EC54129AE1A00015B663 /* NodeContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC52129AE1A00015B663 /* NodeContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC55129AE1A00015B663 /* NodeContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC53129AE1A00015B663 /* NodeContent.m */; };
+		B5E7EC5B129AE1BF0015B663 /* MeshContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC59129AE1BF0015B663 /* MeshContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC5C129AE1BF0015B663 /* MeshContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC5A129AE1BF0015B663 /* MeshContent.m */; };
+		B5E7EC5F129AE1CD0015B663 /* GeometryContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC5D129AE1CD0015B663 /* GeometryContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC60129AE1CD0015B663 /* GeometryContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC5E129AE1CD0015B663 /* GeometryContent.m */; };
+		B5E7EC67129AE2340015B663 /* VertexContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC65129AE2340015B663 /* VertexContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC68129AE2340015B663 /* VertexContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC66129AE2340015B663 /* VertexContent.m */; };
+		B5E7EC6B129AE2410015B663 /* IndexCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC69129AE2410015B663 /* IndexCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC6C129AE2410015B663 /* IndexCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC6A129AE2410015B663 /* IndexCollection.m */; };
+		B5E7EC6F129AE2530015B663 /* MaterialContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC6D129AE2530015B663 /* MaterialContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC70129AE2530015B663 /* MaterialContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC6E129AE2530015B663 /* MaterialContent.m */; };
+		B5E7EC73129AE2860015B663 /* BasicMaterialContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC71129AE2860015B663 /* BasicMaterialContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC74129AE2860015B663 /* BasicMaterialContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC72129AE2860015B663 /* BasicMaterialContent.m */; };
+		B5E7EC77129AE2E10015B663 /* ModelContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC75129AE2E10015B663 /* ModelContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC78129AE2E10015B663 /* ModelContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC76129AE2E10015B663 /* ModelContent.m */; };
+		B5E7EC7B129AE2ED0015B663 /* ModelMeshContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC79129AE2ED0015B663 /* ModelMeshContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC7C129AE2ED0015B663 /* ModelMeshContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC7A129AE2ED0015B663 /* ModelMeshContent.m */; };
+		B5E7EC7F129AE2FD0015B663 /* ModelMeshPartContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC7D129AE2FD0015B663 /* ModelMeshPartContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC80129AE2FD0015B663 /* ModelMeshPartContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC7E129AE2FD0015B663 /* ModelMeshPartContent.m */; };
+		B5E7EC83129AE30C0015B663 /* VertexBufferContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC81129AE30C0015B663 /* VertexBufferContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC84129AE30C0015B663 /* VertexBufferContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC82129AE30C0015B663 /* VertexBufferContent.m */; };
+		B5E7EC87129AE3570015B663 /* Model.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC85129AE3570015B663 /* Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC88129AE3570015B663 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC86129AE3570015B663 /* Model.m */; };
+		B5E7EC8B129AE3640015B663 /* ModelMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC89129AE3640015B663 /* ModelMesh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC8C129AE3640015B663 /* ModelMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC8A129AE3640015B663 /* ModelMesh.m */; };
+		B5E7EC8F129AE36E0015B663 /* ModelMeshPart.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7EC8D129AE36E0015B663 /* ModelMeshPart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7EC90129AE36E0015B663 /* ModelMeshPart.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7EC8E129AE36E0015B663 /* ModelMeshPart.m */; };
+		B5E7ECAE129AE5B40015B663 /* TextureProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECAC129AE5B40015B663 /* TextureProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7ECAF129AE5B40015B663 /* TextureProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7ECAD129AE5B40015B663 /* TextureProcessor.m */; };
+		B5E7ECB2129AE5C50015B663 /* ModelProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECB0129AE5C50015B663 /* ModelProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7ECB3129AE5C50015B663 /* ModelProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7ECB1129AE5C50015B663 /* ModelProcessor.m */; };
+		B5E7ECB6129AE5D40015B663 /* MaterialProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECB4129AE5D40015B663 /* MaterialProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7ECB7129AE5D40015B663 /* MaterialProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7ECB5129AE5D40015B663 /* MaterialProcessor.m */; };
+		B5E7ECBA129AE6120015B663 /* XImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECB8129AE6120015B663 /* XImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7ECBB129AE6120015B663 /* XImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7ECB9129AE6120015B663 /* XImporter.m */; };
+		B5E7ECBD129AE6560015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECBC129AE6560015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7ECBF129AE6620015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.classes.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECBE129AE6620015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.classes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7ECD4129AE6A70015B663 /* ContentProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECD2129AE6A70015B663 /* ContentProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7ECD5129AE6A70015B663 /* ContentProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5E7ECD3129AE6A70015B663 /* ContentProcessor.m */; };
+		B5E7ECD7129AE6CA0015B663 /* IContentProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECD6129AE6CA0015B663 /* IContentProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5E7ECD9129AE6D20015B663 /* IContentImporter.h in Headers */ = {isa = PBXBuildFile; fileRef = B5E7ECD8129AE6D20015B663 /* IContentImporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5EA634F12491709001245A4 /* VertexStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EA634E12491709001245A4 /* VertexStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5EA636F124917E2001245A4 /* VertexPositionColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EA636D124917E2001245A4 /* VertexPositionColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5EA6370124917E2001245A4 /* VertexPositionColor.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EA636E124917E2001245A4 /* VertexPositionColor.m */; };
-		B5EA637E124921D0001245A4 /* AdaptiveArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EA637C124921D0001245A4 /* AdaptiveArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B5EA637F124921D0001245A4 /* AdaptiveArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EA637D124921D0001245A4 /* AdaptiveArray.m */; };
+		B5EA637E124921D0001245A4 /* XniAdaptiveArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EA637C124921D0001245A4 /* XniAdaptiveArray.h */; settings = {ATTRIBUTES = (); }; };
+		B5EA637F124921D0001245A4 /* XniAdaptiveArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EA637D124921D0001245A4 /* XniAdaptiveArray.m */; };
 		B5EA638F1249229D001245A4 /* VertexArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EA638D1249229D001245A4 /* VertexArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5EA63901249229D001245A4 /* VertexArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EA638E1249229D001245A4 /* VertexArray.m */; };
 		B5EA65531249482D001245A4 /* VertexPositionTexture.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EA65511249482D001245A4 /* VertexPositionTexture.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -176,9 +312,16 @@
 		B5EC5A4F1252C2DF001E7DFC /* GestureSample.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EC5A4D1252C2DF001E7DFC /* GestureSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5EC5A501252C2DF001E7DFC /* GestureSample.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC5A4E1252C2DF001E7DFC /* GestureSample.m */; };
 		B5EC5A931252C710001E7DFC /* Retronator.Xni.Framework.Input.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EC5A921252C710001E7DFC /* Retronator.Xni.Framework.Input.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5EFD744129B2A7800FDC150 /* ModelMeshContentCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFD742129B2A7800FDC150 /* ModelMeshContentCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5EFD745129B2A7800FDC150 /* ModelMeshContentCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EFD743129B2A7800FDC150 /* ModelMeshContentCollection.m */; };
+		B5EFD748129B2A8900FDC150 /* ModelMeshPartContentCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFD746129B2A8900FDC150 /* ModelMeshPartContentCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5EFD749129B2A8900FDC150 /* ModelMeshPartContentCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EFD747129B2A8900FDC150 /* ModelMeshPartContentCollection.m */; };
+		B5EFD764129B2B8100FDC150 /* ModelMeshContent+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFD763129B2B8100FDC150 /* ModelMeshContent+Internal.h */; };
+		B5EFD766129B2B8B00FDC150 /* ModelContent+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFD765129B2B8B00FDC150 /* ModelContent+Internal.h */; };
+		B5EFD768129B2B9700FDC150 /* ModelMeshPartContent+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5EFD767129B2B9700FDC150 /* ModelMeshPartContent+Internal.h */; };
 		B5F415B3127780840012BAF1 /* TextureCollection+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F415B1127780840012BAF1 /* TextureCollection+Internal.h */; };
 		B5F415CF127781340012BAF1 /* SamplerStateCollection+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F415CD127781340012BAF1 /* SamplerStateCollection+Internal.h */; };
-		B5F415DE127781D80012BAF1 /* XniSamplerEventArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F415DC127781D80012BAF1 /* XniSamplerEventArgs.h */; };
+		B5F415DE127781D80012BAF1 /* XniSamplerEventArgs.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F415DC127781D80012BAF1 /* XniSamplerEventArgs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5F415DF127781D80012BAF1 /* XniSamplerEventArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F415DD127781D80012BAF1 /* XniSamplerEventArgs.m */; };
 		B5F4E2A912095FAF00B2FC0F /* XNI_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B5F4E2A812095FAF00B2FC0F /* XNI_Prefix.pch */; };
 		B5F8536E1239206700E6FD71 /* PackedVectorStructs.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F8536D1239206700E6FD71 /* PackedVectorStructs.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -200,6 +343,30 @@
 		B5F853CE1239357400E6FD71 /* Quaternion.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F853CC1239357400E6FD71 /* Quaternion.m */; };
 		B5F8546D1239484700E6FD71 /* ColorPixelBitmapContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F8546B1239484700E6FD71 /* ColorPixelBitmapContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5F8546E1239484700E6FD71 /* ColorPixelBitmapContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F8546C1239484700E6FD71 /* ColorPixelBitmapContent.m */; };
+		B5FB745712A4ED6E00DB9234 /* IndexArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FB745512A4ED6E00DB9234 /* IndexArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FB745812A4ED6E00DB9234 /* IndexArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FB745612A4ED6E00DB9234 /* IndexArray.m */; };
+		B5FB745B12A4F01400DB9234 /* ShortIndexArray.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FB745912A4F01400DB9234 /* ShortIndexArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FB745C12A4F01400DB9234 /* ShortIndexArray.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FB745A12A4F01400DB9234 /* ShortIndexArray.m */; };
+		B5FE12A4129FDDF70081F7A7 /* NodeContentCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE12A2129FDDF70081F7A7 /* NodeContentCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE12A5129FDDF70081F7A7 /* NodeContentCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE12A3129FDDF70081F7A7 /* NodeContentCollection.m */; };
+		B5FE12B0129FE1730081F7A7 /* ChildCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE12AE129FE1730081F7A7 /* ChildCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE12B1129FE1730081F7A7 /* ChildCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE12AF129FE1730081F7A7 /* ChildCollection.m */; };
+		B5FE12F2129FE8220081F7A7 /* GeometryContentCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE12F0129FE8220081F7A7 /* GeometryContentCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE12F3129FE8220081F7A7 /* GeometryContentCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE12F1129FE8220081F7A7 /* GeometryContentCollection.m */; };
+		B5FE12F6129FE8310081F7A7 /* PositionCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE12F4129FE8310081F7A7 /* PositionCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE12F7129FE8310081F7A7 /* PositionCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE12F5129FE8310081F7A7 /* PositionCollection.m */; };
+		B5FE1330129FEC9A0081F7A7 /* Collection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE132E129FEC9A0081F7A7 /* Collection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE13CA12A00AC60081F7A7 /* VertexChannelCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE13C812A00AC60081F7A7 /* VertexChannelCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE13CB12A00AC60081F7A7 /* VertexChannelCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE13C912A00AC60081F7A7 /* VertexChannelCollection.m */; };
+		B5FE13D512A00BE50081F7A7 /* VertexChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE13D312A00BE50081F7A7 /* VertexChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE13D612A00BE50081F7A7 /* VertexChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE13D412A00BE50081F7A7 /* VertexChannel.m */; };
+		B5FE13DB12A00C6B0081F7A7 /* IndirectPositionCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE13D912A00C6B0081F7A7 /* IndirectPositionCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE13DC12A00C6B0081F7A7 /* IndirectPositionCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE13DA12A00C6B0081F7A7 /* IndirectPositionCollection.m */; };
+		B5FE13EC12A00D580081F7A7 /* Collection.m.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE13EB12A00D580081F7A7 /* Collection.m.h */; };
+		B5FE146712A01BB50081F7A7 /* VertexChannelNames.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE146512A01BB50081F7A7 /* VertexChannelNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE146812A01BB50081F7A7 /* VertexChannelNames.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE146612A01BB50081F7A7 /* VertexChannelNames.m */; };
+		B5FE14BE12A02DCD0081F7A7 /* VertexDeclarationContent.h in Headers */ = {isa = PBXBuildFile; fileRef = B5FE14BC12A02DCD0081F7A7 /* VertexDeclarationContent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FE14BF12A02DCD0081F7A7 /* VertexDeclarationContent.m in Sources */ = {isa = PBXBuildFile; fileRef = B5FE14BD12A02DCD0081F7A7 /* VertexDeclarationContent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,9 +391,101 @@
 		B5080702122E4EE900C330E2 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
 		B508070A122E4FBB00C330E2 /* GraphicsResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsResource.h; sourceTree = "<group>"; };
 		B508070B122E4FBB00C330E2 /* GraphicsResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsResource.m; sourceTree = "<group>"; };
+		B50FE47B12B88433003D4F1A /* SoundEffectContent+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SoundEffectContent+Internal.h"; sourceTree = "<group>"; };
+		B50FE48612B885BC003D4F1A /* SoundEffectReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectReader.h; sourceTree = "<group>"; };
+		B50FE48712B885BC003D4F1A /* SoundEffectReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectReader.m; sourceTree = "<group>"; };
+		B50FE50612B88F64003D4F1A /* SoundEffectInstance+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SoundEffectInstance+Internal.h"; sourceTree = "<group>"; };
+		B50FE76112B8B11C003D4F1A /* SoundEffect+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SoundEffect+Internal.h"; sourceTree = "<group>"; };
+		B51ADC4D12B8358C004E2DB0 /* SoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffect.h; sourceTree = "<group>"; };
+		B51ADC4E12B8358C004E2DB0 /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffect.m; sourceTree = "<group>"; };
+		B51ADC5912B83868004E2DB0 /* AudioEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEnums.h; sourceTree = "<group>"; };
+		B51ADC5B12B83876004E2DB0 /* Retronator.Xni.Framework.Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.Audio.h; sourceTree = "<group>"; };
+		B51ADC5D12B83888004E2DB0 /* Retronator.Xni.Framework.Audio.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.Audio.classes.h; sourceTree = "<group>"; };
+		B51ADC5F12B838AD004E2DB0 /* SoundEffectInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectInstance.h; sourceTree = "<group>"; };
+		B51ADC6012B838AD004E2DB0 /* SoundEffectInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectInstance.m; sourceTree = "<group>"; };
+		B51ADC6412B83E16004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.Content.Pipeline.Audio.h; sourceTree = "<group>"; };
+		B51ADC6612B83E33004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.Content.Pipeline.Audio.classes.h; sourceTree = "<group>"; };
+		B51ADC7912B83EE9004E2DB0 /* SongContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongContent.h; sourceTree = "<group>"; };
+		B51ADC7A12B83EE9004E2DB0 /* SongContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongContent.m; sourceTree = "<group>"; };
+		B51ADC7D12B83EFD004E2DB0 /* SongProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongProcessor.h; sourceTree = "<group>"; };
+		B51ADC7E12B83EFD004E2DB0 /* SongProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongProcessor.m; sourceTree = "<group>"; };
+		B51ADC8112B83F62004E2DB0 /* SoundEffectContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectContent.h; sourceTree = "<group>"; };
+		B51ADC8212B83F62004E2DB0 /* SoundEffectContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectContent.m; sourceTree = "<group>"; };
+		B51ADC8512B83F75004E2DB0 /* SoundEffectProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffectProcessor.h; sourceTree = "<group>"; };
+		B51ADC8612B83F75004E2DB0 /* SoundEffectProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffectProcessor.m; sourceTree = "<group>"; };
+		B51ADC9112B83FF2004E2DB0 /* AudioContentEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioContentEnums.h; sourceTree = "<group>"; };
+		B51ADC9312B84088004E2DB0 /* AudioContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioContent.h; sourceTree = "<group>"; };
+		B51ADC9412B84088004E2DB0 /* AudioContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioContent.m; sourceTree = "<group>"; };
+		B51ADC9712B84095004E2DB0 /* AudioFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFormat.h; sourceTree = "<group>"; };
+		B51ADC9812B84095004E2DB0 /* AudioFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFormat.m; sourceTree = "<group>"; };
+		B51ADCCD12B84FD8004E2DB0 /* WavImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavImporter.h; sourceTree = "<group>"; };
+		B51ADCCE12B84FD8004E2DB0 /* WavImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavImporter.m; sourceTree = "<group>"; };
+		B51ADCD112B84FE1004E2DB0 /* Mp3Importer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Importer.h; sourceTree = "<group>"; };
+		B51ADCD212B84FE1004E2DB0 /* Mp3Importer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Importer.m; sourceTree = "<group>"; };
+		B528F52E12AE5788006FBBC1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B52B2B4712ADAEEC00E8A377 /* Retronator.Xni.Framework.GamerServices.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.GamerServices.classes.h; sourceTree = "<group>"; };
+		B52B2B4912ADAEF800E8A377 /* Retronator.Xni.Framework.GamerServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.GamerServices.h; sourceTree = "<group>"; };
+		B52B2B4B12ADAF1000E8A377 /* Guide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Guide.h; sourceTree = "<group>"; };
+		B52B2B4C12ADAF1000E8A377 /* Guide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Guide.m; sourceTree = "<group>"; };
+		B52B2B4F12ADB20000E8A377 /* Guide+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Guide+Internal.h"; sourceTree = "<group>"; };
 		B52BACF9125527E200B308F6 /* TouchPanel+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TouchPanel+Internal.h"; sourceTree = "<group>"; };
 		B52BADAC1255426600B308F6 /* FrameworkEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameworkEnums.h; sourceTree = "<group>"; };
 		B53649F1127DE08100CAE30C /* GameWindow+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GameWindow+Internal.h"; sourceTree = "<group>"; };
+		B54543DB129B4705002A28BE /* BasicEffectReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicEffectReader.h; sourceTree = "<group>"; };
+		B54543DC129B4705002A28BE /* BasicEffectReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicEffectReader.m; sourceTree = "<group>"; };
+		B54543DF129B4716002A28BE /* IndexBufferReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexBufferReader.h; sourceTree = "<group>"; };
+		B54543E0129B4716002A28BE /* IndexBufferReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexBufferReader.m; sourceTree = "<group>"; };
+		B54543E3129B4727002A28BE /* VertexBufferReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexBufferReader.h; sourceTree = "<group>"; };
+		B54543E4129B4727002A28BE /* VertexBufferReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexBufferReader.m; sourceTree = "<group>"; };
+		B54543E7129B473A002A28BE /* ModelMeshPartReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshPartReader.h; sourceTree = "<group>"; };
+		B54543E8129B473A002A28BE /* ModelMeshPartReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshPartReader.m; sourceTree = "<group>"; };
+		B54543F5129B47A1002A28BE /* ModelMeshReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshReader.h; sourceTree = "<group>"; };
+		B54543F6129B47A1002A28BE /* ModelMeshReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshReader.m; sourceTree = "<group>"; };
+		B5454401129B4F4D002A28BE /* ContentManager+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ContentManager+Internal.h"; sourceTree = "<group>"; };
+		B54F9BBF12A2CA1B00F7411F /* XImporterReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XImporterReader.h; sourceTree = "<group>"; };
+		B54F9BC012A2CA1B00F7411F /* XImporterReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XImporterReader.m; sourceTree = "<group>"; };
+		B554F7B712A3B19100F20A0D /* TextureReferenceDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureReferenceDictionary.h; sourceTree = "<group>"; };
+		B554F7B812A3B19100F20A0D /* TextureReferenceDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureReferenceDictionary.m; sourceTree = "<group>"; };
+		B554F7BF12A3B48600F20A0D /* ExternalReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalReference.h; sourceTree = "<group>"; };
+		B554F7C012A3B48600F20A0D /* ExternalReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalReference.m; sourceTree = "<group>"; };
+		B554F7D112A3BD1B00F20A0D /* NamedValueDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedValueDictionary.h; sourceTree = "<group>"; };
+		B554F7D212A3BD1B00F20A0D /* NamedValueDictionary.m.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamedValueDictionary.m.h; sourceTree = "<group>"; };
+		B554F7F112A3C23300F20A0D /* OpaqueDataDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpaqueDataDictionary.h; sourceTree = "<group>"; };
+		B554F7F212A3C23300F20A0D /* OpaqueDataDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpaqueDataDictionary.m; sourceTree = "<group>"; };
+		B554F8CE12A3F3E400F20A0D /* ModelBone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBone.h; sourceTree = "<group>"; };
+		B554F8CF12A3F3E400F20A0D /* ModelBone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBone.m; sourceTree = "<group>"; };
+		B554F8DD12A3F3FD00F20A0D /* ModelBoneCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBoneCollection.h; sourceTree = "<group>"; };
+		B554F8DE12A3F3FD00F20A0D /* ModelBoneCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBoneCollection.m; sourceTree = "<group>"; };
+		B554F8F112A3F6AB00F20A0D /* ReadOnlyCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadOnlyCollection.h; sourceTree = "<group>"; };
+		B554F8F212A3F6AB00F20A0D /* ReadOnlyCollection.m.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadOnlyCollection.m.h; sourceTree = "<group>"; };
+		B554F94B12A4033600F20A0D /* ModelBoneContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBoneContent.h; sourceTree = "<group>"; };
+		B554F94C12A4033600F20A0D /* ModelBoneContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBoneContent.m; sourceTree = "<group>"; };
+		B554F94F12A4034100F20A0D /* ModelBoneContentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBoneContentCollection.h; sourceTree = "<group>"; };
+		B554F95012A4034100F20A0D /* ModelBoneContentCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBoneContentCollection.m; sourceTree = "<group>"; };
+		B554F99712A415AD00F20A0D /* ModelBoneContent+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModelBoneContent+Internal.h"; sourceTree = "<group>"; };
+		B554F9B312A427DD00F20A0D /* ModelBoneReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelBoneReader.h; sourceTree = "<group>"; };
+		B554F9B412A427DD00F20A0D /* ModelBoneReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelBoneReader.m; sourceTree = "<group>"; };
+		B554F9CF12A42DC600F20A0D /* IndexBuffer+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IndexBuffer+Internal.h"; sourceTree = "<group>"; };
+		B554F9DD12A42FD000F20A0D /* GraphicsDevice+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GraphicsDevice+Internal.h"; sourceTree = "<group>"; };
+		B554F9EE12A433B500F20A0D /* VertexBuffer+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VertexBuffer+Internal.h"; sourceTree = "<group>"; };
+		B554FA0B12A4362B00F20A0D /* VertexDeclarationReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexDeclarationReader.h; sourceTree = "<group>"; };
+		B554FA0C12A4362B00F20A0D /* VertexDeclarationReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexDeclarationReader.m; sourceTree = "<group>"; };
+		B554FA2012A43A3A00F20A0D /* ModelBone+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModelBone+Internal.h"; sourceTree = "<group>"; };
+		B554FC9812A45A9D00F20A0D /* VertexPositionNormalTextureArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexPositionNormalTextureArray.h; sourceTree = "<group>"; };
+		B554FC9912A45A9D00F20A0D /* VertexPositionNormalTextureArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexPositionNormalTextureArray.m; sourceTree = "<group>"; };
+		B554FC9C12A45B3300F20A0D /* VertexPositionNormalTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexPositionNormalTexture.h; sourceTree = "<group>"; };
+		B554FC9D12A45B3300F20A0D /* VertexPositionNormalTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexPositionNormalTexture.m; sourceTree = "<group>"; };
+		B5672C6A129AFDCE00DE5AAC /* ModelMeshCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshCollection.h; sourceTree = "<group>"; };
+		B5672C6B129AFDCE00DE5AAC /* ModelMeshCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshCollection.m; sourceTree = "<group>"; };
+		B5672C78129AFE8500DE5AAC /* ModelMeshPartCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshPartCollection.h; sourceTree = "<group>"; };
+		B5672C79129AFE8500DE5AAC /* ModelMeshPartCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshPartCollection.m; sourceTree = "<group>"; };
+		B5672CC0129B02D100DE5AAC /* ModelEffectCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelEffectCollection.h; sourceTree = "<group>"; };
+		B5672CC1129B02D100DE5AAC /* ModelEffectCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelEffectCollection.m; sourceTree = "<group>"; };
+		B5672CD7129B0CAC00DE5AAC /* Model+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Model+Internal.h"; sourceTree = "<group>"; };
+		B5672CD9129B0CB700DE5AAC /* ModelMesh+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModelMesh+Internal.h"; sourceTree = "<group>"; };
+		B5672CDB129B0CC300DE5AAC /* ModelMeshPart+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModelMeshPart+Internal.h"; sourceTree = "<group>"; };
+		B5672D18129B174100DE5AAC /* ModelReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelReader.h; sourceTree = "<group>"; };
+		B5672D19129B174100DE5AAC /* ModelReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelReader.m; sourceTree = "<group>"; };
 		B56CC50B123A6F3600B72347 /* MipmapChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MipmapChain.h; sourceTree = "<group>"; };
 		B56CC50C123A6F3600B72347 /* MipmapChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MipmapChain.m; sourceTree = "<group>"; };
 		B56CC50F123A739100B72347 /* MipmapChainCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MipmapChainCollection.h; sourceTree = "<group>"; };
@@ -240,14 +499,17 @@
 		B56CC5C2123A927500B72347 /* ContentTypeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTypeReader.m; sourceTree = "<group>"; };
 		B56CC5C5123A928A00B72347 /* ContentTypeReaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentTypeReaderManager.h; sourceTree = "<group>"; };
 		B56CC5C6123A928A00B72347 /* ContentTypeReaderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentTypeReaderManager.m; sourceTree = "<group>"; };
-		B56CC5C9123A92BB00B72347 /* Texture2DContentTypeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2DContentTypeReader.h; sourceTree = "<group>"; };
-		B56CC5CA123A92BB00B72347 /* Texture2DContentTypeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2DContentTypeReader.m; sourceTree = "<group>"; };
+		B56CC5C9123A92BB00B72347 /* Texture2DReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2DReader.h; sourceTree = "<group>"; };
+		B56CC5CA123A92BB00B72347 /* Texture2DReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2DReader.m; sourceTree = "<group>"; };
 		B57E3663124BC23E00DDAA42 /* Viewport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Viewport.h; sourceTree = "<group>"; };
 		B57E3664124BC23E00DDAA42 /* Viewport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Viewport.m; sourceTree = "<group>"; };
 		B57E36BC124BE2DD00DDAA42 /* VertexPositionColorTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexPositionColorTexture.h; sourceTree = "<group>"; };
 		B57E36BD124BE2DD00DDAA42 /* VertexPositionColorTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexPositionColorTexture.m; sourceTree = "<group>"; };
 		B57E36CA124BE36E00DDAA42 /* VertexPositionColorTextureArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexPositionColorTextureArray.h; sourceTree = "<group>"; };
 		B57E36CB124BE36E00DDAA42 /* VertexPositionColorTextureArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexPositionColorTextureArray.m; sourceTree = "<group>"; };
+		B594878112AEF3DA00EE601F /* PointStruct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointStruct.h; sourceTree = "<group>"; };
+		B594878312AEF44900EE601F /* XniPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XniPoint.h; sourceTree = "<group>"; };
+		B594878412AEF44900EE601F /* XniPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XniPoint.m; sourceTree = "<group>"; };
 		B59AD7EE1236E07300F99511 /* ContentImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentImporter.h; sourceTree = "<group>"; };
 		B59AD7EF1236E07300F99511 /* ContentImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentImporter.m; sourceTree = "<group>"; };
 		B59AD80B1236E21900F99511 /* Retronator.Xni.Framework.Content.Pipeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.Content.Pipeline.h; sourceTree = "<group>"; };
@@ -350,11 +612,53 @@
 		B5E78B6D12429B1A00DDD99A /* SamplerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SamplerState.m; sourceTree = "<group>"; };
 		B5E78B7812429BBD00DDD99A /* Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Effect.h; sourceTree = "<group>"; };
 		B5E78B7912429BBD00DDD99A /* Effect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Effect.m; sourceTree = "<group>"; };
+		B5E7EC52129AE1A00015B663 /* NodeContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeContent.h; sourceTree = "<group>"; };
+		B5E7EC53129AE1A00015B663 /* NodeContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeContent.m; sourceTree = "<group>"; };
+		B5E7EC59129AE1BF0015B663 /* MeshContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshContent.h; sourceTree = "<group>"; };
+		B5E7EC5A129AE1BF0015B663 /* MeshContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshContent.m; sourceTree = "<group>"; };
+		B5E7EC5D129AE1CD0015B663 /* GeometryContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryContent.h; sourceTree = "<group>"; };
+		B5E7EC5E129AE1CD0015B663 /* GeometryContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryContent.m; sourceTree = "<group>"; };
+		B5E7EC65129AE2340015B663 /* VertexContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexContent.h; sourceTree = "<group>"; };
+		B5E7EC66129AE2340015B663 /* VertexContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexContent.m; sourceTree = "<group>"; };
+		B5E7EC69129AE2410015B663 /* IndexCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexCollection.h; sourceTree = "<group>"; };
+		B5E7EC6A129AE2410015B663 /* IndexCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexCollection.m; sourceTree = "<group>"; };
+		B5E7EC6D129AE2530015B663 /* MaterialContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialContent.h; sourceTree = "<group>"; };
+		B5E7EC6E129AE2530015B663 /* MaterialContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialContent.m; sourceTree = "<group>"; };
+		B5E7EC71129AE2860015B663 /* BasicMaterialContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicMaterialContent.h; sourceTree = "<group>"; };
+		B5E7EC72129AE2860015B663 /* BasicMaterialContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicMaterialContent.m; sourceTree = "<group>"; };
+		B5E7EC75129AE2E10015B663 /* ModelContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelContent.h; sourceTree = "<group>"; };
+		B5E7EC76129AE2E10015B663 /* ModelContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelContent.m; sourceTree = "<group>"; };
+		B5E7EC79129AE2ED0015B663 /* ModelMeshContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshContent.h; sourceTree = "<group>"; };
+		B5E7EC7A129AE2ED0015B663 /* ModelMeshContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshContent.m; sourceTree = "<group>"; };
+		B5E7EC7D129AE2FD0015B663 /* ModelMeshPartContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshPartContent.h; sourceTree = "<group>"; };
+		B5E7EC7E129AE2FD0015B663 /* ModelMeshPartContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshPartContent.m; sourceTree = "<group>"; };
+		B5E7EC81129AE30C0015B663 /* VertexBufferContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexBufferContent.h; sourceTree = "<group>"; };
+		B5E7EC82129AE30C0015B663 /* VertexBufferContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexBufferContent.m; sourceTree = "<group>"; };
+		B5E7EC85129AE3570015B663 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		B5E7EC86129AE3570015B663 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		B5E7EC89129AE3640015B663 /* ModelMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMesh.h; sourceTree = "<group>"; };
+		B5E7EC8A129AE3640015B663 /* ModelMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMesh.m; sourceTree = "<group>"; };
+		B5E7EC8D129AE36E0015B663 /* ModelMeshPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshPart.h; sourceTree = "<group>"; };
+		B5E7EC8E129AE36E0015B663 /* ModelMeshPart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshPart.m; sourceTree = "<group>"; };
+		B5E7ECAC129AE5B40015B663 /* TextureProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureProcessor.h; sourceTree = "<group>"; };
+		B5E7ECAD129AE5B40015B663 /* TextureProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureProcessor.m; sourceTree = "<group>"; };
+		B5E7ECB0129AE5C50015B663 /* ModelProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelProcessor.h; sourceTree = "<group>"; };
+		B5E7ECB1129AE5C50015B663 /* ModelProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelProcessor.m; sourceTree = "<group>"; };
+		B5E7ECB4129AE5D40015B663 /* MaterialProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaterialProcessor.h; sourceTree = "<group>"; };
+		B5E7ECB5129AE5D40015B663 /* MaterialProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaterialProcessor.m; sourceTree = "<group>"; };
+		B5E7ECB8129AE6120015B663 /* XImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XImporter.h; sourceTree = "<group>"; };
+		B5E7ECB9129AE6120015B663 /* XImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XImporter.m; sourceTree = "<group>"; };
+		B5E7ECBC129AE6560015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.Content.Pipeline.Processors.h; sourceTree = "<group>"; };
+		B5E7ECBE129AE6620015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.Content.Pipeline.Processors.classes.h; sourceTree = "<group>"; };
+		B5E7ECD2129AE6A70015B663 /* ContentProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentProcessor.h; sourceTree = "<group>"; };
+		B5E7ECD3129AE6A70015B663 /* ContentProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentProcessor.m; sourceTree = "<group>"; };
+		B5E7ECD6129AE6CA0015B663 /* IContentProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IContentProcessor.h; sourceTree = "<group>"; };
+		B5E7ECD8129AE6D20015B663 /* IContentImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IContentImporter.h; sourceTree = "<group>"; };
 		B5EA634E12491709001245A4 /* VertexStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexStructs.h; sourceTree = "<group>"; };
 		B5EA636D124917E2001245A4 /* VertexPositionColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexPositionColor.h; sourceTree = "<group>"; };
 		B5EA636E124917E2001245A4 /* VertexPositionColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexPositionColor.m; sourceTree = "<group>"; };
-		B5EA637C124921D0001245A4 /* AdaptiveArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveArray.h; sourceTree = "<group>"; };
-		B5EA637D124921D0001245A4 /* AdaptiveArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveArray.m; sourceTree = "<group>"; };
+		B5EA637C124921D0001245A4 /* XniAdaptiveArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XniAdaptiveArray.h; sourceTree = "<group>"; };
+		B5EA637D124921D0001245A4 /* XniAdaptiveArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XniAdaptiveArray.m; sourceTree = "<group>"; };
 		B5EA638D1249229D001245A4 /* VertexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexArray.h; sourceTree = "<group>"; };
 		B5EA638E1249229D001245A4 /* VertexArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexArray.m; sourceTree = "<group>"; };
 		B5EA65511249482D001245A4 /* VertexPositionTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexPositionTexture.h; sourceTree = "<group>"; };
@@ -383,6 +687,13 @@
 		B5EC5A4D1252C2DF001E7DFC /* GestureSample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureSample.h; sourceTree = "<group>"; };
 		B5EC5A4E1252C2DF001E7DFC /* GestureSample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureSample.m; sourceTree = "<group>"; };
 		B5EC5A921252C710001E7DFC /* Retronator.Xni.Framework.Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Retronator.Xni.Framework.Input.h; sourceTree = "<group>"; };
+		B5EFD742129B2A7800FDC150 /* ModelMeshContentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshContentCollection.h; sourceTree = "<group>"; };
+		B5EFD743129B2A7800FDC150 /* ModelMeshContentCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshContentCollection.m; sourceTree = "<group>"; };
+		B5EFD746129B2A8900FDC150 /* ModelMeshPartContentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelMeshPartContentCollection.h; sourceTree = "<group>"; };
+		B5EFD747129B2A8900FDC150 /* ModelMeshPartContentCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelMeshPartContentCollection.m; sourceTree = "<group>"; };
+		B5EFD763129B2B8100FDC150 /* ModelMeshContent+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModelMeshContent+Internal.h"; sourceTree = "<group>"; };
+		B5EFD765129B2B8B00FDC150 /* ModelContent+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModelContent+Internal.h"; sourceTree = "<group>"; };
+		B5EFD767129B2B9700FDC150 /* ModelMeshPartContent+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModelMeshPartContent+Internal.h"; sourceTree = "<group>"; };
 		B5F415B1127780840012BAF1 /* TextureCollection+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TextureCollection+Internal.h"; sourceTree = "<group>"; };
 		B5F415CD127781340012BAF1 /* SamplerStateCollection+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SamplerStateCollection+Internal.h"; sourceTree = "<group>"; };
 		B5F415DC127781D80012BAF1 /* XniSamplerEventArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XniSamplerEventArgs.h; sourceTree = "<group>"; };
@@ -407,6 +718,30 @@
 		B5F853CC1239357400E6FD71 /* Quaternion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quaternion.m; sourceTree = "<group>"; };
 		B5F8546B1239484700E6FD71 /* ColorPixelBitmapContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPixelBitmapContent.h; sourceTree = "<group>"; };
 		B5F8546C1239484700E6FD71 /* ColorPixelBitmapContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPixelBitmapContent.m; sourceTree = "<group>"; };
+		B5FB745512A4ED6E00DB9234 /* IndexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexArray.h; sourceTree = "<group>"; };
+		B5FB745612A4ED6E00DB9234 /* IndexArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexArray.m; sourceTree = "<group>"; };
+		B5FB745912A4F01400DB9234 /* ShortIndexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortIndexArray.h; sourceTree = "<group>"; };
+		B5FB745A12A4F01400DB9234 /* ShortIndexArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortIndexArray.m; sourceTree = "<group>"; };
+		B5FE12A2129FDDF70081F7A7 /* NodeContentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeContentCollection.h; sourceTree = "<group>"; };
+		B5FE12A3129FDDF70081F7A7 /* NodeContentCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeContentCollection.m; sourceTree = "<group>"; };
+		B5FE12AE129FE1730081F7A7 /* ChildCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildCollection.h; sourceTree = "<group>"; };
+		B5FE12AF129FE1730081F7A7 /* ChildCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildCollection.m; sourceTree = "<group>"; };
+		B5FE12F0129FE8220081F7A7 /* GeometryContentCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeometryContentCollection.h; sourceTree = "<group>"; };
+		B5FE12F1129FE8220081F7A7 /* GeometryContentCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeometryContentCollection.m; sourceTree = "<group>"; };
+		B5FE12F4129FE8310081F7A7 /* PositionCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionCollection.h; sourceTree = "<group>"; };
+		B5FE12F5129FE8310081F7A7 /* PositionCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionCollection.m; sourceTree = "<group>"; };
+		B5FE132E129FEC9A0081F7A7 /* Collection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collection.h; sourceTree = "<group>"; };
+		B5FE13C812A00AC60081F7A7 /* VertexChannelCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexChannelCollection.h; sourceTree = "<group>"; };
+		B5FE13C912A00AC60081F7A7 /* VertexChannelCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexChannelCollection.m; sourceTree = "<group>"; };
+		B5FE13D312A00BE50081F7A7 /* VertexChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexChannel.h; sourceTree = "<group>"; };
+		B5FE13D412A00BE50081F7A7 /* VertexChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexChannel.m; sourceTree = "<group>"; };
+		B5FE13D912A00C6B0081F7A7 /* IndirectPositionCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndirectPositionCollection.h; sourceTree = "<group>"; };
+		B5FE13DA12A00C6B0081F7A7 /* IndirectPositionCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndirectPositionCollection.m; sourceTree = "<group>"; };
+		B5FE13EB12A00D580081F7A7 /* Collection.m.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collection.m.h; sourceTree = "<group>"; };
+		B5FE146512A01BB50081F7A7 /* VertexChannelNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexChannelNames.h; sourceTree = "<group>"; };
+		B5FE146612A01BB50081F7A7 /* VertexChannelNames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexChannelNames.m; sourceTree = "<group>"; };
+		B5FE14BC12A02DCD0081F7A7 /* VertexDeclarationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertexDeclarationContent.h; sourceTree = "<group>"; };
+		B5FE14BD12A02DCD0081F7A7 /* VertexDeclarationContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertexDeclarationContent.m; sourceTree = "<group>"; };
 		D2AAC07E0554694100DB518D /* libXNI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXNI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -453,6 +788,7 @@
 			isa = PBXGroup;
 			children = (
 				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				B528F52E12AE5788006FBBC1 /* GameKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -474,20 +810,84 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		B51ADC4A12B83549004E2DB0 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B51ADC5D12B83888004E2DB0 /* Retronator.Xni.Framework.Audio.classes.h */,
+				B51ADC5B12B83876004E2DB0 /* Retronator.Xni.Framework.Audio.h */,
+				B51ADC5912B83868004E2DB0 /* AudioEnums.h */,
+				B51ADC4D12B8358C004E2DB0 /* SoundEffect.h */,
+				B50FE76112B8B11C003D4F1A /* SoundEffect+Internal.h */,
+				B51ADC4E12B8358C004E2DB0 /* SoundEffect.m */,
+				B51ADC5F12B838AD004E2DB0 /* SoundEffectInstance.h */,
+				B50FE50612B88F64003D4F1A /* SoundEffectInstance+Internal.h */,
+				B51ADC6012B838AD004E2DB0 /* SoundEffectInstance.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B51ADC6312B83DF1004E2DB0 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				B51ADC6612B83E33004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.classes.h */,
+				B51ADC6412B83E16004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.h */,
+				B51ADC9112B83FF2004E2DB0 /* AudioContentEnums.h */,
+				B51ADC9312B84088004E2DB0 /* AudioContent.h */,
+				B51ADC9412B84088004E2DB0 /* AudioContent.m */,
+				B51ADC9712B84095004E2DB0 /* AudioFormat.h */,
+				B51ADC9812B84095004E2DB0 /* AudioFormat.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		B52B2B4612ADAEB600E8A377 /* GamerServices */ = {
+			isa = PBXGroup;
+			children = (
+				B52B2B4712ADAEEC00E8A377 /* Retronator.Xni.Framework.GamerServices.classes.h */,
+				B52B2B4912ADAEF800E8A377 /* Retronator.Xni.Framework.GamerServices.h */,
+				B52B2B4B12ADAF1000E8A377 /* Guide.h */,
+				B52B2B4F12ADB20000E8A377 /* Guide+Internal.h */,
+				B52B2B4C12ADAF1000E8A377 /* Guide.m */,
+			);
+			path = GamerServices;
+			sourceTree = "<group>";
+		};
 		B59AD7E81236E02500F99511 /* Pipeline */ = {
 			isa = PBXGroup;
 			children = (
+				B51ADC6312B83DF1004E2DB0 /* Audio */,
 				B59AD8181236E53600F99511 /* Graphics */,
+				B5E7ECA6129AE5920015B663 /* Processors */,
 				B59AD80D1236E22B00F99511 /* Retronator.Xni.Framework.Content.Pipeline.classes.h */,
 				B59AD80B1236E21900F99511 /* Retronator.Xni.Framework.Content.Pipeline.h */,
+				B5FE12AE129FE1730081F7A7 /* ChildCollection.h */,
+				B5FE12AF129FE1730081F7A7 /* ChildCollection.m */,
+				B554F7F112A3C23300F20A0D /* OpaqueDataDictionary.h */,
+				B554F7F212A3C23300F20A0D /* OpaqueDataDictionary.m */,
+				B554F7D112A3BD1B00F20A0D /* NamedValueDictionary.h */,
+				B554F7D212A3BD1B00F20A0D /* NamedValueDictionary.m.h */,
+				B554F7BF12A3B48600F20A0D /* ExternalReference.h */,
+				B554F7C012A3B48600F20A0D /* ExternalReference.m */,
+				B59AD8211236E76E00F99511 /* ContentIdentity.h */,
+				B59AD8221236E76E00F99511 /* ContentIdentity.m */,
+				B59AD81D1236E59A00F99511 /* ContentItem.h */,
+				B59AD81E1236E59A00F99511 /* ContentItem.m */,
+				B5E7ECD6129AE6CA0015B663 /* IContentProcessor.h */,
+				B5E7ECD2129AE6A70015B663 /* ContentProcessor.h */,
+				B5E7ECD3129AE6A70015B663 /* ContentProcessor.m */,
+				B5E7ECD8129AE6D20015B663 /* IContentImporter.h */,
 				B59AD7EE1236E07300F99511 /* ContentImporter.h */,
 				B59AD7EF1236E07300F99511 /* ContentImporter.m */,
 				B59AD80F1236E25700F99511 /* TextureImporter.h */,
 				B59AD8101236E25700F99511 /* TextureImporter.m */,
-				B59AD81D1236E59A00F99511 /* ContentItem.h */,
-				B59AD81E1236E59A00F99511 /* ContentItem.m */,
-				B59AD8211236E76E00F99511 /* ContentIdentity.h */,
-				B59AD8221236E76E00F99511 /* ContentIdentity.m */,
+				B5E7ECB8129AE6120015B663 /* XImporter.h */,
+				B5E7ECB9129AE6120015B663 /* XImporter.m */,
+				B54F9BBF12A2CA1B00F7411F /* XImporterReader.h */,
+				B54F9BC012A2CA1B00F7411F /* XImporterReader.m */,
+				B51ADCCD12B84FD8004E2DB0 /* WavImporter.h */,
+				B51ADCCE12B84FD8004E2DB0 /* WavImporter.m */,
+				B51ADCD112B84FE1004E2DB0 /* Mp3Importer.h */,
+				B51ADCD212B84FE1004E2DB0 /* Mp3Importer.m */,
 			);
 			path = Pipeline;
 			sourceTree = "<group>";
@@ -513,6 +913,36 @@
 				B56CC526123A79E800B72347 /* Texture2DContent.m */,
 				B5F85385123929F800E6FD71 /* VectorConverter.h */,
 				B5F85386123929F800E6FD71 /* VectorConverter.m */,
+				B5E7EC52129AE1A00015B663 /* NodeContent.h */,
+				B5E7EC53129AE1A00015B663 /* NodeContent.m */,
+				B5FE12A2129FDDF70081F7A7 /* NodeContentCollection.h */,
+				B5FE12A3129FDDF70081F7A7 /* NodeContentCollection.m */,
+				B5E7EC59129AE1BF0015B663 /* MeshContent.h */,
+				B5E7EC5A129AE1BF0015B663 /* MeshContent.m */,
+				B5FE12F0129FE8220081F7A7 /* GeometryContentCollection.h */,
+				B5FE12F1129FE8220081F7A7 /* GeometryContentCollection.m */,
+				B5FE12F4129FE8310081F7A7 /* PositionCollection.h */,
+				B5FE12F5129FE8310081F7A7 /* PositionCollection.m */,
+				B5E7EC5D129AE1CD0015B663 /* GeometryContent.h */,
+				B5E7EC5E129AE1CD0015B663 /* GeometryContent.m */,
+				B5E7EC65129AE2340015B663 /* VertexContent.h */,
+				B5E7EC66129AE2340015B663 /* VertexContent.m */,
+				B5FE13C812A00AC60081F7A7 /* VertexChannelCollection.h */,
+				B5FE13C912A00AC60081F7A7 /* VertexChannelCollection.m */,
+				B5FE13D312A00BE50081F7A7 /* VertexChannel.h */,
+				B5FE13D412A00BE50081F7A7 /* VertexChannel.m */,
+				B5FE13D912A00C6B0081F7A7 /* IndirectPositionCollection.h */,
+				B5FE13DA12A00C6B0081F7A7 /* IndirectPositionCollection.m */,
+				B5FE146512A01BB50081F7A7 /* VertexChannelNames.h */,
+				B5FE146612A01BB50081F7A7 /* VertexChannelNames.m */,
+				B5E7EC69129AE2410015B663 /* IndexCollection.h */,
+				B5E7EC6A129AE2410015B663 /* IndexCollection.m */,
+				B5E7EC6D129AE2530015B663 /* MaterialContent.h */,
+				B5E7EC6E129AE2530015B663 /* MaterialContent.m */,
+				B5E7EC71129AE2860015B663 /* BasicMaterialContent.h */,
+				B5E7EC72129AE2860015B663 /* BasicMaterialContent.m */,
+				B554F7B712A3B19100F20A0D /* TextureReferenceDictionary.h */,
+				B554F7B812A3B19100F20A0D /* TextureReferenceDictionary.m */,
 			);
 			path = Graphics;
 			sourceTree = "<group>";
@@ -534,6 +964,7 @@
 				B5A1C83012353F9B00DB60CB /* Retronator.Xni.Framework.Content.classes.h */,
 				B5A1C82E12353F8700DB60CB /* Retronator.Xni.Framework.Content.h */,
 				B5A1C83212353FBB00DB60CB /* ContentManager.h */,
+				B5454401129B4F4D002A28BE /* ContentManager+Internal.h */,
 				B5A1C83312353FBB00DB60CB /* ContentManager.m */,
 				B56CC5BB123A915700B72347 /* ContentReader.h */,
 				B56CC5BC123A915700B72347 /* ContentReader.m */,
@@ -541,8 +972,26 @@
 				B56CC5C6123A928A00B72347 /* ContentTypeReaderManager.m */,
 				B56CC5C1123A927500B72347 /* ContentTypeReader.h */,
 				B56CC5C2123A927500B72347 /* ContentTypeReader.m */,
-				B56CC5C9123A92BB00B72347 /* Texture2DContentTypeReader.h */,
-				B56CC5CA123A92BB00B72347 /* Texture2DContentTypeReader.m */,
+				B56CC5C9123A92BB00B72347 /* Texture2DReader.h */,
+				B56CC5CA123A92BB00B72347 /* Texture2DReader.m */,
+				B5672D18129B174100DE5AAC /* ModelReader.h */,
+				B5672D19129B174100DE5AAC /* ModelReader.m */,
+				B54543F5129B47A1002A28BE /* ModelMeshReader.h */,
+				B54543F6129B47A1002A28BE /* ModelMeshReader.m */,
+				B54543E7129B473A002A28BE /* ModelMeshPartReader.h */,
+				B54543E8129B473A002A28BE /* ModelMeshPartReader.m */,
+				B54543DB129B4705002A28BE /* BasicEffectReader.h */,
+				B54543DC129B4705002A28BE /* BasicEffectReader.m */,
+				B54543DF129B4716002A28BE /* IndexBufferReader.h */,
+				B54543E0129B4716002A28BE /* IndexBufferReader.m */,
+				B54543E3129B4727002A28BE /* VertexBufferReader.h */,
+				B54543E4129B4727002A28BE /* VertexBufferReader.m */,
+				B554F9B312A427DD00F20A0D /* ModelBoneReader.h */,
+				B554F9B412A427DD00F20A0D /* ModelBoneReader.m */,
+				B554FA0B12A4362B00F20A0D /* VertexDeclarationReader.h */,
+				B554FA0C12A4362B00F20A0D /* VertexDeclarationReader.m */,
+				B50FE48612B885BC003D4F1A /* SoundEffectReader.h */,
+				B50FE48712B885BC003D4F1A /* SoundEffectReader.m */,
 			);
 			path = Content;
 			sourceTree = "<group>";
@@ -579,6 +1028,8 @@
 				B5EA65521249482D001245A4 /* VertexPositionTexture.m */,
 				B57E36BC124BE2DD00DDAA42 /* VertexPositionColorTexture.h */,
 				B57E36BD124BE2DD00DDAA42 /* VertexPositionColorTexture.m */,
+				B554FC9C12A45B3300F20A0D /* VertexPositionNormalTexture.h */,
+				B554FC9D12A45B3300F20A0D /* VertexPositionNormalTexture.m */,
 				B5BBC2AC1248F0C40066F5ED /* VertexDeclaration.h */,
 				B5BBC2AD1248F0C40066F5ED /* VertexDeclaration.m */,
 				B5EA638D1249229D001245A4 /* VertexArray.h */,
@@ -589,12 +1040,40 @@
 				B5EA657712494AC3001245A4 /* VertexPositionTextureArray.m */,
 				B57E36CA124BE36E00DDAA42 /* VertexPositionColorTextureArray.h */,
 				B57E36CB124BE36E00DDAA42 /* VertexPositionColorTextureArray.m */,
+				B554FC9812A45A9D00F20A0D /* VertexPositionNormalTextureArray.h */,
+				B554FC9912A45A9D00F20A0D /* VertexPositionNormalTextureArray.m */,
+				B5FB745512A4ED6E00DB9234 /* IndexArray.h */,
+				B5FB745612A4ED6E00DB9234 /* IndexArray.m */,
+				B5FB745912A4F01400DB9234 /* ShortIndexArray.h */,
+				B5FB745A12A4F01400DB9234 /* ShortIndexArray.m */,
 				B5BBC2D01248F98D0066F5ED /* VertexBuffer.h */,
+				B554F9EE12A433B500F20A0D /* VertexBuffer+Internal.h */,
 				B5BBC2D11248F98D0066F5ED /* VertexBuffer.m */,
 				B5BBC2EA1248FC7A0066F5ED /* VertexBufferBinding.h */,
 				B5BBC2EB1248FC7A0066F5ED /* VertexBufferBinding.m */,
 				B5BBC1CD1248D4CB0066F5ED /* IndexBuffer.h */,
+				B554F9CF12A42DC600F20A0D /* IndexBuffer+Internal.h */,
 				B5BBC1CE1248D4CB0066F5ED /* IndexBuffer.m */,
+				B5E7EC85129AE3570015B663 /* Model.h */,
+				B5672CD7129B0CAC00DE5AAC /* Model+Internal.h */,
+				B5E7EC86129AE3570015B663 /* Model.m */,
+				B5672C6A129AFDCE00DE5AAC /* ModelMeshCollection.h */,
+				B5672C6B129AFDCE00DE5AAC /* ModelMeshCollection.m */,
+				B5E7EC89129AE3640015B663 /* ModelMesh.h */,
+				B5672CD9129B0CB700DE5AAC /* ModelMesh+Internal.h */,
+				B5E7EC8A129AE3640015B663 /* ModelMesh.m */,
+				B5672CC0129B02D100DE5AAC /* ModelEffectCollection.h */,
+				B5672CC1129B02D100DE5AAC /* ModelEffectCollection.m */,
+				B5672C78129AFE8500DE5AAC /* ModelMeshPartCollection.h */,
+				B5672C79129AFE8500DE5AAC /* ModelMeshPartCollection.m */,
+				B5E7EC8D129AE36E0015B663 /* ModelMeshPart.h */,
+				B5672CDB129B0CC300DE5AAC /* ModelMeshPart+Internal.h */,
+				B5E7EC8E129AE36E0015B663 /* ModelMeshPart.m */,
+				B554F8CE12A3F3E400F20A0D /* ModelBone.h */,
+				B554FA2012A43A3A00F20A0D /* ModelBone+Internal.h */,
+				B554F8CF12A3F3E400F20A0D /* ModelBone.m */,
+				B554F8DD12A3F3FD00F20A0D /* ModelBoneCollection.h */,
+				B554F8DE12A3F3FD00F20A0D /* ModelBoneCollection.m */,
 				B5E78B6012429AEC00DDD99A /* BlendState.h */,
 				B5E78B6112429AEC00DDD99A /* BlendState.m */,
 				B5E78B6412429AF900DDD99A /* DepthStencilState.h */,
@@ -615,6 +1094,7 @@
 				B57E3664124BC23E00DDAA42 /* Viewport.m */,
 				B5DDE82A11FF10EF000DB38B /* IGraphicsDeviceService.h */,
 				B5DDE85A11FF1326000DB38B /* GraphicsDevice.h */,
+				B554F9DD12A42FD000F20A0D /* GraphicsDevice+Internal.h */,
 				B5DDE85B11FF1326000DB38B /* GraphicsDevice.m */,
 				B5DDE8C111FF29E8000DB38B /* ReachGraphicsDevice.h */,
 				B5DDE8C211FF29E8000DB38B /* ReachGraphicsDevice.m */,
@@ -645,6 +1125,8 @@
 		B5DE188E11F887A000BF3275 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				B51ADC4A12B83549004E2DB0 /* Audio */,
+				B52B2B4612ADAEB600E8A377 /* GamerServices */,
 				B5EC59F41252B8B6001E7DFC /* Input */,
 				B5A1C82B12353EFB00DB60CB /* Content */,
 				B5DDE82911FF10D0000DB38B /* Graphics */,
@@ -653,6 +1135,9 @@
 				B52BADAC1255426600B308F6 /* FrameworkEnums.h */,
 				B5DDE89411FF16A3000DB38B /* Protocols.h */,
 				B5DDE89511FF16A3000DB38B /* Protocols.m */,
+				B594878112AEF3DA00EE601F /* PointStruct.h */,
+				B594878312AEF44900EE601F /* XniPoint.h */,
+				B594878412AEF44900EE601F /* XniPoint.m */,
 				B5DE190611F88B5D00BF3275 /* RectangleStruct.h */,
 				B5DE190211F88AF500BF3275 /* Rectangle.h */,
 				B5DE190311F88AF500BF3275 /* Rectangle.m */,
@@ -717,10 +1202,60 @@
 				B5DE189611F8884A00BF3275 /* EventArgs.h */,
 				B5DE189711F8884A00BF3275 /* EventArgs.m */,
 				B56CC559123A846C00B72347 /* IServiceProvider.h */,
-				B5EA637C124921D0001245A4 /* AdaptiveArray.h */,
-				B5EA637D124921D0001245A4 /* AdaptiveArray.m */,
+				B5EA637C124921D0001245A4 /* XniAdaptiveArray.h */,
+				B5EA637D124921D0001245A4 /* XniAdaptiveArray.m */,
+				B5FE132E129FEC9A0081F7A7 /* Collection.h */,
+				B5FE13EB12A00D580081F7A7 /* Collection.m.h */,
+				B554F8F112A3F6AB00F20A0D /* ReadOnlyCollection.h */,
+				B554F8F212A3F6AB00F20A0D /* ReadOnlyCollection.m.h */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		B5E7ECA6129AE5920015B663 /* Processors */ = {
+			isa = PBXGroup;
+			children = (
+				B5E7ECBE129AE6620015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.classes.h */,
+				B5E7ECBC129AE6560015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.h */,
+				B5E7ECAC129AE5B40015B663 /* TextureProcessor.h */,
+				B5E7ECAD129AE5B40015B663 /* TextureProcessor.m */,
+				B5E7ECB0129AE5C50015B663 /* ModelProcessor.h */,
+				B5E7ECB1129AE5C50015B663 /* ModelProcessor.m */,
+				B5E7ECB4129AE5D40015B663 /* MaterialProcessor.h */,
+				B5E7ECB5129AE5D40015B663 /* MaterialProcessor.m */,
+				B51ADC8512B83F75004E2DB0 /* SoundEffectProcessor.h */,
+				B51ADC8612B83F75004E2DB0 /* SoundEffectProcessor.m */,
+				B51ADC7D12B83EFD004E2DB0 /* SongProcessor.h */,
+				B51ADC7E12B83EFD004E2DB0 /* SongProcessor.m */,
+				B5E7EC75129AE2E10015B663 /* ModelContent.h */,
+				B5EFD765129B2B8B00FDC150 /* ModelContent+Internal.h */,
+				B5E7EC76129AE2E10015B663 /* ModelContent.m */,
+				B5EFD742129B2A7800FDC150 /* ModelMeshContentCollection.h */,
+				B5EFD743129B2A7800FDC150 /* ModelMeshContentCollection.m */,
+				B5E7EC79129AE2ED0015B663 /* ModelMeshContent.h */,
+				B5EFD763129B2B8100FDC150 /* ModelMeshContent+Internal.h */,
+				B5E7EC7A129AE2ED0015B663 /* ModelMeshContent.m */,
+				B5EFD746129B2A8900FDC150 /* ModelMeshPartContentCollection.h */,
+				B5EFD747129B2A8900FDC150 /* ModelMeshPartContentCollection.m */,
+				B5E7EC7D129AE2FD0015B663 /* ModelMeshPartContent.h */,
+				B5EFD767129B2B9700FDC150 /* ModelMeshPartContent+Internal.h */,
+				B5E7EC7E129AE2FD0015B663 /* ModelMeshPartContent.m */,
+				B5E7EC81129AE30C0015B663 /* VertexBufferContent.h */,
+				B5E7EC82129AE30C0015B663 /* VertexBufferContent.m */,
+				B5FE14BC12A02DCD0081F7A7 /* VertexDeclarationContent.h */,
+				B5FE14BD12A02DCD0081F7A7 /* VertexDeclarationContent.m */,
+				B554F94B12A4033600F20A0D /* ModelBoneContent.h */,
+				B554F99712A415AD00F20A0D /* ModelBoneContent+Internal.h */,
+				B554F94C12A4033600F20A0D /* ModelBoneContent.m */,
+				B554F94F12A4034100F20A0D /* ModelBoneContentCollection.h */,
+				B554F95012A4034100F20A0D /* ModelBoneContentCollection.m */,
+				B51ADC8112B83F62004E2DB0 /* SoundEffectContent.h */,
+				B50FE47B12B88433003D4F1A /* SoundEffectContent+Internal.h */,
+				B51ADC8212B83F62004E2DB0 /* SoundEffectContent.m */,
+				B51ADC7912B83EE9004E2DB0 /* SongContent.h */,
+				B51ADC7A12B83EE9004E2DB0 /* SongContent.m */,
+			);
+			path = Processors;
 			sourceTree = "<group>";
 		};
 		B5EC59F41252B8B6001E7DFC /* Input */ = {
@@ -836,7 +1371,7 @@
 				B56CC5BD123A915700B72347 /* ContentReader.h in Headers */,
 				B56CC5C3123A927500B72347 /* ContentTypeReader.h in Headers */,
 				B56CC5C7123A928A00B72347 /* ContentTypeReaderManager.h in Headers */,
-				B56CC5CB123A92BB00B72347 /* Texture2DContentTypeReader.h in Headers */,
+				B56CC5CB123A92BB00B72347 /* Texture2DReader.h in Headers */,
 				B5E78B4A1242925600DDD99A /* SpriteBatch.h in Headers */,
 				B5E78B6212429AEC00DDD99A /* BlendState.h in Headers */,
 				B5E78B6612429AF900DDD99A /* DepthStencilState.h in Headers */,
@@ -852,7 +1387,7 @@
 				B5BBC2EC1248FC7A0066F5ED /* VertexBufferBinding.h in Headers */,
 				B5EA634F12491709001245A4 /* VertexStructs.h in Headers */,
 				B5EA636F124917E2001245A4 /* VertexPositionColor.h in Headers */,
-				B5EA637E124921D0001245A4 /* AdaptiveArray.h in Headers */,
+				B5EA637E124921D0001245A4 /* XniAdaptiveArray.h in Headers */,
 				B5EA638F1249229D001245A4 /* VertexArray.h in Headers */,
 				B5EA65531249482D001245A4 /* VertexPositionTexture.h in Headers */,
 				B5EA65601249495C001245A4 /* VertexPositionColorArray.h in Headers */,
@@ -880,6 +1415,107 @@
 				B5F415CF127781340012BAF1 /* SamplerStateCollection+Internal.h in Headers */,
 				B5F415DE127781D80012BAF1 /* XniSamplerEventArgs.h in Headers */,
 				B53649F2127DE08100CAE30C /* GameWindow+Internal.h in Headers */,
+				B5E7EC54129AE1A00015B663 /* NodeContent.h in Headers */,
+				B5E7EC5B129AE1BF0015B663 /* MeshContent.h in Headers */,
+				B5E7EC5F129AE1CD0015B663 /* GeometryContent.h in Headers */,
+				B5E7EC67129AE2340015B663 /* VertexContent.h in Headers */,
+				B5E7EC6B129AE2410015B663 /* IndexCollection.h in Headers */,
+				B5E7EC6F129AE2530015B663 /* MaterialContent.h in Headers */,
+				B5E7EC73129AE2860015B663 /* BasicMaterialContent.h in Headers */,
+				B5E7EC77129AE2E10015B663 /* ModelContent.h in Headers */,
+				B5E7EC7B129AE2ED0015B663 /* ModelMeshContent.h in Headers */,
+				B5E7EC7F129AE2FD0015B663 /* ModelMeshPartContent.h in Headers */,
+				B5E7EC83129AE30C0015B663 /* VertexBufferContent.h in Headers */,
+				B5E7EC87129AE3570015B663 /* Model.h in Headers */,
+				B5E7EC8B129AE3640015B663 /* ModelMesh.h in Headers */,
+				B5E7EC8F129AE36E0015B663 /* ModelMeshPart.h in Headers */,
+				B5E7ECAE129AE5B40015B663 /* TextureProcessor.h in Headers */,
+				B5E7ECB2129AE5C50015B663 /* ModelProcessor.h in Headers */,
+				B5E7ECB6129AE5D40015B663 /* MaterialProcessor.h in Headers */,
+				B5E7ECBA129AE6120015B663 /* XImporter.h in Headers */,
+				B5E7ECBD129AE6560015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.h in Headers */,
+				B5E7ECBF129AE6620015B663 /* Retronator.Xni.Framework.Content.Pipeline.Processors.classes.h in Headers */,
+				B5E7ECD4129AE6A70015B663 /* ContentProcessor.h in Headers */,
+				B5E7ECD7129AE6CA0015B663 /* IContentProcessor.h in Headers */,
+				B5E7ECD9129AE6D20015B663 /* IContentImporter.h in Headers */,
+				B5672C6C129AFDCE00DE5AAC /* ModelMeshCollection.h in Headers */,
+				B5672C7A129AFE8500DE5AAC /* ModelMeshPartCollection.h in Headers */,
+				B5672CC2129B02D100DE5AAC /* ModelEffectCollection.h in Headers */,
+				B5672CD8129B0CAC00DE5AAC /* Model+Internal.h in Headers */,
+				B5672CDA129B0CB700DE5AAC /* ModelMesh+Internal.h in Headers */,
+				B5672CDC129B0CC300DE5AAC /* ModelMeshPart+Internal.h in Headers */,
+				B5672D1A129B174100DE5AAC /* ModelReader.h in Headers */,
+				B5EFD744129B2A7800FDC150 /* ModelMeshContentCollection.h in Headers */,
+				B5EFD748129B2A8900FDC150 /* ModelMeshPartContentCollection.h in Headers */,
+				B5EFD764129B2B8100FDC150 /* ModelMeshContent+Internal.h in Headers */,
+				B5EFD766129B2B8B00FDC150 /* ModelContent+Internal.h in Headers */,
+				B5EFD768129B2B9700FDC150 /* ModelMeshPartContent+Internal.h in Headers */,
+				B54543DD129B4705002A28BE /* BasicEffectReader.h in Headers */,
+				B54543E1129B4716002A28BE /* IndexBufferReader.h in Headers */,
+				B54543E5129B4727002A28BE /* VertexBufferReader.h in Headers */,
+				B54543E9129B473A002A28BE /* ModelMeshPartReader.h in Headers */,
+				B54543F7129B47A1002A28BE /* ModelMeshReader.h in Headers */,
+				B5454402129B4F4D002A28BE /* ContentManager+Internal.h in Headers */,
+				B5FE12A4129FDDF70081F7A7 /* NodeContentCollection.h in Headers */,
+				B5FE12B0129FE1730081F7A7 /* ChildCollection.h in Headers */,
+				B5FE12F2129FE8220081F7A7 /* GeometryContentCollection.h in Headers */,
+				B5FE12F6129FE8310081F7A7 /* PositionCollection.h in Headers */,
+				B5FE1330129FEC9A0081F7A7 /* Collection.h in Headers */,
+				B5FE13CA12A00AC60081F7A7 /* VertexChannelCollection.h in Headers */,
+				B5FE13D512A00BE50081F7A7 /* VertexChannel.h in Headers */,
+				B5FE13DB12A00C6B0081F7A7 /* IndirectPositionCollection.h in Headers */,
+				B5FE13EC12A00D580081F7A7 /* Collection.m.h in Headers */,
+				B5FE146712A01BB50081F7A7 /* VertexChannelNames.h in Headers */,
+				B5FE14BE12A02DCD0081F7A7 /* VertexDeclarationContent.h in Headers */,
+				B54F9BC112A2CA1B00F7411F /* XImporterReader.h in Headers */,
+				B554F7B912A3B19100F20A0D /* TextureReferenceDictionary.h in Headers */,
+				B554F7C112A3B48600F20A0D /* ExternalReference.h in Headers */,
+				B554F7D312A3BD1B00F20A0D /* NamedValueDictionary.h in Headers */,
+				B554F7EA12A3C1B100F20A0D /* NamedValueDictionary.m.h in Headers */,
+				B554F7F312A3C23300F20A0D /* OpaqueDataDictionary.h in Headers */,
+				B554F8D012A3F3E400F20A0D /* ModelBone.h in Headers */,
+				B554F8DF12A3F3FD00F20A0D /* ModelBoneCollection.h in Headers */,
+				B554F8F312A3F6AB00F20A0D /* ReadOnlyCollection.h in Headers */,
+				B554F8F512A3F6BE00F20A0D /* ReadOnlyCollection.m.h in Headers */,
+				B554F94D12A4033600F20A0D /* ModelBoneContent.h in Headers */,
+				B554F95112A4034100F20A0D /* ModelBoneContentCollection.h in Headers */,
+				B554F99812A415AD00F20A0D /* ModelBoneContent+Internal.h in Headers */,
+				B554F9B512A427DD00F20A0D /* ModelBoneReader.h in Headers */,
+				B554F9D012A42DC600F20A0D /* IndexBuffer+Internal.h in Headers */,
+				B554F9DE12A42FD000F20A0D /* GraphicsDevice+Internal.h in Headers */,
+				B554F9EF12A433B500F20A0D /* VertexBuffer+Internal.h in Headers */,
+				B554FA0D12A4362B00F20A0D /* VertexDeclarationReader.h in Headers */,
+				B554FA2212A43A3A00F20A0D /* ModelBone+Internal.h in Headers */,
+				B554FC9A12A45A9D00F20A0D /* VertexPositionNormalTextureArray.h in Headers */,
+				B554FC9E12A45B3300F20A0D /* VertexPositionNormalTexture.h in Headers */,
+				B5FB745712A4ED6E00DB9234 /* IndexArray.h in Headers */,
+				B5FB745B12A4F01400DB9234 /* ShortIndexArray.h in Headers */,
+				B52B2B4812ADAEEC00E8A377 /* Retronator.Xni.Framework.GamerServices.classes.h in Headers */,
+				B52B2B4A12ADAEF800E8A377 /* Retronator.Xni.Framework.GamerServices.h in Headers */,
+				B52B2B4D12ADAF1000E8A377 /* Guide.h in Headers */,
+				B52B2B5012ADB20000E8A377 /* Guide+Internal.h in Headers */,
+				B594878212AEF3DA00EE601F /* PointStruct.h in Headers */,
+				B594878512AEF44900EE601F /* XniPoint.h in Headers */,
+				B51ADC4F12B8358C004E2DB0 /* SoundEffect.h in Headers */,
+				B51ADC5A12B83868004E2DB0 /* AudioEnums.h in Headers */,
+				B51ADC5C12B83876004E2DB0 /* Retronator.Xni.Framework.Audio.h in Headers */,
+				B51ADC5E12B83888004E2DB0 /* Retronator.Xni.Framework.Audio.classes.h in Headers */,
+				B51ADC6112B838AD004E2DB0 /* SoundEffectInstance.h in Headers */,
+				B51ADC6512B83E16004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.h in Headers */,
+				B51ADC6712B83E33004E2DB0 /* Retronator.Xni.Framework.Content.Pipeline.Audio.classes.h in Headers */,
+				B51ADC7B12B83EE9004E2DB0 /* SongContent.h in Headers */,
+				B51ADC7F12B83EFD004E2DB0 /* SongProcessor.h in Headers */,
+				B51ADC8312B83F62004E2DB0 /* SoundEffectContent.h in Headers */,
+				B51ADC8712B83F75004E2DB0 /* SoundEffectProcessor.h in Headers */,
+				B51ADC9212B83FF2004E2DB0 /* AudioContentEnums.h in Headers */,
+				B51ADC9512B84088004E2DB0 /* AudioContent.h in Headers */,
+				B51ADC9912B84095004E2DB0 /* AudioFormat.h in Headers */,
+				B51ADCCF12B84FD8004E2DB0 /* WavImporter.h in Headers */,
+				B51ADCD312B84FE1004E2DB0 /* Mp3Importer.h in Headers */,
+				B50FE47C12B88433003D4F1A /* SoundEffectContent+Internal.h in Headers */,
+				B50FE48812B885BC003D4F1A /* SoundEffectReader.h in Headers */,
+				B50FE50712B88F64003D4F1A /* SoundEffectInstance+Internal.h in Headers */,
+				B50FE76212B8B11C003D4F1A /* SoundEffect+Internal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1022,7 +1658,7 @@
 				B56CC5BE123A915700B72347 /* ContentReader.m in Sources */,
 				B56CC5C4123A927500B72347 /* ContentTypeReader.m in Sources */,
 				B56CC5C8123A928A00B72347 /* ContentTypeReaderManager.m in Sources */,
-				B56CC5CC123A92BB00B72347 /* Texture2DContentTypeReader.m in Sources */,
+				B56CC5CC123A92BB00B72347 /* Texture2DReader.m in Sources */,
 				B5E78B4B1242925600DDD99A /* SpriteBatch.m in Sources */,
 				B5E78B6312429AEC00DDD99A /* BlendState.m in Sources */,
 				B5E78B6712429AF900DDD99A /* DepthStencilState.m in Sources */,
@@ -1037,7 +1673,7 @@
 				B5BBC2D31248F98D0066F5ED /* VertexBuffer.m in Sources */,
 				B5BBC2ED1248FC7A0066F5ED /* VertexBufferBinding.m in Sources */,
 				B5EA6370124917E2001245A4 /* VertexPositionColor.m in Sources */,
-				B5EA637F124921D0001245A4 /* AdaptiveArray.m in Sources */,
+				B5EA637F124921D0001245A4 /* XniAdaptiveArray.m in Sources */,
 				B5EA63901249229D001245A4 /* VertexArray.m in Sources */,
 				B5EA65541249482D001245A4 /* VertexPositionTexture.m in Sources */,
 				B5EA65611249495C001245A4 /* VertexPositionColorArray.m in Sources */,
@@ -1056,6 +1692,72 @@
 				B50769151264EE9500E4474F /* GameComponent.m in Sources */,
 				B507691D1264EF0B00E4474F /* DrawableGameComponent.m in Sources */,
 				B5F415DF127781D80012BAF1 /* XniSamplerEventArgs.m in Sources */,
+				B5E7EC55129AE1A00015B663 /* NodeContent.m in Sources */,
+				B5E7EC5C129AE1BF0015B663 /* MeshContent.m in Sources */,
+				B5E7EC60129AE1CD0015B663 /* GeometryContent.m in Sources */,
+				B5E7EC68129AE2340015B663 /* VertexContent.m in Sources */,
+				B5E7EC6C129AE2410015B663 /* IndexCollection.m in Sources */,
+				B5E7EC70129AE2530015B663 /* MaterialContent.m in Sources */,
+				B5E7EC74129AE2860015B663 /* BasicMaterialContent.m in Sources */,
+				B5E7EC78129AE2E10015B663 /* ModelContent.m in Sources */,
+				B5E7EC7C129AE2ED0015B663 /* ModelMeshContent.m in Sources */,
+				B5E7EC80129AE2FD0015B663 /* ModelMeshPartContent.m in Sources */,
+				B5E7EC84129AE30C0015B663 /* VertexBufferContent.m in Sources */,
+				B5E7EC88129AE3570015B663 /* Model.m in Sources */,
+				B5E7EC8C129AE3640015B663 /* ModelMesh.m in Sources */,
+				B5E7EC90129AE36E0015B663 /* ModelMeshPart.m in Sources */,
+				B5E7ECAF129AE5B40015B663 /* TextureProcessor.m in Sources */,
+				B5E7ECB3129AE5C50015B663 /* ModelProcessor.m in Sources */,
+				B5E7ECB7129AE5D40015B663 /* MaterialProcessor.m in Sources */,
+				B5E7ECBB129AE6120015B663 /* XImporter.m in Sources */,
+				B5E7ECD5129AE6A70015B663 /* ContentProcessor.m in Sources */,
+				B5672C6D129AFDCE00DE5AAC /* ModelMeshCollection.m in Sources */,
+				B5672C7B129AFE8500DE5AAC /* ModelMeshPartCollection.m in Sources */,
+				B5672CC3129B02D100DE5AAC /* ModelEffectCollection.m in Sources */,
+				B5672D1B129B174100DE5AAC /* ModelReader.m in Sources */,
+				B5EFD745129B2A7800FDC150 /* ModelMeshContentCollection.m in Sources */,
+				B5EFD749129B2A8900FDC150 /* ModelMeshPartContentCollection.m in Sources */,
+				B54543DE129B4705002A28BE /* BasicEffectReader.m in Sources */,
+				B54543E2129B4716002A28BE /* IndexBufferReader.m in Sources */,
+				B54543E6129B4727002A28BE /* VertexBufferReader.m in Sources */,
+				B54543EA129B473A002A28BE /* ModelMeshPartReader.m in Sources */,
+				B54543F8129B47A1002A28BE /* ModelMeshReader.m in Sources */,
+				B5FE12A5129FDDF70081F7A7 /* NodeContentCollection.m in Sources */,
+				B5FE12B1129FE1730081F7A7 /* ChildCollection.m in Sources */,
+				B5FE12F3129FE8220081F7A7 /* GeometryContentCollection.m in Sources */,
+				B5FE12F7129FE8310081F7A7 /* PositionCollection.m in Sources */,
+				B5FE13CB12A00AC60081F7A7 /* VertexChannelCollection.m in Sources */,
+				B5FE13D612A00BE50081F7A7 /* VertexChannel.m in Sources */,
+				B5FE13DC12A00C6B0081F7A7 /* IndirectPositionCollection.m in Sources */,
+				B5FE146812A01BB50081F7A7 /* VertexChannelNames.m in Sources */,
+				B5FE14BF12A02DCD0081F7A7 /* VertexDeclarationContent.m in Sources */,
+				B54F9BC212A2CA1B00F7411F /* XImporterReader.m in Sources */,
+				B554F7BA12A3B19100F20A0D /* TextureReferenceDictionary.m in Sources */,
+				B554F7C212A3B48600F20A0D /* ExternalReference.m in Sources */,
+				B554F7F412A3C23300F20A0D /* OpaqueDataDictionary.m in Sources */,
+				B554F8D112A3F3E400F20A0D /* ModelBone.m in Sources */,
+				B554F8E012A3F3FD00F20A0D /* ModelBoneCollection.m in Sources */,
+				B554F94E12A4033600F20A0D /* ModelBoneContent.m in Sources */,
+				B554F95212A4034100F20A0D /* ModelBoneContentCollection.m in Sources */,
+				B554F9B612A427DD00F20A0D /* ModelBoneReader.m in Sources */,
+				B554FA0E12A4362B00F20A0D /* VertexDeclarationReader.m in Sources */,
+				B554FC9B12A45A9D00F20A0D /* VertexPositionNormalTextureArray.m in Sources */,
+				B554FC9F12A45B3300F20A0D /* VertexPositionNormalTexture.m in Sources */,
+				B5FB745812A4ED6E00DB9234 /* IndexArray.m in Sources */,
+				B5FB745C12A4F01400DB9234 /* ShortIndexArray.m in Sources */,
+				B52B2B4E12ADAF1000E8A377 /* Guide.m in Sources */,
+				B594878612AEF44900EE601F /* XniPoint.m in Sources */,
+				B51ADC5012B8358C004E2DB0 /* SoundEffect.m in Sources */,
+				B51ADC6212B838AD004E2DB0 /* SoundEffectInstance.m in Sources */,
+				B51ADC7C12B83EE9004E2DB0 /* SongContent.m in Sources */,
+				B51ADC8012B83EFD004E2DB0 /* SongProcessor.m in Sources */,
+				B51ADC8412B83F62004E2DB0 /* SoundEffectContent.m in Sources */,
+				B51ADC8812B83F75004E2DB0 /* SoundEffectProcessor.m in Sources */,
+				B51ADC9612B84088004E2DB0 /* AudioContent.m in Sources */,
+				B51ADC9A12B84095004E2DB0 /* AudioFormat.m in Sources */,
+				B51ADCD012B84FD8004E2DB0 /* WavImporter.m in Sources */,
+				B51ADCD412B84FE1004E2DB0 /* Mp3Importer.m in Sources */,
+				B50FE48912B885BC003D4F1A /* SoundEffectReader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1113,7 +1815,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -1124,9 +1826,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

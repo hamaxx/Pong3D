@@ -12,7 +12,7 @@
 
 @implementation VertexPositionColorTexture
 
-VertexDeclaration *vertexDeclaration;
+static VertexDeclaration *vertexDeclaration;
 
 + (void) initialize {
     NSArray *vertexElements = [NSArray arrayWithObjects:

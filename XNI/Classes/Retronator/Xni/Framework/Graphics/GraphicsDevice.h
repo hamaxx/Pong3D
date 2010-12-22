@@ -19,11 +19,15 @@
     Game *game;
 	EAGLContext *context;
 	
+	// Presentation parameters
+	BOOL multisampling;
+	
 	// The pixel dimensions of the CAEAGLLayer
 	GLint backingWidth;
 	GLint backingHeight;
 	
 	// The OpenGL names for the buffers used to render to this view
+	GLuint resolveFramebuffer, resolveRenderbuffer;
 	GLuint defaultFramebuffer, colorRenderbuffer, depthRenderbuffer;
 	
 	// Device state
@@ -79,32 +83,46 @@
 - (void) setVertexBuffers:(VertexBufferBinding*)vertexBuffer, ... NS_REQUIRES_NIL_TERMINATION;
 
 // Drawing
-- (void) drawPrimitivesOfType:(PrimitiveType)primitiveType startingAt:(int)startVertex count:(int)primitiveCount;
 
-- (void) drawIndexedPrimitivesOfType:(PrimitiveType)primitiveType offsetVerticesBy:(int)baseVertex 
-                          startingAt:(int)startIndex count:(int)primitiveCount;
+// From buffers
+- (void) drawPrimitivesOfType:(PrimitiveType)primitiveType 
+				  startVertex:(int)startVertex 
+			   primitiveCount:(int)primitiveCount;
 
-- (void) drawUserPrimitivesOfType:(PrimitiveType)primitiveType vertices:(VertexArray*)vertexData
-                       startingAt:(int)vertexOffset count:(int)primitiveCount;
+- (void) drawIndexedPrimitivesOfType:(PrimitiveType)primitiveType 
+						  baseVertex:(int)baseVertex 
+					  minVertexIndex:(int)minVertexIndex
+						 numVertices:(int)numVertices
+						  startIndex:(int)startIndex
+					  primitiveCount:(int)primitiveCount;
+
+// From arrays
+- (void) drawUserPrimitivesOfType:(PrimitiveType)primitiveType
+					   vertexData:(VertexArray*)vertexData
+					 vertexOffset:(int)vertexOffset 
+				   primitiveCount:(int)primitiveCount;
 
 - (void) drawUserPrimitivesOfType:(PrimitiveType)primitiveType
-						 vertices:(void*)vertexData ofType:(VertexDeclaration*) vertexDeclaration
-                       startingAt:(int)vertexOffset count:(int)primitiveCount;
+					   vertexData:(void*)vertexData 
+					 vertexOffset:(int)vertexOffset 
+				   primitiveCount:(int)primitiveCount
+				vertexDeclaration:(VertexDeclaration*) vertexDeclaration;
 
 - (void) drawUserIndexedPrimitivesOfType:(PrimitiveType)primitiveType 
-								vertices:(void*)vertexData ofType:(VertexDeclaration*) vertexDeclaration 
-                        offsetVerticesBy:(int)vertexOffset indices:(void*)indexData dataType:(DataType)dataType
-                              startingAt:(int)indexOffset count:(int)primitiveCount;
+							  vertexData:(VertexArray*)vertexData
+							vertexOffset:(int)vertexOffset
+							 numVertices:(int)numVertices
+							   indexData:(IndexArray*)indexData
+							 indexOffset:(int)indexOffset
+						  primitiveCount:(int)primitiveCount;
 
-
-// Low level methods
-- (uint) createTexture;
-
-//- (void) getData:(void*)data fromTexture2D:(Texture2D*)texture level:(int)level;
-
-- (void) setData:(void*)data toTexture2D:(Texture2D*)texture SourceRectangle:(Rectangle*)rect level:(int)level;
-
-// Profile specific
-- (EAGLContext*) createContext;
+- (void) drawUserIndexedPrimitivesOfType:(PrimitiveType)primitiveType 
+							  vertexData:(void*)vertexData
+							vertexOffset:(int)vertexOffset
+							 numVertices:(int)numVertices
+						  shortIndexData:(void*)indexData
+							 indexOffset:(int)indexOffset
+						  primitiveCount:(int)primitiveCount
+					   vertexDeclaration:(VertexDeclaration*) vertexDeclaration;
 
 @end

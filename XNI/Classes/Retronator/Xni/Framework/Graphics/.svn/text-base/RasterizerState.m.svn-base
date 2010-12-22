@@ -20,7 +20,7 @@ static RasterizerState *cullNone;
 - (id) init {
 	self = [super init];
 	if (self != nil) {
-		cullMode = CullModeCullClockwiseFace;
+		cullMode = CullModeCullCounterClockwiseFace;
 		depthBias = 0;
 		fillMode = FillModeSolid;
 		multiSampleAntiAlias = YES;
@@ -33,6 +33,7 @@ static RasterizerState *cullNone;
 + (void) initialize {
 	if (!cullClockwise) {
 		cullClockwise = [[RasterizerState alloc] init];
+		cullClockwise.cullMode = CullModeCullClockwiseFace;
 	}
 	
 	if (!cullCounterClockwise) {

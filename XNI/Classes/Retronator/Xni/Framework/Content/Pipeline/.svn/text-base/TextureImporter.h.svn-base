@@ -8,14 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import "Retronator.Xni.Framework.Content.Pipeline.Graphics.classes.h"
-
 #import "ContentImporter.h"
 
 @interface TextureImporter : ContentImporter {
 
 }
-
-- (TextureContent*) importFile:(NSString*)filename;
 
 @end

@@ -10,13 +10,13 @@
 
 #import "Retronator.Xni.Framework.classes.h"
 
-@interface Vector3 : NSObject {
+@interface Vector3 : NSObject <NSCopying> {
     Vector3Struct data;
 }
 
 - (id) initWithX:(float)x y:(float)y z:(float)z;
-- (id) initWithStruct: (Vector3Struct*)vectorData;
-- (id) initWithVector: (Vector3*)vector;
+- (id) initWithVector3Struct: (Vector3Struct*)vectorData;
+- (id) initWithVector3: (Vector3*)vector;
 
 + (Vector3*) vectorWithX:(float)x y:(float)y z:(float)z;
 + (Vector3*) vectorWithStruct: (Vector3Struct*)vectorData;
@@ -46,11 +46,14 @@
 
 - (Vector3*) normalize;
 - (Vector3*) negate;
+- (Vector3*) set:(Vector3*)value;
 - (Vector3*) add:(Vector3*)value;
 - (Vector3*) subtract:(Vector3*)value;
 - (Vector3*) multiplyBy:(float)scaleFactor;
 - (Vector3*) transformWith:(Matrix*)matrix;
 - (Vector3*) transformNormalWith:(Matrix*)matrix;
+
+- (BOOL) equals:(Vector3*)vector;
 
 // Constants
 + (Vector3*) zero;

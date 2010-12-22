@@ -12,8 +12,20 @@
 
 @interface IndexBuffer : GraphicsResource {
 	uint bufferID;
+	BufferUsage bufferUsage;
+	int indexCount;
+	IndexElementSize indexElementSize;
 }
 
-@property (nonatomic, readonly) uint bufferId;
+- (id) initWithGraphicsDevice:(GraphicsDevice *)theGraphicsDevice 
+			 indexElementSize:(IndexElementSize)theIndexElementSize
+				   indexCount:(int)theIndexCount
+						usage:(BufferUsage)theBufferUsage;
+
+@property (nonatomic, readonly) BufferUsage bufferUsage;
+@property (nonatomic, readonly) int indexCount;
+@property (nonatomic, readonly) IndexElementSize indexElementSize;
+
+- (void) setData:(IndexArray*)data;
 
 @end

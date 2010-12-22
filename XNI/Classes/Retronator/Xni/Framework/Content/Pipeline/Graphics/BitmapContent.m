@@ -22,10 +22,24 @@
 @synthesize width;
 @synthesize height;
 
-- (void*) getPixelData { return nil; }
-- (void) setPixelData:(void*)sourceData { }
+- (NSData*) getPixelData { 
+	return pixelData; 
+}
+
+- (void) setPixelData:(NSData*)sourceData {
+	[pixelData release];
+	pixelData = [sourceData retain];
+}
+
 - (BOOL) tryGetFormat:(SurfaceFormat*)theFormat {
 	return NO;
 }
+
+- (void) dealloc
+{
+	[pixelData release];
+	[super dealloc];
+}
+
 
 @end

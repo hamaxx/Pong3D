@@ -10,7 +10,7 @@
 
 #import "Retronator.Xni.Framework.classes.h"
 
-@interface Color : NSObject {
+@interface Color : NSObject <NSCopying> {
 	uint packedValue;
 }
 
@@ -34,9 +34,13 @@
 
 + (Color*) multiply:(Color*)color withScalar:(float)value;
 
-- (void) multiply:(float)value;
+- (Color*) multiply:(float)value;
 - (Vector3*) toVector3;
 - (Vector4*) toVector4;
+
+- (Color*) set:(Color*)value;
+
+- (BOOL) equals:(Color*)color;
 
 // Constants
 + (Color*) aliceBlue;

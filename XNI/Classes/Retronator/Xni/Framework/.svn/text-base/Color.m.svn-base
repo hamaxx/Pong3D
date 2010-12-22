@@ -85,11 +85,12 @@
 	return [Color colorWithRed:color.r * value green:color.g * value blue:color.b * value alpha:color.a * value];
 }
 
-- (void) multiply:(float)value {
+- (Color*) multiply:(float)value {
 	self.r *= value;
 	self.g *= value;
 	self.b *= value;
 	self.a *= value;
+	return self;
 }
 
 - (Vector3 *) toVector3 {
@@ -98,6 +99,35 @@
 
 - (Vector4 *) toVector4 {
     return [Vector4 vectorWithX:self.r/255.0f y:self.g/255.0f z:self.b/255.0f w:self.a/255.0f];
+}
+
+- (Color*) set:(Color*)value {
+	packedValue = value.packedValue;
+	return self;
+}
+
+- (id) copyWithZone:(NSZone *)zone {
+	return [[Color allocWithZone:zone] initWithColor:self];
+}
+
+- (BOOL) equals:(Color*)color {
+	if (!color) return NO;
+	return color.packedValue == self.packedValue;
+}
+
+- (BOOL) isEqual:(id)object {
+    if ([object isKindOfClass:[Color class]]) {
+        return [self equals:object];
+    }
+    return NO;
+}
+
+- (NSUInteger) hash {
+    return packedValue;
+}
+
+- (NSString *) description {
+    return [NSString stringWithFormat:@"Color(%i, %i, %i, %i)", self.r, self.g, self.b, self.a];
 }
 
 // Constants

@@ -17,21 +17,12 @@
 	return self;	
 }
 
-- (Byte4 *) getPixelData {
-	return colorPixelData;
-}
-
-- (void) setPixelData:(Byte4 *)sourceData {
-	colorPixelData = sourceData;
-	[super setPixelData:sourceData];
-}
-
 - (Byte4) getPixelAtX:(int)x y:(int)y {
-	return colorPixelData[x + y * width];
+	return (*(Byte4*)[super getPixelAtX:x Y:y]);
 }
 
 - (void) setPixelAtX:(int)x y:(int)y value:(Byte4)value {
-	colorPixelData[x + y * width] = value;
+	[super setPixelAtX:x Y:y Value:(Byte*)(&value)];
 }
 
 @end

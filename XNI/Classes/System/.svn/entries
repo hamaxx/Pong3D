@@ -1,14 +1,14 @@
 10
 
 dir
-40
+51
 http://xni.googlecode.com/svn/XNI/Classes/System
 http://xni.googlecode.com/svn
 
 
 
-2010-10-19T13:31:39.884744Z
-35
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -25,6 +25,40 @@ zxretro@gmail.com
 
 
 ac433895-eea3-a490-d80a-17149a75e588
+
+ReadOnlyCollection.h
+file
+
+
+
+
+2010-12-22T21:57:52.000000Z
+cc63f50873f83baa857b69224c1c92d6
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+521
 
 IServiceProvider.m
 file
@@ -60,16 +94,16 @@ zxretro@gmail.com
 
 200
 
-Delegate.h
+Collection.h
 file
 
 
 
 
-2010-12-01T02:33:10.000000Z
-a367abe5be1191856de64b11f359f7bd
-2010-07-22T14:13:29.383646Z
-4
+2010-12-22T21:57:52.000000Z
+c1394dbea5abe43d6ba51f9613604d02
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -92,41 +126,7 @@ zxretro@gmail.com
 
 
 
-505
-
-AdaptiveArray.h
-file
-
-
-
-
-2010-12-01T02:33:10.000000Z
-fc1665c1d642e3083041039c6f40e327
-2010-09-21T21:46:13.195101Z
-22
-zxretro@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-535
+654
 
 EventArgs.h
 file
@@ -162,6 +162,108 @@ zxretro@gmail.com
 
 217
 
+EventArgs.m
+file
+
+
+
+
+2010-12-01T02:33:10.000000Z
+6f9b91a3a4e4bde85211d75602daf6d1
+2010-07-22T14:13:29.383646Z
+4
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+248
+
+Delegate.h
+file
+
+
+
+
+2010-12-01T02:33:10.000000Z
+a367abe5be1191856de64b11f359f7bd
+2010-07-22T14:13:29.383646Z
+4
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+505
+
+XniAdaptiveArray.h
+file
+
+
+
+
+2010-12-22T21:57:52.000000Z
+bbbc2bd3f65fe4ab4128049306d57a3e
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+541
+
 Delegate.m
 file
 
@@ -196,16 +298,16 @@ zxretro@gmail.com
 
 1546
 
-System.classes.h
+XniAdaptiveArray.m
 file
 
 
 
 
-2010-12-01T02:33:10.000000Z
-c293216c634764851bc1f2170d224001
-2010-10-19T13:31:39.884744Z
-35
+2010-12-22T21:57:52.000000Z
+eeebef9bf33b82f9b6ced4c2a860b37d
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -228,7 +330,41 @@ zxretro@gmail.com
 
 
 
-119
+941
+
+System.classes.h
+file
+
+
+
+
+2010-12-22T21:57:52.000000Z
+ce93e4af5cf6fc2a4bf1866a479b2c77
+2010-11-30T23:26:03.464833Z
+42
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+97
 
 Event.h
 file
@@ -264,16 +400,16 @@ zxretro@gmail.com
 
 446
 
-AdaptiveArray.m
+ReadOnlyCollection.m.h
 file
 
 
 
 
-2010-12-01T02:33:10.000000Z
-542e1d5eb19ef6eeb529db943994290d
-2010-09-21T21:46:53.337584Z
-23
+2010-12-22T21:57:52.000000Z
+c9718e976b9a8abe06d58b50f199a97f
+2010-12-08T04:57:47.314282Z
+43
 zxretro@gmail.com
 
 
@@ -296,18 +432,18 @@ zxretro@gmail.com
 
 
 
-932
+887
 
-EventArgs.m
+System.h
 file
 
 
 
 
-2010-12-01T02:33:10.000000Z
-6f9b91a3a4e4bde85211d75602daf6d1
-2010-07-22T14:13:29.383646Z
-4
+2010-12-22T21:57:52.000000Z
+3f35733ea6d60694a319378d4fe2ae3e
+2010-11-30T23:26:03.464833Z
+42
 zxretro@gmail.com
 
 
@@ -330,7 +466,7 @@ zxretro@gmail.com
 
 
 
-248
+124
 
 IServiceProvider.h
 file
@@ -366,40 +502,6 @@ zxretro@gmail.com
 
 69
 
-System.h
-file
-
-
-
-
-2010-12-01T02:33:10.000000Z
-0acdd9587e3e764a4732cd68a8d3951e
-2010-09-21T21:46:53.337584Z
-23
-zxretro@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-150
-
 Event.m
 file
 
@@ -433,4 +535,38 @@ zxretro@gmail.com
 
 
 846
+
+Collection.m.h
+file
+
+
+
+
+2010-12-22T21:57:52.000000Z
+07bc01fc334d5bf114ab44ecf4e8a992
+2010-12-08T04:57:47.314282Z
+43
+zxretro@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1281
 

@@ -1,7 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 35
-/svn/!svn/ver/35/XNI/Classes/System
+/svn/!svn/ver/43/XNI/Classes/System
+END
+ReadOnlyCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/42/XNI/Classes/System/ReadOnlyCollection.h
 END
 IServiceProvider.m
 K 25
@@ -9,17 +15,11 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/!svn/ver/16/XNI/Classes/System/IServiceProvider.m
 END
-Delegate.h
+Collection.h
 K 25
 svn:wc:ra_dav:version-url
-V 45
-/svn/!svn/ver/4/XNI/Classes/System/Delegate.h
-END
-AdaptiveArray.h
-K 25
-svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/22/XNI/Classes/System/AdaptiveArray.h
+V 48
+/svn/!svn/ver/42/XNI/Classes/System/Collection.h
 END
 EventArgs.h
 K 25
@@ -27,17 +27,41 @@ svn:wc:ra_dav:version-url
 V 46
 /svn/!svn/ver/4/XNI/Classes/System/EventArgs.h
 END
+EventArgs.m
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/4/XNI/Classes/System/EventArgs.m
+END
+Delegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/4/XNI/Classes/System/Delegate.h
+END
+XniAdaptiveArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/42/XNI/Classes/System/XniAdaptiveArray.h
+END
 Delegate.m
 K 25
 svn:wc:ra_dav:version-url
 V 45
 /svn/!svn/ver/4/XNI/Classes/System/Delegate.m
 END
+XniAdaptiveArray.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/42/XNI/Classes/System/XniAdaptiveArray.m
+END
 System.classes.h
 K 25
 svn:wc:ra_dav:version-url
 V 52
-/svn/!svn/ver/35/XNI/Classes/System/System.classes.h
+/svn/!svn/ver/42/XNI/Classes/System/System.classes.h
 END
 Event.h
 K 25
@@ -45,17 +69,17 @@ svn:wc:ra_dav:version-url
 V 42
 /svn/!svn/ver/5/XNI/Classes/System/Event.h
 END
-AdaptiveArray.m
+ReadOnlyCollection.m.h
 K 25
 svn:wc:ra_dav:version-url
-V 51
-/svn/!svn/ver/23/XNI/Classes/System/AdaptiveArray.m
+V 58
+/svn/!svn/ver/43/XNI/Classes/System/ReadOnlyCollection.m.h
 END
-EventArgs.m
+System.h
 K 25
 svn:wc:ra_dav:version-url
-V 46
-/svn/!svn/ver/4/XNI/Classes/System/EventArgs.m
+V 44
+/svn/!svn/ver/42/XNI/Classes/System/System.h
 END
 IServiceProvider.h
 K 25
@@ -63,15 +87,15 @@ svn:wc:ra_dav:version-url
 V 54
 /svn/!svn/ver/17/XNI/Classes/System/IServiceProvider.h
 END
-System.h
-K 25
-svn:wc:ra_dav:version-url
-V 44
-/svn/!svn/ver/23/XNI/Classes/System/System.h
-END
 Event.m
 K 25
 svn:wc:ra_dav:version-url
 V 42
 /svn/!svn/ver/5/XNI/Classes/System/Event.m
+END
+Collection.m.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/43/XNI/Classes/System/Collection.m.h
 END

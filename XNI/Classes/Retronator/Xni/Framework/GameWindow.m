@@ -12,6 +12,7 @@
 #import "Retronator.Xni.Framework.h"
 #import "GameViewController.h"
 #import "GameView.h"
+#import "TouchPanel+Internal.h"
 
 @interface GameWindow()
 
@@ -41,6 +42,14 @@
 @synthesize clientSizeChanged;
 @synthesize orientationChanged;
 
+- (UIWindow*) window {
+	return window;
+}
+
+- (GameViewController *) gameViewController {
+	return gameViewController;
+}
+
 - (id) handle {
     return (id)gameViewController.view.layer;
 }
@@ -51,6 +60,7 @@
     gameViewController.wantsFullScreenLayout = willBeFullscreen;
     [[UIApplication sharedApplication] setStatusBarHidden:willBeFullscreen];
     gameViewController.view.frame = [UIScreen mainScreen].applicationFrame;
+	[clientBounds release];
     clientBounds = [[self calculateClientBounds] retain];
 }
 
@@ -69,6 +79,9 @@
 	
 	// Add the game view to the window.
 	[window addSubview: gameViewController.view];
+	
+	// Report view to TouchPanel.
+	[[TouchPanel getInstance] setView:gameViewController.view];
 	
 	// Present the window.
 	[window makeKeyAndVisible];	

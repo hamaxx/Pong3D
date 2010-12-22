@@ -11,7 +11,6 @@
 #import "BitmapContent.h"
 
 @interface PixelBitmapContent : BitmapContent {
-	Byte* pixelData;
 	SurfaceFormat format;
 	int bytesPerPixel;
 }

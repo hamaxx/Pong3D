@@ -14,16 +14,31 @@
 #import "VertexPositionColor.h"
 #import "VertexPositionTexture.h"
 #import "VertexPositionColorTexture.h"
+#import "VertexPositionNormalTexture.h"
 #import "VertexDeclaration.h"
 
 #import "VertexArray.h"
 #import "VertexPositionColorArray.h"
 #import "VertexPositionTextureArray.h"
 #import "VertexPositionColorTextureArray.h"
+#import "VertexPositionNormalTextureArray.h"
+
+#import "IndexArray.h"
+#import "ShortIndexArray.h"
 
 #import "VertexBuffer.h"
 #import "VertexBufferBinding.h"
 #import "IndexBuffer.h"
+
+#import "Model.h"
+#import "ModelMeshCollection.h"
+#import "ModelMesh.h"
+#import "ModelEffectCollection.h"
+#import "ModelMeshPartCollection.h"
+#import "ModelMeshPart.h"
+
+#import "ModelBone.h"
+#import "ModelBoneCollection.h"
 
 #import "BlendState.h"
 #import "DepthStencilState.h"

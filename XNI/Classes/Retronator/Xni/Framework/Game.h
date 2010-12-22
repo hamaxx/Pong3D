@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "System.h"
+
 #import "Retronator.Xni.Framework.classes.h"
 #import "Retronator.Xni.Framework.Graphics.classes.h"
 #import "Retronator.Xni.Framework.Content.classes.h"
@@ -44,8 +46,13 @@
 	NSMutableArray *enabledComponents;
 	NSMutableArray *visibleComponents;
     
+	NSMutableSet *enabledChangedComponents;
+	
     // Services
-    GameServiceContainer *services;
+    GameServiceContainer *services;	
+	
+	// Events
+	Event *activated, *deactivated, *disposed, *exiting;
 }
 
 @property (nonatomic, readonly) GameWindow *window;
@@ -60,6 +67,8 @@
 @property (nonatomic, retain) ContentManager *content;
 @property (nonatomic, readonly) GameComponentCollection *components;
 @property (nonatomic, readonly) GameServiceContainer *services;
+
+@property (nonatomic, readonly) Event *activated, *deactivated, *disposed, *exiting;
 
 - (void) run;
 - (void) tick;

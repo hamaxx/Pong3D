@@ -28,6 +28,8 @@
 @property (nonatomic) VertexElementFormat vertexElementFormat;
 @property (nonatomic) VertexElementUsage vertexElementUsage;
 
++ (VertexElementFormat) getElementFormatForType:(Class)type;
+
 + (int) getSizeForFormat:(VertexElementFormat)format;
 + (int) getValueDimensionsForFormat:(VertexElementFormat)format;
 + (DataType) getValueDataTypeForFormat:(VertexElementFormat)format;

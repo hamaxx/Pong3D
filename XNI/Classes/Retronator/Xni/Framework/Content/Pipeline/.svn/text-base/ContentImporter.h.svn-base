@@ -8,11 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#import "IContentImporter.h"
 
-@interface ContentImporter : NSObject {
+@interface ContentImporter : NSObject <IContentImporter> {
 
 }
-
-- (id) importFile:(NSString*)filename;
 
 @end

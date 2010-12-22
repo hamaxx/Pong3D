@@ -1,14 +1,14 @@
 10
 
 dir
-40
+51
 http://xni.googlecode.com/svn/XNI/Classes/Retronator/Xni/Framework/Input/Touch
 http://xni.googlecode.com/svn
 
 
 
-2010-11-15T17:23:13.831337Z
-40
+2010-12-14T23:28:16.818141Z
+47
 zxretro@gmail.com
 
 
@@ -32,10 +32,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-70af170cf16622cca5a023a2146e0dd6
-2010-11-02T09:29:19.409744Z
-36
+2010-12-22T21:57:45.000000Z
+1f188e047280f14d3aea446f92d0b840
+2010-12-14T23:28:16.818141Z
+47
 zxretro@gmail.com
 
 
@@ -58,7 +58,7 @@ zxretro@gmail.com
 
 
 
-545
+557
 
 TouchLocation.h
 file
@@ -202,10 +202,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-9d2126e19b143992d2e30a95ef509215
-2010-11-15T17:23:13.831337Z
-40
+2010-12-22T21:57:45.000000Z
+746ac72e5c113fafa1feb0e15ae3ecc0
+2010-12-14T23:28:16.818141Z
+47
 zxretro@gmail.com
 
 
@@ -228,7 +228,7 @@ zxretro@gmail.com
 
 
 
-986
+1027
 
 Retronator.Xni.Framework.Input.Touch.classes.h
 file
@@ -372,10 +372,10 @@ file
 
 
 
-2010-12-01T02:33:10.000000Z
-3b7b48bda7554a699499ce6df54db404
-2010-11-15T17:23:13.831337Z
-40
+2010-12-22T21:57:45.000000Z
+fc01f739ab8cf90e865b47d6a25f5ca5
+2010-12-14T23:28:16.818141Z
+47
 zxretro@gmail.com
 
 
@@ -398,7 +398,7 @@ zxretro@gmail.com
 
 
 
-5044
+5190
 
 Retronator.Xni.Framework.Input.Touch.h
 file

@@ -23,14 +23,6 @@
 	return self;	
 }
 
-- (void*) getPixelData { 
-	return pixelData; 
-}
-
-- (void) setPixelData:(void*)sourceData {
-	pixelData = sourceData;
-}
-
 - (BOOL) tryGetFormat:(SurfaceFormat*)theFormat {
 	*theFormat = format;
 	return YES;
@@ -38,12 +30,14 @@
 
 - (Byte *) getPixelAtX:(int)x Y:(int)y {
 	// Index into the data array at bytesPerPixel intervals.
-	return &pixelData[(x + y * width) * bytesPerPixel];
+	Byte *bytes = (Byte*)[pixelData bytes];
+	return &bytes[(x + y * width) * bytesPerPixel];
 }
 
 - (void) setPixelAtX:(int)x Y:(int)y Value:(Byte *)value {
 	// The value contains bytesPerPixel bytes.
-	memcpy(&pixelData[(x + y * width) * bytesPerPixel], value, bytesPerPixel);
+	Byte *bytes = (Byte*)[pixelData bytes];
+	memcpy(&bytes[(x + y * width) * bytesPerPixel], value, bytesPerPixel);
 }
 
 @end

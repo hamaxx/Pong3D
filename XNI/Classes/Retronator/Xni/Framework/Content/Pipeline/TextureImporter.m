@@ -10,13 +10,14 @@
 #import <UIKit/UIKit.h>
 
 #import "Retronator.Xni.Framework.Graphics.h"
+#import "Retronator.Xni.Framework.Content.Pipeline.h"
 #import "Retronator.Xni.Framework.Content.Pipeline.Graphics.h"
 
 @implementation TextureImporter
 
 - (TextureContent*) importFile:(NSString*)filename { 
-	NSData *textureData = [[NSData alloc] initWithContentsOfFile:filename];
-    UIImage *image = [[UIImage alloc] initWithData:textureData];
+	NSData *textureData = [NSData dataWithContentsOfFile:filename];
+    UIImage *image = [UIImage imageWithData:textureData];
     if (image == nil) {
         [NSException raise:@"InvalidArgumentException" format:@"The provided file is not a supported texture resource."];
     }	
@@ -35,21 +36,23 @@
 	CGContextClearRect(textureContext, CGRectMake(0, 0, width, height));
     CGContextTranslateCTM(textureContext, 0, 0);	
     CGContextDrawImage(textureContext, CGRectMake(0, 0, width, height), image.CGImage);
+		
+	// Create pixel bitmap content.
+	PixelBitmapContent *bitmap = [[[PixelBitmapContent alloc] initWithWidth:(int)width height:(int)height format:SurfaceFormatColor] autorelease];
+	[bitmap setPixelData:[NSData dataWithBytes:imageData length:width*height*4]];
 	
 	// Clean up.
 	CGColorSpaceRelease(colorSpace);
-	CGContextRelease(textureContext); 
-	
-	// Create pixel bitmap content.
-	PixelBitmapContent *bitmap = [[PixelBitmapContent alloc] initWithWidth:(int)width height:(int)height format:SurfaceFormatColor];
-	[bitmap setPixelData:imageData];
+	CGContextRelease(textureContext); 	
+	free(imageData);
 	
 	// This bitmap is the only one in the mipmap chain.
-	MipmapChain *mipmaps = [[MipmapChain alloc] init];
+	MipmapChain *mipmaps = [[[MipmapChain alloc] init] autorelease];
 	[mipmaps addObject:bitmap];
 	
 	// Create the texture content.
-	Texture2DContent *content = [[Texture2DContent alloc] init];
+	Texture2DContent *content = [[[Texture2DContent alloc] init] autorelease];
+	content.identity.sourceFilename = filename;
 	content.mipmaps = mipmaps;
 	
 	return content;

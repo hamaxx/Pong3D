@@ -11,14 +11,12 @@
 #import "Retronator.Xni.Framework.classes.h"
 
 @interface DirectionalLight : NSObject {
-    Vector3 *ambientColor;
     Vector3 *diffuseColor;
     Vector3 *direction;
     BOOL enabled;
     Vector3 *specularColor;
 }
 
-@property (nonatomic, retain) Vector3 *ambientColor;
 @property (nonatomic, retain) Vector3 *diffuseColor;
 @property (nonatomic, retain) Vector3 *direction;
 @property (nonatomic) BOOL enabled;

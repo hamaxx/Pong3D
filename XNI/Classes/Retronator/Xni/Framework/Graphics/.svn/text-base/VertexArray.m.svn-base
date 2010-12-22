@@ -7,13 +7,14 @@
 //
 
 #import "VertexArray.h"
-#import "System.h"
+
+#import "XniAdaptiveArray.h"
 
 @implementation VertexArray
 
 - (id) initWithItemSize:(int)itemSize initialCapacity:(int)initialCapacity {
     if (self = [super init]) {
-        array = [[AdaptiveArray alloc] initWithItemSize:itemSize initialCapacity:initialCapacity];
+        array = [[XniAdaptiveArray alloc] initWithItemSize:itemSize initialCapacity:initialCapacity];
     }
     return self;
 }

@@ -24,13 +24,13 @@
 -(id) initWithGraphicsDevice:(GraphicsDevice *)theGraphicsDevice {
     if (self = [super initWithGraphicsDevice:theGraphicsDevice]) {
         // Create the main pass.
-        BasicEffectPass *mainPass = [[BasicEffectPass alloc] initWithBasicEffect:self graphicsDevice:graphicsDevice];
+        BasicEffectPass *mainPass = [[[BasicEffectPass alloc] initWithBasicEffect:self graphicsDevice:graphicsDevice] autorelease];
         NSArray *passes = [NSArray arrayWithObject:mainPass];
         
         // Create the basic technique.
-        EffectTechnique *basicTechnique = [[EffectTechnique alloc] initWithName:@"BasicEffect" passes:passes];
+        EffectTechnique *basicTechnique = [[[EffectTechnique alloc] initWithName:@"BasicEffect" passes:passes] autorelease];
         
-        techniques = [NSDictionary dictionaryWithObject:basicTechnique forKey:basicTechnique.name];
+        techniques = [[NSDictionary alloc] initWithObjectsAndKeys:basicTechnique, basicTechnique.name, nil];
         currentTechnique = basicTechnique;
         
         // Set defaults.
@@ -104,6 +104,7 @@
 	[world release];
 	[view release];
 	[projection release];
+	[techniques release];
     [super dealloc];
 }
 
@@ -175,6 +176,7 @@
     }
     Vector4Set(&data, basicEffect.ambientLightColor.x, basicEffect.ambientLightColor.y, basicEffect.ambientLightColor.z, 1);
     glLightModelfv(GL_LIGHT_MODEL_AMBIENT, (float*)&data);
+
     [self activateLight:basicEffect.directionalLight0 name:GL_LIGHT0];
     [self activateLight:basicEffect.directionalLight1 name:GL_LIGHT1];
     [self activateLight:basicEffect.directionalLight2 name:GL_LIGHT2];
@@ -192,13 +194,12 @@
     }
     
     Vector4Struct data;
-    Vector4Set(&data, light.ambientColor.x, light.ambientColor.y, light.ambientColor.z, 1);    
-    glLightfv(lightName, GL_AMBIENT, (float*)&data);
     Vector4Set(&data, light.diffuseColor.x, light.diffuseColor.y, light.diffuseColor.z, 1);    
     glLightfv(lightName, GL_DIFFUSE, (float*)&data);
     Vector4Set(&data, light.specularColor.x, light.specularColor.y, light.specularColor.z, 1);
     glLightfv(lightName, GL_SPECULAR, (float*)&data);    
-    Vector4Set(&data, light.direction.x, light.direction.y, light.direction.z, 0);
+    
+	Vector4Set(&data, -light.direction.x, -light.direction.y, -light.direction.z, 0);
     glLightfv(lightName, GL_POSITION, (float*)&data);    
 }
 

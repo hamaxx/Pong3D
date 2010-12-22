@@ -21,15 +21,15 @@
     return self;
 }
 
-- (id) initWithStruct: (Vector3Struct*)vectorData {
+- (id) initWithVector3Struct: (Vector3Struct*)vectorData {
     if (self = [super init]) {
         data = *vectorData;
     }
     return self;
 }
 
-- (id) initWithVector: (Vector3*)vector {
-    return [self initWithStruct:vector.data];  
+- (id) initWithVector3: (Vector3*)vector {
+    return [self initWithVector3Struct:vector.data];  
 }
 
 + (Vector3*) vectorWithX:(float)x y:(float)y z:(float)z {
@@ -37,11 +37,11 @@
 }
 
 + (Vector3*) vectorWithStruct: (Vector3Struct*)vectorData {
-    return [[[Vector3 alloc] initWithStruct:vectorData] autorelease];
+    return [[[Vector3 alloc] initWithVector3Struct:vectorData] autorelease];
 }
 
 + (Vector3*) vectorWithVector: (Vector3*)vector {
-    return [[[Vector3 alloc] initWithVector:vector] autorelease];
+    return [[[Vector3 alloc] initWithVector3:vector] autorelease];
 }
 
 // PROPERTIES
@@ -123,9 +123,15 @@
     Vector3Normalize(&data);
     return self;
 }
+
 - (Vector3*) negate {
     Vector3Negate(&data);
     return self;
+}
+
+- (Vector3*) set:(Vector3 *)value {
+	data = *value.data;
+	return self;
 }
 
 - (Vector3*) add:(Vector3*)value {
@@ -152,6 +158,24 @@
     Vector3TransformNormal(self.data, matrix.data, self.data);
     return self;
 }
+
+- (id) copyWithZone:(NSZone *)zone {
+	return [[Vector3 allocWithZone:zone] initWithVector3Struct:&data];
+}
+
+- (BOOL) equals:(Vector3*)vector {
+	if (!vector) return NO;
+	return vector.data->x == data.x && vector.data->y == data.y &&
+	vector.data->z == data.z;
+}
+
+- (BOOL) isEqual:(id)object {
+    if ([object isKindOfClass:[Vector3 class]]) {
+        return [self equals:object];
+    }
+    return NO;
+}
+
 
 - (NSString *) description {
     return [NSString stringWithFormat:@"Vector(%f, %f, %f)", data.x, data.y, data.z];

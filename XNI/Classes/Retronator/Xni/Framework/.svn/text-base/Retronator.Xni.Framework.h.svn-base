@@ -2,6 +2,7 @@
 #import "Protocols.h"
 
 // Data structures
+#import "XniPoint.h"
 #import "Rectangle.h"
 #import "Color.h"
 

@@ -1,13 +1,13 @@
 K 25
 svn:wc:ra_dav:version-url
 V 70
-/svn/!svn/ver/28/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline
+/svn/!svn/ver/50/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline
 END
-ContentItem.h
+XImporter.h
 K 25
 svn:wc:ra_dav:version-url
-V 84
-/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentItem.h
+V 82
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/XImporter.h
 END
 ContentIdentity.m
 K 25
@@ -15,17 +15,47 @@ svn:wc:ra_dav:version-url
 V 88
 /svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentIdentity.m
 END
+ContentItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentItem.h
+END
 ContentImporter.h
 K 25
 svn:wc:ra_dav:version-url
 V 88
-/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentImporter.h
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentImporter.h
+END
+XImporter.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/XImporter.m
 END
 ContentItem.m
 K 25
 svn:wc:ra_dav:version-url
 V 84
-/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentItem.m
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentItem.m
+END
+ChildCollection.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ChildCollection.h
+END
+ExternalReference.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ExternalReference.h
+END
+Retronator.Xni.Framework.Content.Pipeline.classes.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/49/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Retronator.Xni.Framework.Content.Pipeline.classes.h
 END
 ContentImporter.m
 K 25
@@ -33,17 +63,101 @@ svn:wc:ra_dav:version-url
 V 88
 /svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentImporter.m
 END
-Retronator.Xni.Framework.Content.Pipeline.classes.h
+NamedValueDictionary.m.h
 K 25
 svn:wc:ra_dav:version-url
-V 122
-/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Retronator.Xni.Framework.Content.Pipeline.classes.h
+V 95
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/NamedValueDictionary.m.h
+END
+ChildCollection.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ChildCollection.m
+END
+IContentImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/IContentImporter.h
+END
+Retronator.Xni.Framework.Content.Pipeline.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/49/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Retronator.Xni.Framework.Content.Pipeline.h
+END
+ExternalReference.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ExternalReference.m
+END
+NamedValueDictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/NamedValueDictionary.h
+END
+ContentProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentProcessor.h
+END
+OpaqueDataDictionary.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/OpaqueDataDictionary.h
+END
+XImporterReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/XImporterReader.h
+END
+ContentProcessor.m
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentProcessor.m
+END
+WavImporter.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/48/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/WavImporter.h
+END
+OpaqueDataDictionary.m
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/OpaqueDataDictionary.m
+END
+Mp3Importer.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/48/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Mp3Importer.h
+END
+XImporterReader.m
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/XImporterReader.m
 END
 TextureImporter.h
 K 25
 svn:wc:ra_dav:version-url
 V 88
-/svn/!svn/ver/19/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/TextureImporter.h
+/svn/!svn/ver/49/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/TextureImporter.h
+END
+IContentProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/42/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/IContentProcessor.h
 END
 ContentIdentity.h
 K 25
@@ -51,15 +165,21 @@ svn:wc:ra_dav:version-url
 V 88
 /svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/ContentIdentity.h
 END
-Retronator.Xni.Framework.Content.Pipeline.h
+WavImporter.m
 K 25
 svn:wc:ra_dav:version-url
-V 114
-/svn/!svn/ver/15/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Retronator.Xni.Framework.Content.Pipeline.h
+V 84
+/svn/!svn/ver/48/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/WavImporter.m
+END
+Mp3Importer.m
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/48/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/Mp3Importer.m
 END
 TextureImporter.m
 K 25
 svn:wc:ra_dav:version-url
 V 88
-/svn/!svn/ver/28/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/TextureImporter.m
+/svn/!svn/ver/43/XNI/Classes/Retronator/Xni/Framework/Content/Pipeline/TextureImporter.m
 END

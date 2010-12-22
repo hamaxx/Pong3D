@@ -10,7 +10,9 @@
 
 #import "Retronator.Xni.Framework.Content.Pipeline.Graphics.classes.h"
 
-@interface TextureContent : NSObject {
+#import "ContentItem.h"
+
+@interface TextureContent : ContentItem {
 	MipmapChainCollection *faces;
 }
 

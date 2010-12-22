@@ -18,6 +18,7 @@
 
 @private
 	NSMutableDictionary *loadedAssets;
+	NSMutableDictionary *loadedFiles;
 	ContentTypeReaderManager *readerManager;
 }
 

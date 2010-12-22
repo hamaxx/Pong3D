@@ -20,7 +20,7 @@
 	return self;
 }
 
-- (id) initWithStruct:(RectangleStruct*) rectangleStruct {
+- (id) initWithRectangleStruct:(RectangleStruct*) rectangleStruct {
 	if (self = [super init]) {
 		data = *rectangleStruct;
 	}
@@ -28,7 +28,7 @@
 }
 
 - (id) initWithRectangle:(Rectangle*) rectangle {
-	return [self initWithStruct:rectangle.data];
+	return [self initWithRectangleStruct:rectangle.data];
 }
 
 + (Rectangle*) rectangleWithX:(int)x y:(int)y width:(int)width height:(int)height {
@@ -36,7 +36,7 @@
 }
 
 + (Rectangle*) rectangleWithStruct:(RectangleStruct*) rectangleStruct {
-	return [[[Rectangle alloc] initWithStruct:rectangleStruct] autorelease];
+	return [[[Rectangle alloc] initWithRectangleStruct:rectangleStruct] autorelease];
 }
 
 + (Rectangle*) rectangleWithRectangle:(Rectangle*) rectangle {
@@ -65,6 +65,15 @@
 - (RectangleStruct*) data {return &data;}
 
 // METHODS
+
+- (Rectangle*) set:(Rectangle*)value {
+	data = *value.data;
+	return self;
+}
+
+- (id) copyWithZone:(NSZone *)zone {
+	return [[Rectangle allocWithZone:zone] initWithRectangleStruct:&data];
+}
 
 - (BOOL) equals:(Rectangle*)rectangle {
 	if (!rectangle) return NO;

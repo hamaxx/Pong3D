@@ -39,7 +39,7 @@
 
 - (void) dealloc
 {
-	[chain dealloc];
+	[chain release];
 	[super dealloc];
 }
 

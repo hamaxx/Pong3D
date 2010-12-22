@@ -15,6 +15,7 @@
 @interface BitmapContent : ContentItem {
 	int width;
 	int height;
+	NSData *pixelData;
 }
 
 - (id) initWithWidth:(int)theWidth height:(int)theHeight;
@@ -22,8 +23,8 @@
 @property (nonatomic) int width;
 @property (nonatomic) int height;
 
-- (void*) getPixelData;
-- (void) setPixelData:(void*)sourceData;
+- (NSData*) getPixelData;
+- (void) setPixelData:(NSData*)sourceData;
 - (BOOL) tryGetFormat:(SurfaceFormat*)theFormat;
 
 @end

@@ -11,7 +11,7 @@
 @implementation HiDefGraphicsDevice
 
 - (EAGLContext*) createContext { 
-	return [[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2]; 
+	return [[[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2] autorelease]; 
 }
 
 @end

@@ -45,11 +45,11 @@ typedef struct {
 
 @end
 
-Matrix *identity;
+static Matrix *identity;
 
-NSArray *textureSort;
-NSArray *frontToBackSort;
-NSArray *backToFrontSort;
+static NSArray *textureSort;
+static NSArray *frontToBackSort;
+static NSArray *backToFrontSort;
 
 static inline void SpriteSetSource(XniSprite *sprite, Rectangle *source, Texture2D *texture, SpriteEffects effects) {
 	if (source) {
@@ -150,10 +150,8 @@ static VertexPositionColorTextureStruct vertices[4];
 	NSSortDescriptor *depthDescendingSortDescriptor = [[[NSSortDescriptor alloc] initWithKey:@"layerDepth" ascending:NO] autorelease];
 	
 	textureSort = [[NSArray arrayWithObject:textureSortDescriptor] retain];
-	
-	// For better performance, depth sorting sorts by depth first and later also by texture.
-	frontToBackSort = [[NSArray arrayWithObjects:depthAscendingSortDescriptor, textureSortDescriptor, nil] retain];
-	backToFrontSort = [[NSArray arrayWithObjects:depthDescendingSortDescriptor, textureSortDescriptor, nil] retain];
+	frontToBackSort = [[NSArray arrayWithObject:depthAscendingSortDescriptor] retain];
+	backToFrontSort = [[NSArray arrayWithObject:depthDescendingSortDescriptor] retain];
 }
 
 - (void) setProjection {
@@ -413,18 +411,18 @@ static VertexPositionColorTextureStruct vertices[4];
 		vertices[3].color = sprite->color;
 		
 		[vertexArray addVertex:&vertices[0]];
-		[vertexArray addVertex:&vertices[1]];
-		[vertexArray addVertex:&vertices[2]];
 		[vertexArray addVertex:&vertices[2]];
 		[vertexArray addVertex:&vertices[1]];
+		[vertexArray addVertex:&vertices[2]];
 		[vertexArray addVertex:&vertices[3]];
+		[vertexArray addVertex:&vertices[1]];
 	}
 	
 	[self.graphicsDevice.textures setItem:((XniSprite*)[sprites objectAtIndex:startIndex]).texture atIndex:0];
 	
 	// Draw the vertex array.
 	int count = (endIndex - startIndex + 1) * 2;
-	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleList vertices:vertexArray startingAt:0 count:count];
+	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleList vertexData:vertexArray vertexOffset:0 primitiveCount:count];
 	
 	// Clean up.
 	[vertexArray clear];

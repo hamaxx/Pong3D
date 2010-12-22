@@ -20,3 +20,4 @@
 - (void)insertObject:(BitmapContent*)anObject atIndex:(NSUInteger)index;
 
 @end
+

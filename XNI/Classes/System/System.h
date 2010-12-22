@@ -8,4 +8,3 @@
 #import "EventArgs.h"
 
 // Arrays
-#import "AdaptiveArray.h"

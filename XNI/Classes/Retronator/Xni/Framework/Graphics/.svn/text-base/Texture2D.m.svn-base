@@ -13,6 +13,8 @@
 #import "Retronator.Xni.Framework.Graphics.h"
 #import "Retronator.Xni.Framework.Content.Pipeline.Graphics.h"
 
+#import "GraphicsDevice+Internal.h"
+
 @implementation Texture2D
 
 - (id) initWithGraphicsDevice:(GraphicsDevice*)theGraphicsDevice width:(int)theWidth height:(int)theHeight {
@@ -78,7 +80,7 @@
     free(imageData);
     [image release];
     
-    return texture;	
+    return [texture autorelease];	
 }
 
 - (void) setDataFrom:(void*)data {

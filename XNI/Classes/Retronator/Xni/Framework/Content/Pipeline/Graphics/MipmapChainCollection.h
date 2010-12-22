@@ -6,17 +6,12 @@
 //  Copyright 2010 Retronator. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
 #import "Retronator.Xni.Framework.Content.Pipeline.Graphics.classes.h"
 
-@interface MipmapChainCollection : NSObject {
-	NSMutableArray *collection;
-}
+#define Collection MipmapChainCollection
+#define T MipmapChain*
 
-- (int) count;
-- (MipmapChain*)objectAtIndex:(NSUInteger)index;
-- (void)addObject:(MipmapChain*)anObject;
-- (void)insertObject:(MipmapChain*)anObject atIndex:(NSUInteger)index;
+#include "Collection.h"
 
-@end
+#undef Collection
+#undef T

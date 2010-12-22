@@ -8,6 +8,7 @@
 
 #import "VertexElement.h"
 
+#import "Retronator.Xni.Framework.h"
 #import "Retronator.Xni.Framework.Graphics.h"
 
 @implementation VertexElement
@@ -33,6 +34,21 @@
 @synthesize usageIndex;
 @synthesize vertexElementFormat;
 @synthesize vertexElementUsage;
+
++ (VertexElementFormat) getElementFormatForType:(Class)type {
+	if (type == [NSNumber class]) {
+		return VertexElementFormatSingle;
+	} else if (type == [Vector2 class]) {
+		return VertexElementFormatVector2;
+	} else if (type == [Vector3 class]) {
+		return VertexElementFormatVector3;
+	} else if (type == [Vector4 class]) {
+		return VertexElementFormatVector4;
+	} else {
+		[NSException raise:@"NotImplementedException" format:@"The type %@ is not a valid vertex element format.", type];
+		return 0;
+	}
+}
 
 + (int) getSizeForFormat:(VertexElementFormat)format {
     switch (format) {

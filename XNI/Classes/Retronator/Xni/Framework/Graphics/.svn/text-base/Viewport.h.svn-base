@@ -28,4 +28,7 @@
 @property (nonatomic) int x;
 @property (nonatomic) int y;
 
+- (Vector3*) project:(Vector3*)source projection:(Matrix*)projection view:(Matrix*)view world:(Matrix*)world;
+- (Vector3*) unproject:(Vector3*)source projection:(Matrix*)projection view:(Matrix*)view world:(Matrix*)world;
+
 @end
