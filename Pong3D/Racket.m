@@ -93,6 +93,9 @@ CGFloat rackDiv = 5.0f;
 	
 	vertex.position = *[Vector3 vectorWithX:racketW y:racketH z:z].data;
 	[vertexArray addVertex:&vertex];
+	
+	[vertexArray addVertex:&vertex];
+
 
 }
 
@@ -106,15 +109,16 @@ CGFloat rackDiv = 5.0f;
 		computerAccY = (((float)(rand() % 1000000) / 1000000.0f - 0.5f) / 3.0f) * screenH * rackDiv;
 	}
 	
+	if (fabsf(thePosition.x - position.x) - radius - racketW > 0 || fabsf(thePosition.y - position.y) - radius - racketH > 0)  {
+		[ball stop: self];
+		return [Vector3 zero];
+	}
+	
+	[Sounds play:RACKET_SOUND];
 	
 	if (fabsf(thePosition.x - position.x) < racketW && fabsf(thePosition.y - position.y) < racketH) {
 		theSpeed.z = (fabsf(theSpeed.z) > 1 ? 1 : fabsf(theSpeed.z)) * (thePosition.z < -25 ? 1 : -1);
 		return speed;
-	}
-
-	if (fabsf(thePosition.x - position.x) - radius - racketW > 0 || fabsf(thePosition.y - position.y) - radius - racketH > 0)  {
-		[ball stop: self];
-		return [Vector3 zero];
 	}
 	
 	//theSpeed.x *= 0.9;
@@ -223,12 +227,11 @@ CGFloat rackDiv = 5.0f;
 	
 	CGFloat accX = 0;
 	CGFloat accY = 0;
-	//if (ball.served && !ball.failed) {
+	if (ball.served && !ball.failed) {
 		accX = computerAccX / (fabsf(ball.position.z) + 1);
 		accY = computerAccY / (fabsf(ball.position.z) + 1);
-	//}
-	NSLog(@"%f %f", accY, accX);
-	
+	}
+
 	speed.x = -1 * (position.x - ballPosition.x + accX) * computerSpeed / 100.0f;
 	speed.y = -1 * (position.y - ballPosition.y + accY) * computerSpeed / 100.0f;
 	
@@ -250,8 +253,8 @@ CGFloat rackDiv = 5.0f;
 	
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
-	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleList
-									vertices:vertexArray startingAt:0 count:2];
+	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleStrip
+								  vertexData:vertexArray vertexOffset:0 primitiveCount:5];
 	
 	effect.world = [Matrix identity];
 	

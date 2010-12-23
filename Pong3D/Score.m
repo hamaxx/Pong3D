@@ -75,7 +75,7 @@
 		[[effect.currentTechnique.passes objectAtIndex:0] apply];
 		
 		[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleStrip
-									vertices:vertexArray startingAt:0 count:[vertexArray count]];
+									vertexData:vertexArray vertexOffset:0 primitiveCount:[vertexArray count]];
 	}
 }
 
@@ -87,8 +87,19 @@
 }
 
 - (void) addScore: (NSInteger) side {
+	
 	if (side == 0) home--;
-	else away--;
+	if (side == 1) away--;
+	
+	if (home <= 0) {
+		[Sounds play:LOSE_SOUND];
+	} else if (away <= 0) {
+		[Sounds play:WIN_SOUND];
+	} else if (side == 0) {
+		[Sounds play:MISS_SOUND];
+	} else if (side == 1)  {
+		[Sounds play:HIT_SOUND];
+	}
 	
 	if (home <= 0 || away <= 0) {
 		home = 5;

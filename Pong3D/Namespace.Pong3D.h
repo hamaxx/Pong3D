@@ -6,6 +6,7 @@
 
 // Components
 #import "GameRenderer.h"
+#import "Sounds.h"
 
 // Scene
 #import "Level.h"

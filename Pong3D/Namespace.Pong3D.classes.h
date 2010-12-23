@@ -6,6 +6,7 @@
 
 // Components
 @class GameRenderer;
+@class Sounds;
 
 // Scene
 @class Level, Scene;
@@ -20,3 +21,9 @@
 @class Pong3D;
 
 
+#define WALL_SOUND 0
+#define RACKET_SOUND 1
+#define WIN_SOUND 2
+#define LOSE_SOUND 3
+#define HIT_SOUND 4
+#define MISS_SOUND 5

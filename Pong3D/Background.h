@@ -17,4 +17,6 @@
 	Ball *ball;
 }
 
+- (id) initWithBall:(Ball *) b;
+
 @end

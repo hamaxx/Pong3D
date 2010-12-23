@@ -156,7 +156,7 @@
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
 	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleStrip
-									vertices:vertexArray startingAt:0 count:[vertexArray count]];
+									vertexData:vertexArray vertexOffset:0 primitiveCount:[vertexArray count]];
 
 	effect.world = [Matrix identity];
 	

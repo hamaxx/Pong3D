@@ -11,7 +11,17 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		37E2149712A5EBDE00BBAAB3 /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E2149412A5EBBE00BBAAB3 /* libXNI.a */; };
+		3700678712C2AE860082A95A /* Sounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 3700678612C2AE860082A95A /* Sounds.m */; };
+		3700679312C2AF220082A95A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700679212C2AF220082A95A /* AudioToolbox.framework */; };
+		3700679512C2AF220082A95A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700679412C2AF220082A95A /* OpenAL.framework */; };
+		370067D712C2B71D0082A95A /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 370067D612C2B71D0082A95A /* libXNI.a */; };
+		3700682B12C2BAC10082A95A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700682A12C2BAC10082A95A /* GameKit.framework */; };
+		3700685112C2C1FC0082A95A /* racket.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3700685012C2C1FC0082A95A /* racket.wav */; };
+		370068D812C2CCFA0082A95A /* wall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068D712C2CCFA0082A95A /* wall.wav */; };
+		370068DC12C2CD9E0082A95A /* lose.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068DB12C2CD9E0082A95A /* lose.wav */; };
+		370068EC12C2CFCA0082A95A /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068EB12C2CFCA0082A95A /* hit.wav */; };
+		370068EE12C2CFD30082A95A /* miss.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068ED12C2CFD30082A95A /* miss.wav */; };
+		370068FC12C2D0D20082A95A /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068FB12C2D0D20082A95A /* win.wav */; };
 		37F62E24129CD97B000CB950 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F62E23129CD97B000CB950 /* Score.m */; };
 		B504BD48126F0E5C00ACAC3D /* Pong3D.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BD47126F0E5C00ACAC3D /* Pong3D.m */; };
 		B504BD4C126F0E7F00ACAC3D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */; };
@@ -36,30 +46,6 @@
 		EA31BF0C1277C3F300F63859 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BF0B1277C3F300F63859 /* Background.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		37E2149312A5EBBE00BBAAB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D2AAC07E0554694100DB518D;
-			remoteInfo = XNI;
-		};
-		37E2149512A5EBBE00BBAAB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = B5C6FDD3126DD292002ED666;
-			remoteInfo = "XNI Release";
-		};
-		37E2149812A5EC0300BBAAB3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = XNI;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Pong3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +53,18 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Pong3D_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pong3D_Prefix.pch; sourceTree = "<group>"; };
-		37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XNI.xcodeproj; path = ../XNI/XNI.xcodeproj; sourceTree = SOURCE_ROOT; };
+		3700678512C2AE860082A95A /* Sounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sounds.h; sourceTree = "<group>"; };
+		3700678612C2AE860082A95A /* Sounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sounds.m; sourceTree = "<group>"; };
+		3700679212C2AF220082A95A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3700679412C2AF220082A95A /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		370067D612C2B71D0082A95A /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = ../XNI/libXNI.a; sourceTree = SOURCE_ROOT; };
+		3700682A12C2BAC10082A95A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		3700685012C2C1FC0082A95A /* racket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = racket.wav; sourceTree = "<group>"; };
+		370068D712C2CCFA0082A95A /* wall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wall.wav; sourceTree = "<group>"; };
+		370068DB12C2CD9E0082A95A /* lose.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lose.wav; sourceTree = "<group>"; };
+		370068EB12C2CFCA0082A95A /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
+		370068ED12C2CFD30082A95A /* miss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = miss.wav; sourceTree = "<group>"; };
+		370068FB12C2D0D20082A95A /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		37F62E22129CD97B000CB950 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
 		37F62E23129CD97B000CB950 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Pong3D-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pong3D-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -120,12 +117,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37E2149712A5EBDE00BBAAB3 /* libXNI.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				B504BD4C126F0E7F00ACAC3D /* OpenGLES.framework in Frameworks */,
 				B504BD4E126F0E7F00ACAC3D /* QuartzCore.framework in Frameworks */,
+				3700679312C2AF220082A95A /* AudioToolbox.framework in Frameworks */,
+				3700679512C2AF220082A95A /* OpenAL.framework in Frameworks */,
+				370067D712C2B71D0082A95A /* libXNI.a in Frameworks */,
+				3700682B12C2BAC10082A95A /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +143,12 @@
 		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				370068FB12C2D0D20082A95A /* win.wav */,
+				370068ED12C2CFD30082A95A /* miss.wav */,
+				370068EB12C2CFCA0082A95A /* hit.wav */,
+				370068DB12C2CD9E0082A95A /* lose.wav */,
+				370068D712C2CCFA0082A95A /* wall.wav */,
+				3700685012C2C1FC0082A95A /* racket.wav */,
 				EA31BE5D1277BA6D00F63859 /* positions.txt */,
 				EA31BB991277A34000F63859 /* ball.png */,
 				EA31BB961277A23A00F63859 /* rackets.png */,
@@ -155,13 +161,13 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */,
 				EA31BB9D1277A38900F63859 /* JSON */,
 				B504BD45126F0E4A00ACAC3D /* Classes */,
 				28EEBF621118D79A00187D67 /* Resources */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				3700682A12C2BAC10082A95A /* GameKit.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -178,22 +184,25 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				370067D612C2B71D0082A95A /* libXNI.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */,
 				B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */,
+				3700679212C2AF220082A95A /* AudioToolbox.framework */,
+				3700679412C2AF220082A95A /* OpenAL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		37E2148C12A5EBBE00BBAAB3 /* Products */ = {
+		3700678412C2AE710082A95A /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				37E2149412A5EBBE00BBAAB3 /* libXNI.a */,
-				37E2149612A5EBBE00BBAAB3 /* libXNI.a */,
+				3700678512C2AE860082A95A /* Sounds.h */,
+				3700678612C2AE860082A95A /* Sounds.m */,
 			);
-			name = Products;
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 		B504BD45126F0E4A00ACAC3D /* Classes */ = {
@@ -203,6 +212,7 @@
 				B504BDC1126F1A6300ACAC3D /* Namespace.Pong3D.classes.h */,
 				B504BDE7126F256100ACAC3D /* Namespace.Pong3D.protocols.h */,
 				B504BDE3126F244900ACAC3D /* Protocols */,
+				3700678412C2AE710082A95A /* Sounds */,
 				B504BDFA126F288F00ACAC3D /* Graphics */,
 				B504BDCA126F1F7E00ACAC3D /* Scene */,
 				B504BD46126F0E5C00ACAC3D /* Pong3D.h */,
@@ -302,7 +312,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				37E2149912A5EC0300BBAAB3 /* PBXTargetDependency */,
 			);
 			name = Pong3D;
 			productName = XniTemplate;
@@ -326,35 +335,12 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 37E2148C12A5EBBE00BBAAB3 /* Products */;
-					ProjectRef = 37E2148B12A5EBBE00BBAAB3 /* XNI.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Pong3D */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		37E2149412A5EBBE00BBAAB3 /* libXNI.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libXNI.a;
-			remoteRef = 37E2149312A5EBBE00BBAAB3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		37E2149612A5EBBE00BBAAB3 /* libXNI.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libXNI.a;
-			remoteRef = 37E2149512A5EBBE00BBAAB3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -365,6 +351,12 @@
 				EA31BB981277A23A00F63859 /* rackets.png in Resources */,
 				EA31BB9B1277A34000F63859 /* ball.png in Resources */,
 				EA31BE5E1277BA6D00F63859 /* positions.txt in Resources */,
+				3700685112C2C1FC0082A95A /* racket.wav in Resources */,
+				370068D812C2CCFA0082A95A /* wall.wav in Resources */,
+				370068DC12C2CD9E0082A95A /* lose.wav in Resources */,
+				370068EC12C2CFCA0082A95A /* hit.wav in Resources */,
+				370068EE12C2CFD30082A95A /* miss.wav in Resources */,
+				370068FC12C2D0D20082A95A /* win.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,18 +384,11 @@
 				EA31BBB01277A38900F63859 /* SBJsonWriter.m in Sources */,
 				EA31BF0C1277C3F300F63859 /* Background.m in Sources */,
 				37F62E24129CD97B000CB950 /* Score.m in Sources */,
+				3700678712C2AE860082A95A /* Sounds.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		37E2149912A5EC0300BBAAB3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XNI;
-			targetProxy = 37E2149812A5EC0300BBAAB3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -432,7 +417,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Pong3D_Prefix.pch;
 				INFOPLIST_FILE = "Pong3D-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../XNI\"",
+				);
 				PRODUCT_NAME = Pong3D;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -444,15 +432,16 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../XNI/build/${BUILD_STYLE}-${PLATFORM_NAME}/usr/local/include";
+				USER_HEADER_SEARCH_PATHS = ../XNI/usr/local/include;
 			};
 			name = Debug;
 		};

@@ -52,6 +52,7 @@
 	
 	// Create a new renderer for the new scene and add it to components.
 	currentRenderer = [[GameRenderer alloc] initWithGame:self level:currentLevel];
+	[Sounds initializeWithGane:self];
 	[self.components addComponent:currentRenderer];
 }
 

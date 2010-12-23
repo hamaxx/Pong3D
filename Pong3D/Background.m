@@ -81,12 +81,16 @@ CGFloat screenH1 = 15;
 	if (ABS(thePosition.x) + radius > screenW1) {
 		theSpeed.x = ABS(theSpeed.x) * 1 * (thePosition.x < 0 ? 1 : -1) * 0.9;
 		thePosition.x = (thePosition.x > 0 ? 1 : -1) * (screenW1 - radius);
+		
+		[Sounds play:WALL_SOUND];
 		return [Vector3 zero];
 	}
 	
 	if (ABS(thePosition.y) + radius > screenH1) {
 		theSpeed.y = ABS(theSpeed.y) * 1 * (thePosition.y < 0 ? 1 : -1) * 0.9;
 		thePosition.y = (thePosition.y > 0 ? 1 : -1) * (screenH1 - radius);
+		
+		[Sounds play:WALL_SOUND];
 		return [Vector3 zero];
 	}
 	
@@ -98,13 +102,13 @@ CGFloat screenH1 = 15;
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
 	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeLineList
-										vertices:vertexArray startingAt:0 count:40];
+										vertexData:vertexArray vertexOffset:0 primitiveCount:40];
 	
 	effect.world = [Matrix createTranslation:[Vector3 vectorWithX:0 y:0 z:ball.position.z]];
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
 	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeLineList
-									vertices:positionVertex startingAt:0 count:4];
+									vertexData:positionVertex vertexOffset:0 primitiveCount:4];
 	
 	effect.world = [Matrix identity];
 }

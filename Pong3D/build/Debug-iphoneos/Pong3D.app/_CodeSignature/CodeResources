@@ -20,13 +20,37 @@
 		<data>
 		mUF/h4vITORmSVX9axpbm1CRxDk=
 		</data>
+		<key>hit.wav</key>
+		<data>
+		O/F8j6inH3VU6W/rfOBlHKR/DaQ=
+		</data>
+		<key>lose.wav</key>
+		<data>
+		ba3hXhT2bMbVIEAHUoPhunO2P2o=
+		</data>
+		<key>miss.wav</key>
+		<data>
+		ullGuAk5C5sMEIlH3yPC/sxf+RM=
+		</data>
 		<key>positions.txt</key>
 		<data>
 		yP9PVUO1qIyAAfrncPIqeNVqBng=
 		</data>
+		<key>racket.wav</key>
+		<data>
+		ZyV3HmmrcmffaEHf6j1RsB/ZYHU=
+		</data>
 		<key>rackets.png</key>
 		<data>
 		pqCg6CngD8I5ph+qi35iZNpt8Hs=
+		</data>
+		<key>wall.wav</key>
+		<data>
+		BtpD44DmW+nWp+ADxuVDz5bmAvU=
+		</data>
+		<key>win.wav</key>
+		<data>
+		jnZJe//b/JOeBaP9804EWF26VWw=
 		</data>
 	</dict>
 	<key>rules</key>
