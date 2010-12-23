@@ -178,6 +178,8 @@
 	
 	timer = [[NSDate dateWithTimeIntervalSinceNow:0] timeIntervalSince1970];
 	
+	[Sounds play:RACKET_SOUND];
+	
 	NSLog(@"serve %@", accel);
 }
 
