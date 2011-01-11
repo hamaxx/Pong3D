@@ -1,7 +1,7 @@
 TPong3D
 v7
 r0
-t314759218.315594
+t314772518.270900
 cCheck dependencies
 cCpResource build/Debug-iphoneos/Pong3D.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Info.plist Pong3D-Info.plist
@@ -35,7 +35,6 @@ cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/SB
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Background.o /Users/ham/Desktop/game7/code/Pong3D/Background.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Score.o /Users/ham/Desktop/game7/code/Pong3D/Score.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Sounds.o /Users/ham/Desktop/game7/code/Pong3D/Sounds.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D normal armv6
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/main.o /Users/ham/Desktop/game7/code/Pong3D/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D.o /Users/ham/Desktop/game7/code/Pong3D/Pong3D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Level.o /Users/ham/Desktop/game7/code/Pong3D/Level.m normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -45,6 +44,7 @@ cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Ra
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Sprite.o /Users/ham/Desktop/game7/code/Pong3D/Sprite.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/GameRenderer.o /Users/ham/Desktop/game7/code/Pong3D/GameRenderer.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Ball.o /Users/ham/Desktop/game7/code/Pong3D/Ball.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D normal armv6
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/NSObject+SBJSON.o /Users/ham/Desktop/game7/code/Pong3D/JSON/NSObject+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/NSString+SBJSON.o /Users/ham/Desktop/game7/code/Pong3D/JSON/NSString+SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/SBJSON.o /Users/ham/Desktop/game7/code/Pong3D/JSON/SBJSON.m normal armv7 objective-c com.apple.compilers.gcc.4_2
@@ -194,8 +194,8 @@ i<Foundation/Foundation.h>
 i"Namespace.Pong3D.classes.h"
 
 N/Users/ham/Desktop/game7/code/Pong3D/Ball.m
-c000000004D129E5F0000000000001331
-t1293065823
+c000000004D12D4A00000000000001331
+t1293079712
 s4913
 i"Ball.h"
 i"Namespace.Pong3D.h"
@@ -489,11 +489,11 @@ t1287505216
 s7229
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app
-t1293066377
+t1293079718
 s646
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app.dSYM
-t1293066376
+t1293079717
 s102
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Info.plist
@@ -505,8 +505,8 @@ t1293060847
 s8
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D
-t1293066375
-s1292432
+t1293079716
+s1275324
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/ResourceRules.plist
 t1293057916
@@ -525,8 +525,8 @@ t1293057920
 s10100
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/hit.wav
-t1293065169
-s54316
+t1293079713
+s22060
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/lose.wav
 t1293065169
@@ -541,8 +541,8 @@ t1293057917
 s280
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/racket.wav
-t1293065169
-s57388
+t1293079713
+s27692
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/rackets.png
 t1293057917
@@ -561,7 +561,7 @@ t1293064289
 s70528
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Ball.o
-t1293066375
+t1293079715
 s82608
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/GameRenderer.o
@@ -585,7 +585,7 @@ t1293058278
 s8412
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D
-t1293066375
+t1293079716
 s638208
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D.LinkFileList
@@ -642,7 +642,7 @@ t1293064291
 s69320
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Ball.o
-t1293066375
+t1293079715
 s80516
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/GameRenderer.o
@@ -666,7 +666,7 @@ t1293058280
 s8368
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D
-t1293066375
+t1293079716
 s632252
 
 N/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D.LinkFileList
@@ -723,9 +723,9 @@ t1293060847
 s432
 
 N/Users/ham/Desktop/game7/code/Pong3D/hit.wav
-c000000004D129BBB000000000000D42C
-t1293065147
-s54316
+c000000004D12D45F000000000000562C
+t1293079647
+s22060
 
 N/Users/ham/Desktop/game7/code/Pong3D/lose.wav
 c000000004D129B940000000000045C2C
@@ -743,9 +743,9 @@ t1288145571
 s280
 
 N/Users/ham/Desktop/game7/code/Pong3D/racket.wav
-c000000004D129B7A000000000000E02C
-t1293065082
-s57388
+c000000004D12D47F0000000000006C2C
+t1293079679
+s27692
 
 N/Users/ham/Desktop/game7/code/Pong3D/rackets.png
 c000000004CC78A8B00000000000028FF
@@ -2667,15 +2667,15 @@ s1215
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies314759218#314759218#0(0"0(0#1#0"8718764576#0"0#
+lSLF07#2@18"Check dependencies314772512#314772513#0(0"0(0#1#0"3343187568374212096#0"0#
 
 CCodeSign /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app
-s314759176.316773
-e314759177.287231
+s314772517.559364
+e314772518.270841
 r1
 xCodeSign
 x/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app
-lSLF07#2@40"CodeSign build/Debug-iphoneos/Pong3D.app314759176#314759177#0(0"0(0#0#68"/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app8718761696#693"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jure Ham (QVBMEA6RP3)" --resource-rules=/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/ResourceRules.plist --entitlements /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D.xcent /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
+lSLF07#2@40"CodeSign build/Debug-iphoneos/Pong3D.app314772517#314772518#0(0"0(0#0#68"/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app8600838848#693"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Jure Ham (QVBMEA6RP3)" --resource-rules=/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/ResourceRules.plist --entitlements /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D.xcent /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
 
 CCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Background.o /Users/ham/Desktop/game7/code/Pong3D/Background.m normal armv6 objective-c com.apple.compilers.gcc.4_0
 r0
@@ -2697,8 +2697,8 @@ CCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Ba
 r0
 
 CCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Ball.o /Users/ham/Desktop/game7/code/Pong3D/Ball.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s314759174.694945
-e314759175.091622
+s314772513.249500
+e314772515.605807
 r1
 xCompileC
 xbuild/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Ball.o
@@ -2707,7 +2707,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/ham/Desktop/game7/code/Pong3D/Ball.m314759174#314759175#0(0"0(0#0#43"/Users/ham/Desktop/game7/code/Pong3D/Ball.m8717322112#1776"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-generated-files.hmap -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-own-target-headers.hmap -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-all-target-headers.hmap -iquote /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-project-headers.hmap -F/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -iquote../XNI/usr/local/include -I/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/include -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/DerivedSources/armv6 -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/DerivedSources -include /var/folders/hS/hSZ3vevsGsutLZqiCT0pFE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong3D_Prefix-fvomevpqctyrupebzkkrjeoxldqc/Pong3D_Prefix.pch -c /Users/ham/Desktop/game7/code/Pong3D/Ball.m -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Ball.o0#
+lSLF07#2@51"Compile /Users/ham/Desktop/game7/code/Pong3D/Ball.m314772513#314772515#0(0"0(0#0#43"/Users/ham/Desktop/game7/code/Pong3D/Ball.m8607158144#1776"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-generated-files.hmap -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-own-target-headers.hmap -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-all-target-headers.hmap -iquote /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-project-headers.hmap -F/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -iquote../XNI/usr/local/include -I/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/include -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/DerivedSources/armv6 -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/DerivedSources -include /var/folders/hS/hSZ3vevsGsutLZqiCT0pFE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong3D_Prefix-fvomevpqctyrupebzkkrjeoxldqc/Pong3D_Prefix.pch -c /Users/ham/Desktop/game7/code/Pong3D/Ball.m -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Ball.o0#
 
 CCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/GameRenderer.o /Users/ham/Desktop/game7/code/Pong3D/GameRenderer.m normal armv6 objective-c com.apple.compilers.gcc.4_0
 r0
@@ -2985,8 +2985,8 @@ CCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Ba
 r0
 
 CCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Ball.o /Users/ham/Desktop/game7/code/Pong3D/Ball.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s314759175.043094
-e314759175.252925
+s314772513.252578
+e314772515.607794
 r1
 xCompileC
 xbuild/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Ball.o
@@ -2995,7 +2995,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /Users/ham/Desktop/game7/code/Pong3D/Ball.m314759175#314759175#0(0"0(0#0#43"/Users/ham/Desktop/game7/code/Pong3D/Ball.m8720389280#1776"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-generated-files.hmap -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-own-target-headers.hmap -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-all-target-headers.hmap -iquote /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-project-headers.hmap -F/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -iquote../XNI/usr/local/include -I/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/include -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/DerivedSources/armv7 -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/DerivedSources -include /var/folders/hS/hSZ3vevsGsutLZqiCT0pFE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong3D_Prefix-cpndccpqdndtapfclgeuxwuhadyj/Pong3D_Prefix.pch -c /Users/ham/Desktop/game7/code/Pong3D/Ball.m -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Ball.o0#
+lSLF07#2@51"Compile /Users/ham/Desktop/game7/code/Pong3D/Ball.m314772513#314772515#0(0"0(0#0#43"/Users/ham/Desktop/game7/code/Pong3D/Ball.m8606437856#1776"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-generated-files.hmap -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-own-target-headers.hmap -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-all-target-headers.hmap -iquote /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D-project-headers.hmap -F/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -iquote../XNI/usr/local/include -I/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/include -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/DerivedSources/armv7 -I/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/DerivedSources -include /var/folders/hS/hSZ3vevsGsutLZqiCT0pFE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Pong3D_Prefix-cpndccpqdndtapfclgeuxwuhadyj/Pong3D_Prefix.pch -c /Users/ham/Desktop/game7/code/Pong3D/Ball.m -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Ball.o0#
 
 CCompileC build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/GameRenderer.o /Users/ham/Desktop/game7/code/Pong3D/GameRenderer.m normal armv7 objective-c com.apple.compilers.gcc.4_0
 r0
@@ -3290,13 +3290,13 @@ x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceR
 lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist314750716#314750716#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8606772832#551"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
 
 CCpResource build/Debug-iphoneos/Pong3D.app/hit.wav hit.wav
-s314757968.949268
-e314757969.026668
+s314772513.170031
+e314772513.235960
 r1
 xCpResource
 xbuild/Debug-iphoneos/Pong3D.app/hit.wav
 xhit.wav
-lSLF07#2@12"Copy hit.wav314757968#314757969#0(0"0(0#0#44"/Users/ham/Desktop/game7/code/Pong3D/hit.wav8715488160#506"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ham/Desktop/game7/code/Pong3D/hit.wav /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
+lSLF07#2@12"Copy hit.wav314772513#314772513#0(0"0(0#0#44"/Users/ham/Desktop/game7/code/Pong3D/hit.wav8607704672#506"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ham/Desktop/game7/code/Pong3D/hit.wav /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
 
 CCpResource build/Debug-iphoneos/Pong3D.app/lose.wav lose.wav
 s314757968.948516
@@ -3326,13 +3326,13 @@ xpositions.txt
 lSLF07#2@18"Copy positions.txt314750717#314750717#0(0"0(0#0#50"/Users/ham/Desktop/game7/code/Pong3D/positions.txt8625292928#512"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ham/Desktop/game7/code/Pong3D/positions.txt /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
 
 CCpResource build/Debug-iphoneos/Pong3D.app/racket.wav racket.wav
-s314757968.946482
-e314757969.027313
+s314772513.130916
+e314772513.248330
 r1
 xCpResource
 xbuild/Debug-iphoneos/Pong3D.app/racket.wav
 xracket.wav
-lSLF07#2@15"Copy racket.wav314757968#314757969#0(0"0(0#0#47"/Users/ham/Desktop/game7/code/Pong3D/racket.wav8716234400#509"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ham/Desktop/game7/code/Pong3D/racket.wav /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
+lSLF07#2@15"Copy racket.wav314772513#314772513#0(0"0(0#0#47"/Users/ham/Desktop/game7/code/Pong3D/racket.wav28992395054874704#509"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ham/Desktop/game7/code/Pong3D/racket.wav /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
 
 CCpResource build/Debug-iphoneos/Pong3D.app/wall.wav wall.wav
 s314757968.947713
@@ -3353,43 +3353,43 @@ xwin.wav
 lSLF07#2@12"Copy win.wav314757968#314757969#0(0"0(0#0#44"/Users/ham/Desktop/game7/code/Pong3D/win.wav8715091776#506"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/ham/Desktop/game7/code/Pong3D/win.wav /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
 
 CCreateUniversalBinary /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D normal "armv6 armv7"
-s314759175.729787
-e314759175.744217
+s314772516.872050
+e314772516.953698
 r1
 xCreateUniversalBinary
 x/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D
 xnormal
 xarmv6 armv7
-lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/Pong3D.app/Pong3D normal "armv6 armv7"314759175#314759175#0(0"0(0#0#48"/Users/ham/Desktop/game7/code/Pong3D/armv6 armv78721809152#564"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D -output /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D0#
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/Pong3D.app/Pong3D normal "armv6 armv7"314772516#314772516#0(0"0(0#0#48"/Users/ham/Desktop/game7/code/Pong3D/armv6 armv78606378432#564"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D -output /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D0#
 
 CGenerateDSYMFile /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app.dSYM /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D
-s314759175.744347
-e314759176.308970
+s314772516.953828
+e314772517.475188
 r1
 xGenerateDSYMFile
 x/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app.dSYM
 x/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D
-lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Pong3D.app.dSYM build/Debug-iphoneos/Pong3D.app/Pong3D314759175#314759176#0(0"0(0#0#75"/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D8720465600#415"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D -o /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app.dSYM0#
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Pong3D.app.dSYM build/Debug-iphoneos/Pong3D.app/Pong3D314772516#314772517#0(0"0(0#0#75"/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D8606252896#415"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Pong3D -o /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app.dSYM0#
 
 CLd /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D normal armv6
-s314759175.091742
-e314759175.484670
+s314772515.605974
+e314772516.871925
 r1
 xLd
 x/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D
 xnormal
 xarmv6
-lSLF07#2@116"Link /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D314759175#314759175#0(0"0(0#0#0"8718418752#1060"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -L/Users/ham/Desktop/game7/code/Pong3D/../XNI -F/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -filelist /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -lXNI -framework GameKit -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D0#
+lSLF07#2@116"Link /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D314772515#314772516#0(0"0(0#0#0"8601728768#1060"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -L/Users/ham/Desktop/game7/code/Pong3D/../XNI -F/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -filelist /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -lXNI -framework GameKit -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv6/Pong3D0#
 
 CLd /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D normal armv7
-s314759175.451172
-e314759175.729629
+s314772515.608690
+e314772516.849930
 r1
 xLd
 x/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D
 xnormal
 xarmv7
-lSLF07#2@116"Link /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D314759175#314759175#0(0"0(0#0#0"8716975488#1060"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -L/Users/ham/Desktop/game7/code/Pong3D/../XNI -F/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -filelist /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -lXNI -framework GameKit -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D0#
+lSLF07#2@116"Link /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D314772515#314772516#0(0"0(0#0#0"8608866688#1060"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -L/Users/ham/Desktop/game7/code/Pong3D/../XNI -F/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos -filelist /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework OpenGLES -framework QuartzCore -framework AudioToolbox -framework OpenAL -lXNI -framework GameKit -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Objects-normal/armv7/Pong3D0#
 
 CProcessInfoPlistFile /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app/Info.plist Pong3D-Info.plist
 s314753647.292289
@@ -3588,10 +3588,10 @@ x/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.b
 lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D.xcent314753647#314753647#0(0"0(0#0#96"/Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D.xcent8613261120#487"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/ham/Desktop/game7/code/Pong3D/build/Pong3D.build/Debug-iphoneos/Pong3D.build/Pong3D.xcent0#
 
 CTouch /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app
-s314759176.309339
-e314759176.316543
+s314772517.475534
+e314772517.559086
 r1
 xTouch
 x/Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app
-lSLF07#2@74"Touch /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app314759176#314759176#0(0"0(0#0#0"8721640768#321"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
+lSLF07#2@74"Touch /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app314772517#314772517#0(0"0(0#0#0"8604109632#321"    cd /Users/ham/Desktop/game7/code/Pong3D    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/ham/Desktop/game7/code/Pong3D/build/Debug-iphoneos/Pong3D.app0#
 
