@@ -19,7 +19,7 @@
 #define ballR 0.5
 
 @implementation Score
-@synthesize position;
+@synthesize position, home, away, score;
 
 
 - (VertexPositionColorArray *) drawBallWithColor :(Color *) color {
@@ -59,15 +59,15 @@
 	return [vertexArray autorelease];
 }
 
-- (void) loadContent:(GraphicsDevice *) content {
+- (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
 	vertexArrayHome = [[self drawBallWithColor:[Color colorWithPercentageRed:0.3 green:1.0 blue:0.3 alpha:1.0]] retain];
 	vertexArrayAway = [[self drawBallWithColor:[Color colorWithPercentageRed:1.0 green:0.3 blue:0.3 alpha:1.0]] retain];
 }
 
-- (void) drawScore:(NSInteger)score : (NSInteger) side :(BasicEffect *)effect :(GraphicsDevice *)graphicsDevice {
+- (void) drawScore:(NSInteger)points : (NSInteger) side :(BasicEffect *)effect :(GraphicsDevice *)graphicsDevice {
 	VertexPositionColorArray *vertexArray = (side == 0) ? vertexArrayHome : vertexArrayAway;
 	
-	for (int i = 0; i < score; i++) {
+	for (int i = 0; i < points; i++) {
 		CGFloat posX = (side == 0) ? -10 + i * 1.5 : 10 - i * 1.5;
 		
 		effect.world = [Matrix createTranslation:[Vector3 vectorWithX:posX y:15 z:0]];
@@ -88,13 +88,22 @@
 
 - (void) addScore: (NSInteger) side {
 	
-	if (side == 0) home--;
-	if (side == 1) away--;
+	if (side == 0) {
+		home--;
+		score--;
+	}
+	if (side == 1) {
+		away--;
+		score += 2;
+	}
 	
 	if (home <= 0) {
 		[Sounds play:LOSE_SOUND];
+		[Menu shown:YES:YES];
 	} else if (away <= 0) {
 		[Sounds play:WIN_SOUND];
+		level++;
+		score += 10;
 	} else if (side == 0) {
 		[Sounds play:MISS_SOUND];
 	} else if (side == 1)  {
@@ -105,14 +114,16 @@
 		home = 5;
 		away = 5;
 	}
+	
+	NSLog(@"level %d, score %d", level, score);
 }
 
 - (id) init
 {
 	self = [super init];
 	if (self != nil) {
-		home = 5;
-		away = 5;
+		score = 0;
+		level = 1;
 	}
 	return self;
 }

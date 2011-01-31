@@ -22,6 +22,7 @@
 	Ball *ball;
 	Background *background;
 	Score *score;
+	Menu *menu;
 }
 
 /**
@@ -33,5 +34,8 @@
  Resets the level to its initial conditions;
  */
 - (void) reset;
+- (void) loadSaved;
+
+- (void) saveState;
 
 @end

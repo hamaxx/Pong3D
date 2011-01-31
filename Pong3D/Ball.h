@@ -29,6 +29,9 @@
 	Score *score;
 	
 	Ball *newBall;
+	
+	CGFloat rotateX;
+	CGFloat rotateY;
 }
 
 @property (nonatomic) BOOL served;

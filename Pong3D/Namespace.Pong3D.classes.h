@@ -12,7 +12,7 @@
 @class Level, Scene;
 
 // Scene objects
-@class Racket, Ball, Background, Score;
+@class Racket, Ball, Background, Score, Menu;
 
 // Levels
 @class Level1;

@@ -56,6 +56,18 @@
 	[self.components addComponent:currentRenderer];
 }
 
+- (void) applicationWillResignActive:(UIApplication *)application
+{
+    [currentLevel saveState];
+    [super applicationWillResignActive:application];
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+	[currentLevel saveState];
+    [super applicationWillTerminate:application];
+}
+
 - (void) dealloc
 {
 	[levelClasses release];

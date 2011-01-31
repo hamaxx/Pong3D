@@ -40,10 +40,12 @@
 	
 	self.graphicsDevice.blendState = [BlendState alphaBlend];
 	
+	spriteBatch = [[SpriteBatch alloc] initWithGraphicsDevice:self.graphicsDevice];
+	
 	for (id<GameObject> gameObject in level.scene) {
 		
 		if ([gameObject conformsToProtocol:@protocol(GameObject)]) {
-			[gameObject loadContent:self.graphicsDevice];
+			[gameObject loadContent:self.graphicsDevice:content];
 		}
 		
 	}
@@ -70,14 +72,9 @@
 }
 
 - (void) drawWithGameTime:(GameTime *)gameTime {	
-	// Clear the background with some color.
-	// If you use a background image that will cover the whole screeen, this is not necessary.
 	[self.graphicsDevice clearWithColor:[Color black]];
-	
-	// Start the sprite batch.
 	[spriteBatch begin];
-	
-	// Go over the whole scene
+
 	for (id<GameObject> gameObject in level.scene) {
 	
 		if ([gameObject conformsToProtocol:@protocol(GameObject)]) {
@@ -85,7 +82,6 @@
 		} 		
 	}
 	
-	// Instruct the sprite batch to draw all the sprites we've submitted.
 	[spriteBatch end];
 	
 	if (changeView) {

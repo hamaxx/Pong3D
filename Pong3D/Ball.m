@@ -37,11 +37,14 @@
 }
 */
 
-- (void) loadContent:(GraphicsDevice *) content{
+- (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
 	vertexArray = [[VertexPositionColorArray alloc] initWithInitialCapacity:2];
 	
 	VertexPositionColorStruct vertex;
 	vertex.color = [Color colorWithPercentageRed:1.0 green:0.3 blue:0.0 alpha:1.0].packedValue;
+
+	VertexPositionColorStruct vertex1;
+	vertex1.color = [Color colorWithPercentageRed:0.0 green:0.3 blue:1.0 alpha:1.0].packedValue;
 	
 	float R = -10 * ballR;
 	float dz = 0;
@@ -65,12 +68,17 @@
 		y = R*cos(x_angle);
 		z = R*sin(x_angle)*cos(y_angle) + dz;
 		
-		
-		vertex.position = *[Vector3 vectorWithX:x / 10 y:y / 10 z:z / 10].data;
-		[vertexArray addVertex:&vertex];
+		if (i < Total_Points / 2 + 1) {
+			vertex.position = *[Vector3 vectorWithX:x / 10 y:y / 10 z:z / 10].data;
+			[vertexArray addVertex:&vertex];
+		} else {
+			vertex1.position = *[Vector3 vectorWithX:x / 10 y:y / 10 z:z / 10].data;
+			[vertexArray addVertex:&vertex1];
+		}
+
 	}
 	
-	[vertexArray addVertex:&vertex];
+	[vertexArray addVertex:&vertex1];
 	
 }
 
@@ -78,15 +86,16 @@
 	for (id<CollisionObject> o in collisionObjects) {
 		Vector3 *a = [o collide:speed :position : accel :ballR];
 		
-		if ([a length] > 0.25f) {
+		if ([a length] > 0.01f) {
 			accel.x = (accel.x - a.x/10.0f) / 2.0f;
 			accel.y = (accel.y - a.y/10.0f) / 2.0f;
 			
 			if (fabsf(speed.z) < 1) speed.z *= 1.5;
 			
+			speed.x += -2 * accel.x;
+			speed.y += -2 * accel.y;
+			
 			NSLog(@"%f",  [a length]);
-		} else if (a != nil) {
-			[accel multiplyBy:0.7];
 		}
 	}
 	[newBall collisions];
@@ -115,7 +124,7 @@
 			position.z > -30 && position.z < -20) {
 		NSLog(@"New ball");
 		newBall = [[Ball alloc] initWithScore:score];
-		[newBall loadContent:nil];
+		[newBall loadContent:nil:nil];
 		[newBall setCollisionObjects:collisionObjects];
 		newBall.position = [[self cloneVector:position] retain];
 		newBall.speed = [[self cloneVector:speed] retain];
@@ -127,9 +136,6 @@
 
 - (void) stop: (Racket *) r {
 	NSLog(@"stop %@", speed);
-	
-	speed = [[Vector3 vectorWithX:0.0 y:0.0 z:0.0] retain];
-	accel = [[Vector3 vectorWithX:0.0 y:0.0 z:0.0] retain];
 	failed = YES;
 	
 	[newBall stop:r];
@@ -142,6 +148,11 @@
 - (void) restartPosition {
 	//NSLog(@"%@ %@", speed, accel);
 	position = [[Vector3 vectorWithX:0.0 y:0.0 z:-ballR] retain];
+	speed = [[Vector3 vectorWithX:0.0 y:0.0 z:0.0] retain];
+	accel = [[Vector3 vectorWithX:0.0 y:0.0 z:0.0] retain];
+	rotateX = 0;
+	rotateY = 0;
+	
 	served = NO;
 	failed = NO;
 	
@@ -149,9 +160,25 @@
 }
 
 - (void) draw:(BasicEffect *)effect :(GraphicsDevice *)graphicsDevice: (SpriteBatch *)spriteBatch {
-	[self move];
+	if (!failed) {
+		[self move];
+	}
 	
-	effect.world = [Matrix createTranslation:position];
+	effect.world = [Matrix identity];
+	
+	Matrix *efV = [effect.view copy];
+	
+	rotateX += accel.y * 100.0f; rotateY += accel.x * 100.0f;
+	Matrix *rotateXmatrix = [Matrix createRotationX:rotateX];
+	Matrix *rotateYmatrix = [Matrix createRotationY:rotateY];
+
+	//effect.world = [Matrix createTranslation:position];
+	
+	effect.specularColor = [Vector3 vectorWithX:1 y:1 z:0];
+	//effect.lightingEnabled = YES;
+	effect.specularPower = 100;
+	
+	effect.world = [[rotateXmatrix multiplyBy:rotateYmatrix] multiplyBy:[Matrix createTranslation:position]];
 	
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
@@ -159,6 +186,7 @@
 									vertexData:vertexArray vertexOffset:0 primitiveCount:[vertexArray count]];
 
 	effect.world = [Matrix identity];
+	effect.view = efV;
 	
 	[newBall draw:effect :graphicsDevice :spriteBatch];
 }
@@ -175,6 +203,7 @@
 	accel.y = racketSpeed.y / (rand() % 20 + 60) * -1;
 	
 	served = YES;
+	failed = NO;
 	
 	timer = [[NSDate dateWithTimeIntervalSinceNow:0] timeIntervalSince1970];
 	

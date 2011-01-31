@@ -13,7 +13,15 @@
 	NSInteger home, away;
 	VertexPositionColorArray *vertexArrayHome;
 	VertexPositionColorArray *vertexArrayAway;
+	
+	NSInteger score;
+	NSInteger level;
 }
+
+@property (nonatomic) NSInteger home;
+@property (nonatomic) NSInteger away;
+
+@property (nonatomic) NSInteger score;
 
 - (void) addScore: (NSInteger) side;
 

@@ -17,6 +17,7 @@
 #import "Ball.h"
 #import "Background.h"
 #import "Score.h"
+#import "Menu.h"
 
 // Levels
 #import "Level1.h"

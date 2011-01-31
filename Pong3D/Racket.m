@@ -66,7 +66,7 @@ CGFloat rackDiv = 5.0f;
 	}
 }*/
 
-- (void) loadContent:(GraphicsDevice *)content {
+- (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
 	vertexArray = [[VertexPositionColorArray alloc] initWithInitialCapacity:2];
 	
 	VertexPositionColorStruct vertex;
@@ -242,10 +242,12 @@ CGFloat rackDiv = 5.0f;
 }
 
 - (void) draw:(BasicEffect *)effect :(GraphicsDevice *)graphicsDevice: (SpriteBatch *)spriteBatch {
-	if (side == 0) {
-		[self followTouch];
-	} else {
-		[self followBall];
+	if (![Menu shown]) {
+		if (side == 0) {
+			[self followTouch];
+		} else {
+			[self followBall];
+		}
 	}
 
 	//NSLog(@"%@", position);
