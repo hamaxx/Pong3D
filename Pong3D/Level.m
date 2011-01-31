@@ -84,6 +84,9 @@
 	NSMutableDictionary *s = [[NSMutableDictionary alloc] init];
 	[s setObject:[NSNumber numberWithInt: theScore.home] forKey:@"home"];
 	[s setObject:[NSNumber numberWithInt: theScore.away] forKey:@"away"];
+	
+	[s setObject:[NSNumber numberWithInt: theScore.score] forKey:@"score"];
+	[s setObject:[NSNumber numberWithInt: theScore.level] forKey:@"level"];
 	return [s autorelease];
 }
 

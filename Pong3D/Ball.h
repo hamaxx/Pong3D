@@ -21,6 +21,8 @@
 	
 	VertexPositionColorArray *vertexArray;
 	
+	Model *ballModel;
+	
 	NSMutableArray * collisionObjects;
 	
 	BOOL served;

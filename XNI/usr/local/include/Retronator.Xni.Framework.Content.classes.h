@@ -4,5 +4,5 @@
 @class ModelReader, ModelMeshReader, ModelMeshPartReader;
 @class BasicEffectReader, IndexBufferReader, VertexBufferReader;
 @class ModelBoneReader, VertexDeclarationReader;
-@class SoundEffectReader;
+@class SoundEffectReader, SongReader;
 @class SpriteFontReader;

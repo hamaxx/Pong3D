@@ -24,16 +24,9 @@
 @synthesize served, failed, collisionObjects, speed, accel, newBall;
 
 /*
-- (void) loadContent:(GraphicsDevice *) content{
-	sprite = [[Sprite alloc] init];
-	
-	Texture2D *racketTexture = nil;//[content load:@"ball"];
-	[sprite setTexture: racketTexture];
-	
-	[sprite setSourceRectangle:[Rectangle rectangleWithX:0 y:0 width:64 height:64]];
-	[sprite setOrigin:[Vector2 vectorWithX:0 y:0]];
-	[sprite setRelative:[Vector2 vectorWithX:0 y:0]];
-
+- (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
+	ballModel = [cm load:@"ballModel"];
+	[self applyLightingOnModel:ballModel];
 }
 */
 
@@ -164,30 +157,25 @@
 		[self move];
 	}
 	
-	effect.world = [Matrix identity];
-	
-	Matrix *efV = [effect.view copy];
-	
+	//effect.world = [Matrix identity];
+
 	rotateX += accel.y * 100.0f; rotateY += accel.x * 100.0f;
 	Matrix *rotateXmatrix = [Matrix createRotationX:rotateX];
 	Matrix *rotateYmatrix = [Matrix createRotationY:rotateY];
 
-	//effect.world = [Matrix createTranslation:position];
-	
-	effect.specularColor = [Vector3 vectorWithX:1 y:1 z:0];
-	//effect.lightingEnabled = YES;
-	effect.specularPower = 100;
-	
 	effect.world = [[rotateXmatrix multiplyBy:rotateYmatrix] multiplyBy:[Matrix createTranslation:position]];
 	
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
+	
 	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleStrip
 									vertexData:vertexArray vertexOffset:0 primitiveCount:[vertexArray count]];
+	
+	
+	//[ballModel drawWithWorld:effect.world view:effect.view projection:effect.projection];
 
 	effect.world = [Matrix identity];
-	effect.view = efV;
-	
+
 	[newBall draw:effect :graphicsDevice :spriteBatch];
 }
 

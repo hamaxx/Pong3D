@@ -21,6 +21,7 @@
 	ModelBoneReader *modelBoneReader;
 	VertexDeclarationReader *vertexDeclarationReader;
 	SoundEffectReader *soundEffectReader;
+	SongReader *songReader;
 	SpriteFontReader *spriteFontReader;
 }
 

@@ -17,5 +17,6 @@
 #import "VertexDeclarationReader.h"
 
 #import "SoundEffectReader.h"
+#import "SongReader.h"
 
 #import "SpriteFontReader.h"

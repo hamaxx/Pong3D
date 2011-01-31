@@ -26,6 +26,12 @@
 		375B3ECF12DD188B00C1E006 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3ECE12DD188B00C1E006 /* menu.png */; };
 		375B3EEB12DD1A9900C1E006 /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3EEA12DD1A9900C1E006 /* continue.png */; };
 		375B3EED12DD1B3E00C1E006 /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3EEC12DD1B3E00C1E006 /* scores.png */; };
+		3783AA2512F6F1EA0026568B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3783AA2412F6F1EA0026568B /* AVFoundation.framework */; };
+		3783AA6C12F6F7B00026568B /* ballModel.x in Resources */ = {isa = PBXBuildFile; fileRef = 3783AA6B12F6F7B00026568B /* ballModel.x */; };
+		3783AA9112F6FAF70026568B /* mallet.x in Resources */ = {isa = PBXBuildFile; fileRef = 3783AA9012F6FAF70026568B /* mallet.x */; };
+		3783AAA412F6FB740026568B /* hockey_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 3783AAA312F6FB740026568B /* hockey_texture.png */; };
+		3783AB1712F711010026568B /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 3783AB1612F711010026568B /* Label.m */; };
+		3783AB3E12F712F50026568B /* 5x5.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3783AB3D12F712F50026568B /* 5x5.bmp */; };
 		37BEBAF912DCF0A9003108C4 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEBAF812DCF0A9003108C4 /* Menu.m */; };
 		37BEBB9E12DCFABF003108C4 /* newGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BEBB9D12DCFABF003108C4 /* newGame.png */; };
 		37F62E24129CD97B000CB950 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F62E23129CD97B000CB950 /* Score.m */; };
@@ -41,7 +47,6 @@
 		B5438D83127083D100A1D71C /* TextureAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = B5438D82127083D100A1D71C /* TextureAtlas.png */; };
 		EA31BB8012779D2100F63859 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BB7F12779D2100F63859 /* Ball.m */; };
 		EA31BB981277A23A00F63859 /* rackets.png in Resources */ = {isa = PBXBuildFile; fileRef = EA31BB961277A23A00F63859 /* rackets.png */; };
-		EA31BB9B1277A34000F63859 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = EA31BB991277A34000F63859 /* ball.png */; };
 		EA31BBAB1277A38900F63859 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA01277A38900F63859 /* NSObject+SBJSON.m */; };
 		EA31BBAC1277A38900F63859 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA21277A38900F63859 /* NSString+SBJSON.m */; };
 		EA31BBAD1277A38900F63859 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA41277A38900F63859 /* SBJSON.m */; };
@@ -75,6 +80,13 @@
 		375B3ECE12DD188B00C1E006 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		375B3EEA12DD1A9900C1E006 /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
 		375B3EEC12DD1B3E00C1E006 /* scores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scores.png; sourceTree = "<group>"; };
+		3783AA2412F6F1EA0026568B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3783AA6B12F6F7B00026568B /* ballModel.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ballModel.x; sourceTree = "<group>"; };
+		3783AA9012F6FAF70026568B /* mallet.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mallet.x; sourceTree = "<group>"; };
+		3783AAA312F6FB740026568B /* hockey_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey_texture.png; sourceTree = "<group>"; };
+		3783AB1512F711010026568B /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		3783AB1612F711010026568B /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+		3783AB3D12F712F50026568B /* 5x5.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 5x5.bmp; sourceTree = "<group>"; };
 		37BEBAF712DCF0A9003108C4 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
 		37BEBAF812DCF0A9003108C4 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		37BEBB9D12DCFABF003108C4 /* newGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newGame.png; sourceTree = "<group>"; };
@@ -106,7 +118,6 @@
 		EA31BB7E12779D2100F63859 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		EA31BB7F12779D2100F63859 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
 		EA31BB961277A23A00F63859 /* rackets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rackets.png; sourceTree = "<group>"; };
-		EA31BB991277A34000F63859 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		EA31BB9E1277A38900F63859 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		EA31BB9F1277A38900F63859 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		EA31BBA01277A38900F63859 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -139,6 +150,7 @@
 				3700679512C2AF220082A95A /* OpenAL.framework in Frameworks */,
 				370067D712C2B71D0082A95A /* libXNI.a in Frameworks */,
 				3700682B12C2BAC10082A95A /* GameKit.framework in Frameworks */,
+				3783AA2512F6F1EA0026568B /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -156,6 +168,10 @@
 		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3783AB3D12F712F50026568B /* 5x5.bmp */,
+				3783AAA312F6FB740026568B /* hockey_texture.png */,
+				3783AA6B12F6F7B00026568B /* ballModel.x */,
+				3783AA9012F6FAF70026568B /* mallet.x */,
 				373DE6F612F5DB3900664D24 /* addscore.png */,
 				375B3EEC12DD1B3E00C1E006 /* scores.png */,
 				375B3EEA12DD1A9900C1E006 /* continue.png */,
@@ -168,7 +184,6 @@
 				370068D712C2CCFA0082A95A /* wall.wav */,
 				3700685012C2C1FC0082A95A /* racket.wav */,
 				EA31BE5D1277BA6D00F63859 /* positions.txt */,
-				EA31BB991277A34000F63859 /* ball.png */,
 				EA31BB961277A23A00F63859 /* rackets.png */,
 				B5438D82127083D100A1D71C /* TextureAtlas.png */,
 				8D1107310486CEB800E47090 /* Pong3D-Info.plist */,
@@ -210,6 +225,7 @@
 				B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */,
 				3700679212C2AF220082A95A /* AudioToolbox.framework */,
 				3700679412C2AF220082A95A /* OpenAL.framework */,
+				3783AA2412F6F1EA0026568B /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -294,6 +310,8 @@
 				B504BDFC126F289F00ACAC3D /* Sprite.m */,
 				B504BDFF126F28B500ACAC3D /* GameRenderer.h */,
 				B504BE00126F28B500ACAC3D /* GameRenderer.m */,
+				3783AB1512F711010026568B /* Label.h */,
+				3783AB1612F711010026568B /* Label.m */,
 			);
 			name = Graphics;
 			sourceTree = "<group>";
@@ -369,7 +387,6 @@
 			files = (
 				B5438D83127083D100A1D71C /* TextureAtlas.png in Resources */,
 				EA31BB981277A23A00F63859 /* rackets.png in Resources */,
-				EA31BB9B1277A34000F63859 /* ball.png in Resources */,
 				EA31BE5E1277BA6D00F63859 /* positions.txt in Resources */,
 				3700685112C2C1FC0082A95A /* racket.wav in Resources */,
 				370068D812C2CCFA0082A95A /* wall.wav in Resources */,
@@ -382,6 +399,10 @@
 				375B3EEB12DD1A9900C1E006 /* continue.png in Resources */,
 				375B3EED12DD1B3E00C1E006 /* scores.png in Resources */,
 				373DE6F712F5DB3900664D24 /* addscore.png in Resources */,
+				3783AA6C12F6F7B00026568B /* ballModel.x in Resources */,
+				3783AA9112F6FAF70026568B /* mallet.x in Resources */,
+				3783AAA412F6FB740026568B /* hockey_texture.png in Resources */,
+				3783AB3E12F712F50026568B /* 5x5.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +432,7 @@
 				37F62E24129CD97B000CB950 /* Score.m in Sources */,
 				3700678712C2AE860082A95A /* Sounds.m in Sources */,
 				37BEBAF912DCF0A9003108C4 /* Menu.m in Sources */,
+				3783AB1712F711010026568B /* Label.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

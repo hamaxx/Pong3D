@@ -33,6 +33,8 @@
 	
 	score.home = 5;
 	score.away = 5;
+	score.score = 0;
+	score.level = 1;
 }
 
 - (Vector3 *) arrayToVector:(NSArray *)arr {
@@ -74,6 +76,8 @@
 
 	score.home = [[[dict objectForKey:@"score"] objectForKey:@"home"] intValue];
 	score.away = [[[dict objectForKey:@"score"] objectForKey:@"away"] intValue];
+	score.score = [[[dict objectForKey:@"score"] objectForKey:@"score"] intValue];
+	score.level = [[[dict objectForKey:@"score"] objectForKey:@"level"] intValue];
 
 	//NSLog(@"%@ %@ %@ %@ %@ %d %d", home.position, opponent.position, ball.position, ball.speed, ball.accel, score.away, score.home);
 	

@@ -14,8 +14,6 @@
 
 @interface GameComponent : NSObject <IGameComponent, IUpdatable> {
 @private
-	BOOL initialized;
-	
     BOOL enabled;
     Game *game;
 	int updateOrder;

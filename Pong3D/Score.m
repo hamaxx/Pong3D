@@ -8,6 +8,7 @@
 
 #import "Score.h"
 #import "Namespace.Pong3D.h"
+#import "Retronator.Xni.Framework.Content.Pipeline.Processors.h"
 
 #define Band_Power  4
 #define Band_Points 16
@@ -19,7 +20,7 @@
 #define ballR 0.5
 
 @implementation Score
-@synthesize position, home, away, score;
+@synthesize position, home, away, score, level;
 
 
 - (VertexPositionColorArray *) drawBallWithColor :(Color *) color {
@@ -62,6 +63,10 @@
 - (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
 	vertexArrayHome = [[self drawBallWithColor:[Color colorWithPercentageRed:0.3 green:1.0 blue:0.3 alpha:1.0]] retain];
 	vertexArrayAway = [[self drawBallWithColor:[Color colorWithPercentageRed:1.0 green:0.3 blue:0.3 alpha:1.0]] retain];
+	
+	FontTextureProcessor *fontProcessor = [[[FontTextureProcessor alloc] init] autorelease];
+	font = [cm load:@"5x5" processor:fontProcessor];
+	[self scoreLabel];
 }
 
 - (void) drawScore:(NSInteger)points : (NSInteger) side :(BasicEffect *)effect :(GraphicsDevice *)graphicsDevice {
@@ -79,10 +84,23 @@
 	}
 }
 
+- (void) scoreLabel {
+	NSString *sc = [NSString stringWithFormat:@"Level %d  Score %d", level, score];
+	if (label == nil) {
+		label = [[Label alloc] initWithFont:font text:sc position:[Vector2 vectorWithX:10 y:[[UIScreen mainScreen] bounds].size.height - 40]];
+	} else {
+		label.text = sc;
+	}
+	
+} 
+
 - (void) draw:(BasicEffect *)effect :(GraphicsDevice *)graphicsDevice: (SpriteBatch *)spriteBatch {
 	[self drawScore:home :0 :effect :graphicsDevice];
 	[self drawScore:away :1 :effect :graphicsDevice];
-	
+
+	[spriteBatch drawStringWithSpriteFont:label.font text:label.text to:label.position tintWithColor:label.color
+								 rotation:label.rotation origin:label.origin scale:label.scale effects:SpriteEffectsNone layerDepth:label.layerDepth];
+
 	effect.world = [Matrix identity];
 }
 
@@ -115,7 +133,7 @@
 		away = 5;
 	}
 	
-	NSLog(@"level %d, score %d", level, score);
+	[self scoreLabel];
 }
 
 - (id) init

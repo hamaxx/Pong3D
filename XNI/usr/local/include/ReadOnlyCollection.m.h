@@ -37,6 +37,9 @@
 
 - (void) dealloc
 {
+#ifdef Disposing
+	Disposing
+#endif	
 	[collection release];
 	[super dealloc];
 }

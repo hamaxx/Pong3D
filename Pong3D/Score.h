@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Namespace.Pong3D.classes.h"
+#import "Label.h"
 
 @interface Score : NSObject<GameObject> {
 	NSInteger home, away;
@@ -16,13 +17,19 @@
 	
 	NSInteger score;
 	NSInteger level;
+	
+	SpriteFont *font;
+	
+	Label *label;
 }
 
 @property (nonatomic) NSInteger home;
 @property (nonatomic) NSInteger away;
 
 @property (nonatomic) NSInteger score;
+@property (nonatomic) NSInteger level;
 
 - (void) addScore: (NSInteger) side;
+- (void) scoreLabel;
 
 @end

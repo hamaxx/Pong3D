@@ -45,12 +45,10 @@
     GameComponentCollection *components;
 	NSMutableArray *enabledComponents;
 	NSMutableArray *visibleComponents;
-    
-	NSMutableSet *initializedComponents;
-	NSMutableArray *enabledChangedComponents;
-	NSMutableArray *visibleChangedComponents;
-	NSMutableArray *removedComponents;
+	NSMutableArray *componentsList;
 	
+	NSMutableSet *initializedComponents;
+    	
     // Services
     GameServiceContainer *services;	
 	
