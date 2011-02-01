@@ -8,6 +8,7 @@
 
 #import "Menu.h"
 #import "Namespace.Pong3D.h"
+#import "Seed.m"
 
 BOOL shown = YES;
 BOOL gameStart = NO;
@@ -48,7 +49,7 @@ BOOL gameStart = NO;
 
 - (void) addScore {
 	
-	NSString *salt = @"thisIsSoCool!!111";
+	NSString *salt = SEED;
 	NSString *res = [NSString stringWithFormat:@"%d", [score score]];
 	NSString *id = [NSString stringWithFormat:@"%d", arc4random()];
 	
