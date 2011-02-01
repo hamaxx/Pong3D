@@ -21,7 +21,7 @@
 
 @implementation Ball
 
-@synthesize served, failed, collisionObjects, speed, accel, newBall;
+@synthesize served, failed, collisionObjects, speed, accel, newBall, score;
 
 /*
 - (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {

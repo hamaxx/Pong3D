@@ -44,6 +44,7 @@
 @property (nonatomic, retain) Ball * newBall;
 @property (nonatomic, retain) Vector3 * speed;
 @property (nonatomic, retain) Vector3 * accel;
+@property (nonatomic, retain) Score * score;
 
 - (id) initWithScore: (Score *) s;
 

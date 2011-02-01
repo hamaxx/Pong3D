@@ -19,52 +19,9 @@ CGFloat screenH = 15.0f;
 CGFloat racketW = 2.5f;
 CGFloat racketH = 2.5f;
 
-CGFloat avgRackSpeed = 11.0f;
-CGFloat rackDiv = 5.0f;
+CGFloat avgRackSpeed = 8.0f;	//11
+CGFloat rackDiv = 7.0f;			//5
 
-/*
-- (void) loadContent:(GraphicsDevice *)content {
-	NSLog(@"load racket sprite");
-	sprites = [[NSMutableArray alloc] init];
-	
-	SBJsonParser *parser = [[SBJsonParser alloc] init];
-	NSString *filePath = [[NSBundle mainBundle] pathForResource:@"positions" ofType:@"txt"]; 
-	NSError *error;
-	NSString *js = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&error];
-	NSMutableDictionary *pos = [[parser objectWithString: js] objectForKey:@"racket"];
-	[parser release];
-		
-	Texture2D *racketTexture = nil;// [content load:@"rackets"];
-
-	NSArray *origin = [[pos objectForKey:@"origin"] objectForKey:side == 0 ? @"home" : @"opponent"];
-	CGFloat ox = [[[origin objectAtIndex:0] objectAtIndex:0] floatValue];
-	CGFloat oy = [[[origin objectAtIndex:0] objectAtIndex:1] intValue];	
-	
-	NSLog(@"origin %d %d", ox, oy);
-	
-	for (NSArray *r in [pos objectForKey:@"pos"]) {
-		Sprite *s = [[Sprite alloc] init];
-	
-		[s setTexture: racketTexture];
-
-		CGFloat x = [[r objectAtIndex:0] floatValue];
-		CGFloat y = [[r objectAtIndex:1] floatValue];;
-		CGFloat w = [[r objectAtIndex:2] floatValue];
-		CGFloat h = [[r objectAtIndex:3] floatValue];
-		CGFloat px = [[r objectAtIndex:4] floatValue];
-		CGFloat py = [[r objectAtIndex:5] floatValue];
-				
-		[s setSourceRectangle:[Rectangle rectangleWithX:ox + x y:oy + y width:w height:h]];
-		[s setOrigin:[Vector2 vectorWithX:0 y:0]];
-		[s setRelative:[Vector2 vectorWithX:px y:py]];
-		
-		NSLog(@"obj %f %f %f %f", x, y, w, h);
-		NSLog(@"org %f %f", s.origin.x, s.origin.y);
-		
-		[sprites addObject:[s autorelease]];
-		
-	}
-}*/
 
 - (VertexPositionColorArray *) racketColor:(Color *) c {
 	VertexPositionColorArray * vertexArray = [[VertexPositionColorArray alloc] initWithInitialCapacity:2];
@@ -227,6 +184,15 @@ CGFloat rackDiv = 5.0f;
 	
 }
 
+- (CGFloat) avgRackSpeed {
+	return avgRackSpeed + ball.score.level;
+}
+
+- (CGFloat) rackDiv {
+	CGFloat s = rackDiv - ((float)ball.score.level / 2);
+	return s > 0 ? s : 0;
+}
+
 - (void) followBall {
 	Vector3 *ballPosition = ball.position;
 	
@@ -241,8 +207,8 @@ CGFloat rackDiv = 5.0f;
 	}
 	
 	computerSpeed += ((float)(rand() % 1000000) / 1000000.0f - 0.5f);
-	if (computerSpeed > avgRackSpeed + rackDiv) computerSpeed = avgRackSpeed + rackDiv;
-	if (computerSpeed < avgRackSpeed - rackDiv) computerSpeed = avgRackSpeed - rackDiv;
+	if (computerSpeed > [self avgRackSpeed] + [self rackDiv]) computerSpeed = [self avgRackSpeed] + [self rackDiv];
+	if (computerSpeed < [self avgRackSpeed] - [self rackDiv]) computerSpeed = [self avgRackSpeed] - [self rackDiv];
 	
 	CGFloat accX = 0;
 	CGFloat accY = 0;

@@ -280,15 +280,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>30</integer>
-									<integer>20</integer>
-									<integer>19</integer>
-									<integer>2</integer>
+									<integer>56</integer>
+									<integer>40</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 4}, {258, 604}}</string>
+							<string>{{0, 472}, {258, 604}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -307,7 +305,7 @@
 							<real>258</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>0 115 1280 663 0 0 1280 778 </string>
+						<string>1 115 1280 663 0 0 1280 778 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -318,14 +316,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Menu.m</string>
+								<string>Pong3D-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -333,15 +329,14 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Menu.m</string>
+										<string>Pong3D-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>37C0020612F7B2D600C291CB</string>
+										<string>37C002E112F85B9200C291CB</string>
 										<key>history</key>
 										<array>
 											<string>37A635D412A5E7B500F46D39</string>
-											<string>3700683B12C2BD440082A95A</string>
 											<string>3700684A12C2BDB80082A95A</string>
 											<string>3700691112C2D3B50082A95A</string>
 											<string>37BEBB0B12DCF2ED003108C4</string>
@@ -365,7 +360,6 @@
 											<string>373DE72312F5DE0700664D24</string>
 											<string>377FF40412F63199007345E8</string>
 											<string>3783AA4812F6F5BA0026568B</string>
-											<string>3783AA6F12F6F7B60026568B</string>
 											<string>3783AAC312F70CDE0026568B</string>
 											<string>3783AB3412F712CF0026568B</string>
 											<string>3783AB8212F716780026568B</string>
@@ -378,9 +372,11 @@
 											<string>377E4A8812F72D8B0033397B</string>
 											<string>377E4A9412F744450033397B</string>
 											<string>377E4A9512F744450033397B</string>
-											<string>37C001F312F7B1A400C291CB</string>
 											<string>37C001F412F7B1A400C291CB</string>
-											<string>3783AB8712F716780026568B</string>
+											<string>37C0021112F83B2C00C291CB</string>
+											<string>37C0021212F83B2C00C291CB</string>
+											<string>37C002DF12F85B9200C291CB</string>
+											<string>37C002E012F85B9200C291CB</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -394,7 +390,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1000, 617}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 115 1280 663 0 0 1280 778 </string>
+								<string>1 115 1280 663 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -414,7 +410,7 @@
 								<key>Frame</key>
 								<string>{{0, 622}, {1000, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 115 1280 663 0 0 1280 778 </string>
+								<string>1 115 1280 663 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -579,13 +575,13 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>37C001C512F7A9DA00C291CB</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>3775E8E11281CF0D00914232</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/ham/Desktop/game7/code/Pong3D/Pong3D.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>0 115 1280 663 0 0 1280 778 </string>
+	<string>1 115 1280 663 0 0 1280 778 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -909,6 +905,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -921,7 +919,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1280, 621}}</string>
 								<key>RubberWindowFrame</key>
-								<string>0 116 1280 662 0 0 1280 778 </string>
+								<string>1 53 1280 662 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -950,11 +948,11 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>0 116 1280 662 0 0 1280 778 </string>
+			<string>1 53 1280 662 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

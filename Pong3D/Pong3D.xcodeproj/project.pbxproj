@@ -27,11 +27,12 @@
 		375B3EEB12DD1A9900C1E006 /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3EEA12DD1A9900C1E006 /* continue.png */; };
 		375B3EED12DD1B3E00C1E006 /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3EEC12DD1B3E00C1E006 /* scores.png */; };
 		3783AA2512F6F1EA0026568B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3783AA2412F6F1EA0026568B /* AVFoundation.framework */; };
-		3783AA6C12F6F7B00026568B /* ballModel.x in Resources */ = {isa = PBXBuildFile; fileRef = 3783AA6B12F6F7B00026568B /* ballModel.x */; };
 		3783AB1712F711010026568B /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 3783AB1612F711010026568B /* Label.m */; };
 		3783AB3E12F712F50026568B /* 5x5.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3783AB3D12F712F50026568B /* 5x5.bmp */; };
 		37BEBAF912DCF0A9003108C4 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEBAF812DCF0A9003108C4 /* Menu.m */; };
 		37BEBB9E12DCFABF003108C4 /* newGame.png in Resources */ = {isa = PBXBuildFile; fileRef = 37BEBB9D12DCFABF003108C4 /* newGame.png */; };
+		37C0020A12F83AFB00C291CB /* ballModel.x in Resources */ = {isa = PBXBuildFile; fileRef = 37C0020912F83AFB00C291CB /* ballModel.x */; };
+		37C002E512F85BDF00C291CB /* pongLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C002E412F85BDF00C291CB /* pongLogo.png */; };
 		37F62E24129CD97B000CB950 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F62E23129CD97B000CB950 /* Score.m */; };
 		B504BD48126F0E5C00ACAC3D /* Pong3D.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BD47126F0E5C00ACAC3D /* Pong3D.m */; };
 		B504BD4C126F0E7F00ACAC3D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */; };
@@ -78,13 +79,14 @@
 		375B3EEA12DD1A9900C1E006 /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
 		375B3EEC12DD1B3E00C1E006 /* scores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scores.png; sourceTree = "<group>"; };
 		3783AA2412F6F1EA0026568B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		3783AA6B12F6F7B00026568B /* ballModel.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ballModel.x; sourceTree = "<group>"; };
 		3783AB1512F711010026568B /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
 		3783AB1612F711010026568B /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
 		3783AB3D12F712F50026568B /* 5x5.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 5x5.bmp; sourceTree = "<group>"; };
 		37BEBAF712DCF0A9003108C4 /* Menu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Menu.h; sourceTree = "<group>"; };
 		37BEBAF812DCF0A9003108C4 /* Menu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Menu.m; sourceTree = "<group>"; };
 		37BEBB9D12DCFABF003108C4 /* newGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newGame.png; sourceTree = "<group>"; };
+		37C0020912F83AFB00C291CB /* ballModel.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ballModel.x; sourceTree = "<group>"; };
+		37C002E412F85BDF00C291CB /* pongLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pongLogo.png; sourceTree = "<group>"; };
 		37F62E22129CD97B000CB950 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
 		37F62E23129CD97B000CB950 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Pong3D-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pong3D-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -162,8 +164,9 @@
 		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				37C002E412F85BDF00C291CB /* pongLogo.png */,
+				37C0020912F83AFB00C291CB /* ballModel.x */,
 				3783AB3D12F712F50026568B /* 5x5.bmp */,
-				3783AA6B12F6F7B00026568B /* ballModel.x */,
 				373DE6F612F5DB3900664D24 /* addscore.png */,
 				375B3EEC12DD1B3E00C1E006 /* scores.png */,
 				375B3EEA12DD1A9900C1E006 /* continue.png */,
@@ -389,8 +392,9 @@
 				375B3EEB12DD1A9900C1E006 /* continue.png in Resources */,
 				375B3EED12DD1B3E00C1E006 /* scores.png in Resources */,
 				373DE6F712F5DB3900664D24 /* addscore.png in Resources */,
-				3783AA6C12F6F7B00026568B /* ballModel.x in Resources */,
 				3783AB3E12F712F50026568B /* 5x5.bmp in Resources */,
+				37C0020A12F83AFB00C291CB /* ballModel.x in Resources */,
+				37C002E512F85BDF00C291CB /* pongLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
