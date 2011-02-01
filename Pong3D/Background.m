@@ -88,7 +88,7 @@ CGFloat screenH1 = 15;
 		
 		[Sounds play:WALL_SOUND];
 		
-		CGFloat r = 0.0001f / [self maxf:theSpeed.x : 0.1];
+		CGFloat r = 0.01f / [self maxf:theSpeed.x : 0.1];
 		NSLog(@"%f", r);
 		return [Vector3 vectorWithX:r y:0 z:0];
 	}
@@ -99,7 +99,7 @@ CGFloat screenH1 = 15;
 		
 		[Sounds play:WALL_SOUND];
 		
-		CGFloat r = 0.0001f / [self maxf:theSpeed.y :0.1];
+		CGFloat r = 0.01f / [self maxf:theSpeed.y :0.1];
 		return [Vector3 vectorWithX:0 y:r z:0];
 	}
 	

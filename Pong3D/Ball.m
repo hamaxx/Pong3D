@@ -23,14 +23,14 @@
 
 @synthesize served, failed, collisionObjects, speed, accel, newBall, score;
 
-/*
+
 - (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
 	NSLog(@"1");
 	ballModel = [cm load:@"ballModel"];
 	NSLog(@"2");
 }
-*/
 
+/*
 - (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
 	vertexArray = [[VertexPositionColorArray alloc] initWithInitialCapacity:2];
 	
@@ -75,7 +75,7 @@
 	[vertexArray addVertex:&vertex1];
 	
 }
-
+*/
 - (void) collisions {
 	for (id<CollisionObject> o in collisionObjects) {
 		Vector3 *a = [o collide:speed :position : accel :ballR];
@@ -86,8 +86,8 @@
 			
 			if (fabsf(speed.z) < 1) speed.z *= 1.5;
 			
-			speed.x += -2 * accel.x;
-			speed.y += -2 * accel.y;
+			speed.x += -10 * accel.x;
+			speed.y += -10 * accel.y;
 			
 			NSLog(@"%f",  [a length]);
 		}
@@ -160,20 +160,21 @@
 	
 	//effect.world = [Matrix identity];
 
-	rotateX += accel.y * 100.0f; rotateY += accel.x * 100.0f;
-	Matrix *rotateXmatrix = [Matrix createRotationX:rotateX];
+	rotateX += accel.y * 50.0f; rotateY += accel.x * 50.0f;
+	Matrix *rotateXmatrix = [Matrix createRotationX:rotateX + 3.14f];
 	Matrix *rotateYmatrix = [Matrix createRotationY:rotateY];
-
-	effect.world = [[rotateXmatrix multiplyBy:rotateYmatrix] multiplyBy:[Matrix createTranslation:position]];
+	Matrix *scaleMatrix = [Matrix createScaleUniform:0.4];
+	
+	effect.world = [[[scaleMatrix multiplyBy:rotateXmatrix] multiplyBy:rotateYmatrix] multiplyBy:[Matrix createTranslation:position]];
 	
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
 	
-	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleStrip
-									vertexData:vertexArray vertexOffset:0 primitiveCount:[vertexArray count]];
+	//[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleStrip
+	//								vertexData:vertexArray vertexOffset:0 primitiveCount:[vertexArray count]];
 	
 	
-	//[ballModel drawWithWorld:effect.world view:effect.view projection:effect.projection];
+	[ballModel drawWithWorld:effect.world view:effect.view projection:effect.projection];
 
 	effect.world = [Matrix identity];
 

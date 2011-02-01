@@ -48,7 +48,7 @@ BOOL gameStart = NO;
 
 - (void) addScore {
 	
-	NSString *salt = @"xxx";
+	NSString *salt = @"thisIsSoCool!!111";
 	NSString *res = [NSString stringWithFormat:@"%d", [score score]];
 	NSString *id = [NSString stringWithFormat:@"%d", arc4random()];
 	
