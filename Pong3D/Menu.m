@@ -44,7 +44,7 @@ BOOL cantCont = NO;
 
 - (void) addScore {
 	
-	NSString *salt = @"pong3Drock";
+	NSString *salt = @"xxx";
 	NSString *res = [NSString stringWithFormat:@"%d", [score score]];
 	NSString *id = [NSString stringWithFormat:@"%d", arc4random()];
 	
