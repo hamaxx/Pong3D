@@ -28,8 +28,6 @@
 		375B3EED12DD1B3E00C1E006 /* scores.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3EEC12DD1B3E00C1E006 /* scores.png */; };
 		3783AA2512F6F1EA0026568B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3783AA2412F6F1EA0026568B /* AVFoundation.framework */; };
 		3783AA6C12F6F7B00026568B /* ballModel.x in Resources */ = {isa = PBXBuildFile; fileRef = 3783AA6B12F6F7B00026568B /* ballModel.x */; };
-		3783AA9112F6FAF70026568B /* mallet.x in Resources */ = {isa = PBXBuildFile; fileRef = 3783AA9012F6FAF70026568B /* mallet.x */; };
-		3783AAA412F6FB740026568B /* hockey_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 3783AAA312F6FB740026568B /* hockey_texture.png */; };
 		3783AB1712F711010026568B /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = 3783AB1612F711010026568B /* Label.m */; };
 		3783AB3E12F712F50026568B /* 5x5.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3783AB3D12F712F50026568B /* 5x5.bmp */; };
 		37BEBAF912DCF0A9003108C4 /* Menu.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BEBAF812DCF0A9003108C4 /* Menu.m */; };
@@ -44,7 +42,6 @@
 		B504BDCF126F201400ACAC3D /* Racket.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDCE126F201400ACAC3D /* Racket.m */; };
 		B504BDFD126F289F00ACAC3D /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BDFC126F289F00ACAC3D /* Sprite.m */; };
 		B504BE01126F28B500ACAC3D /* GameRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BE00126F28B500ACAC3D /* GameRenderer.m */; };
-		B5438D83127083D100A1D71C /* TextureAtlas.png in Resources */ = {isa = PBXBuildFile; fileRef = B5438D82127083D100A1D71C /* TextureAtlas.png */; };
 		EA31BB8012779D2100F63859 /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BB7F12779D2100F63859 /* Ball.m */; };
 		EA31BB981277A23A00F63859 /* rackets.png in Resources */ = {isa = PBXBuildFile; fileRef = EA31BB961277A23A00F63859 /* rackets.png */; };
 		EA31BBAB1277A38900F63859 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BBA01277A38900F63859 /* NSObject+SBJSON.m */; };
@@ -82,8 +79,6 @@
 		375B3EEC12DD1B3E00C1E006 /* scores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scores.png; sourceTree = "<group>"; };
 		3783AA2412F6F1EA0026568B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		3783AA6B12F6F7B00026568B /* ballModel.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ballModel.x; sourceTree = "<group>"; };
-		3783AA9012F6FAF70026568B /* mallet.x */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mallet.x; sourceTree = "<group>"; };
-		3783AAA312F6FB740026568B /* hockey_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hockey_texture.png; sourceTree = "<group>"; };
 		3783AB1512F711010026568B /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
 		3783AB1612F711010026568B /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
 		3783AB3D12F712F50026568B /* 5x5.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = 5x5.bmp; sourceTree = "<group>"; };
@@ -113,7 +108,6 @@
 		B504BDFC126F289F00ACAC3D /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
 		B504BDFF126F28B500ACAC3D /* GameRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameRenderer.h; sourceTree = "<group>"; };
 		B504BE00126F28B500ACAC3D /* GameRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameRenderer.m; sourceTree = "<group>"; };
-		B5438D82127083D100A1D71C /* TextureAtlas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextureAtlas.png; sourceTree = "<group>"; };
 		D1647725128C00CB004DCC9C /* CollisionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionObject.h; sourceTree = "<group>"; };
 		EA31BB7E12779D2100F63859 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		EA31BB7F12779D2100F63859 /* Ball.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ball.m; sourceTree = "<group>"; };
@@ -169,9 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				3783AB3D12F712F50026568B /* 5x5.bmp */,
-				3783AAA312F6FB740026568B /* hockey_texture.png */,
 				3783AA6B12F6F7B00026568B /* ballModel.x */,
-				3783AA9012F6FAF70026568B /* mallet.x */,
 				373DE6F612F5DB3900664D24 /* addscore.png */,
 				375B3EEC12DD1B3E00C1E006 /* scores.png */,
 				375B3EEA12DD1A9900C1E006 /* continue.png */,
@@ -185,7 +177,6 @@
 				3700685012C2C1FC0082A95A /* racket.wav */,
 				EA31BE5D1277BA6D00F63859 /* positions.txt */,
 				EA31BB961277A23A00F63859 /* rackets.png */,
-				B5438D82127083D100A1D71C /* TextureAtlas.png */,
 				8D1107310486CEB800E47090 /* Pong3D-Info.plist */,
 			);
 			name = Resources;
@@ -385,7 +376,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5438D83127083D100A1D71C /* TextureAtlas.png in Resources */,
 				EA31BB981277A23A00F63859 /* rackets.png in Resources */,
 				EA31BE5E1277BA6D00F63859 /* positions.txt in Resources */,
 				3700685112C2C1FC0082A95A /* racket.wav in Resources */,
@@ -400,8 +390,6 @@
 				375B3EED12DD1B3E00C1E006 /* scores.png in Resources */,
 				373DE6F712F5DB3900664D24 /* addscore.png in Resources */,
 				3783AA6C12F6F7B00026568B /* ballModel.x in Resources */,
-				3783AA9112F6FAF70026568B /* mallet.x in Resources */,
-				3783AAA412F6FB740026568B /* hockey_texture.png in Resources */,
 				3783AB3E12F712F50026568B /* 5x5.bmp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>5x5.bmp</key>
+		<data>
+		BF8DfD3W+xiUz0fugTU4Ky2bIVs=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
@@ -12,9 +16,21 @@
 		<data>
 		VrYxf5zu2rGdRW8G0evfJwi3yCg=
 		</data>
+		<key>addscore.png</key>
+		<data>
+		PHyUGDrgUquCL/aX1u8HXbExxjs=
+		</data>
 		<key>ball.png</key>
 		<data>
 		UJbfMbCbhNTtdlBT+0FqkiVozDU=
+		</data>
+		<key>ballModel.x</key>
+		<data>
+		8mERFQq5xZcZN75iccbjnJGOyNE=
+		</data>
+		<key>continue.png</key>
+		<data>
+		pTKJtqJbHVCAkoJpBbFfSDCgZew=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -28,9 +44,17 @@
 		<data>
 		ba3hXhT2bMbVIEAHUoPhunO2P2o=
 		</data>
+		<key>menu.png</key>
+		<data>
+		+7RIAUIAW/bcCDWZvfYZIyPrOAQ=
+		</data>
 		<key>miss.wav</key>
 		<data>
 		ullGuAk5C5sMEIlH3yPC/sxf+RM=
+		</data>
+		<key>newGame.png</key>
+		<data>
+		CEWY5VwFFRC68pjLCicQNURTSgk=
 		</data>
 		<key>positions.txt</key>
 		<data>
@@ -43,6 +67,10 @@
 		<key>rackets.png</key>
 		<data>
 		pqCg6CngD8I5ph+qi35iZNpt8Hs=
+		</data>
+		<key>scores.png</key>
+		<data>
+		uoiEYvLYnvgHqT42WusddefOR1I=
 		</data>
 		<key>wall.wav</key>
 		<data>

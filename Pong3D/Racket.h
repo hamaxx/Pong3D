@@ -23,7 +23,10 @@
 	NSInteger side;
 	NSMutableArray *sprites;
 	
-	VertexPositionColorArray *vertexArray;
+	//VertexPositionColorArray *vertexArray;
+	
+	NSMutableArray *rackets;
+	CGFloat animate;
 	
 	Ball *ball;
 	

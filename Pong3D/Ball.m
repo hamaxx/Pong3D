@@ -25,8 +25,9 @@
 
 /*
 - (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
+	NSLog(@"1");
 	ballModel = [cm load:@"ballModel"];
-	[self applyLightingOnModel:ballModel];
+	NSLog(@"2");
 }
 */
 

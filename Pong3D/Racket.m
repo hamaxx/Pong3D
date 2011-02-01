@@ -66,14 +66,14 @@ CGFloat rackDiv = 5.0f;
 	}
 }*/
 
-- (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
-	vertexArray = [[VertexPositionColorArray alloc] initWithInitialCapacity:2];
+- (VertexPositionColorArray *) racketColor:(Color *) c {
+	VertexPositionColorArray * vertexArray = [[VertexPositionColorArray alloc] initWithInitialCapacity:2];
 	
 	VertexPositionColorStruct vertex;
-		
+	
 	int z = 0;
 	
-	vertex.color = [Color colorWithPercentageRed:0.0 green:0.5 blue:1 alpha:0.2].packedValue;
+	vertex.color = c.packedValue;
 	
 	vertex.position = *[Vector3 vectorWithX:-racketW y:racketH z:z].data;
 	[vertexArray addVertex:&vertex];
@@ -95,8 +95,22 @@ CGFloat rackDiv = 5.0f;
 	[vertexArray addVertex:&vertex];
 	
 	[vertexArray addVertex:&vertex];
+	
+	return vertexArray;
+}
 
-
+- (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
+	rackets = [[NSMutableArray alloc] init];
+	for (int i = 0; i < 10; i++) {
+		CGFloat r = 0 + ((float)i / 20);
+		CGFloat g = 0.5 + ((float)i / 20);
+		CGFloat b = 1;
+		CGFloat a = 0.2 + ((float)i / 20);
+		Color *c = [Color colorWithPercentageRed:r green:g blue:b alpha:a];
+		
+		[rackets addObject:[self racketColor:c]];
+	}
+	animate = 0;
 }
 
 - (Vector3 *) collide: (Vector3 *) theSpeed :(Vector3 *) thePosition : (Vector3 *)theAccel :(NSInteger) radius {
@@ -118,6 +132,7 @@ CGFloat rackDiv = 5.0f;
 	
 	if (fabsf(thePosition.x - position.x) < racketW && fabsf(thePosition.y - position.y) < racketH) {
 		theSpeed.z = (fabsf(theSpeed.z) > 1 ? 1 : fabsf(theSpeed.z)) * (thePosition.z < -25 ? 1 : -1);
+		animate = [rackets count];
 		return speed;
 	}
 	
@@ -133,6 +148,7 @@ CGFloat rackDiv = 5.0f;
 		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * d;
 		theSpeed.x = newSpeed * (thePosition.x > position.x ? 1 : -1) / d;
 		
+		animate = [rackets count];
 		return [Vector3 zero];
 		
 	} else if (fabsf(thePosition.x - position.x) < racketW / 2){
@@ -144,6 +160,7 @@ CGFloat rackDiv = 5.0f;
 		theSpeed.z = newSpeed * (thePosition.z < -25 ? 1 : -1) * d;
 		theSpeed.y = newSpeed * (thePosition.y > position.y ? 1 : -1) / d;
 		
+		animate = [rackets count];
 		return [Vector3 zero];
 	} else {
 		CGFloat dx = (fabsf(thePosition.x - position.x) - racketW / 2) / radius;
@@ -159,6 +176,7 @@ CGFloat rackDiv = 5.0f;
 		theSpeed.x = newSpeed * (thePosition.x > position.x ? 1 : -1) / dx;
 		theSpeed.y = newSpeed * (thePosition.y > position.y ? 1 : -1) / dy;
 		
+		animate = [rackets count];
 		return [Vector3 zero];
 	}
 		
@@ -188,6 +206,7 @@ CGFloat rackDiv = 5.0f;
 		if (touchState == YES && ball.served == NO) {
 			if (fabsf(0.0f - position.x) < racketW && fabsf(0.0f - position.y) < racketH) {
 				[ball serve:speed];
+				animate = [rackets count];
 			}
 		}
 		
@@ -255,8 +274,9 @@ CGFloat rackDiv = 5.0f;
 	
 	[[effect.currentTechnique.passes objectAtIndex:0] apply];
 	
+	if (animate >= 1) animate -= 0.7;
 	[graphicsDevice drawUserPrimitivesOfType:PrimitiveTypeTriangleStrip
-								  vertexData:vertexArray vertexOffset:0 primitiveCount:5];
+								  vertexData:[rackets objectAtIndex:floorf(animate)] vertexOffset:0 primitiveCount:5];
 	
 	effect.world = [Matrix identity];
 	

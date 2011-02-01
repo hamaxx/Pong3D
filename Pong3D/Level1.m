@@ -35,6 +35,7 @@
 	score.away = 5;
 	score.score = 0;
 	score.level = 1;
+	[score scoreLabel];
 }
 
 - (Vector3 *) arrayToVector:(NSArray *)arr {
