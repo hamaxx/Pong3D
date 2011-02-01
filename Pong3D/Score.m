@@ -128,7 +128,7 @@
 		[Sounds play:HIT_SOUND];
 	}
 	
-	if (home <= 0 || away <= 0) {
+	if (away <= 0) {
 		home = 5;
 		away = 5;
 	}

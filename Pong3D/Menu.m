@@ -10,7 +10,7 @@
 #import "Namespace.Pong3D.h"
 
 BOOL shown = YES;
-BOOL cantCont = NO;
+BOOL gameStart = NO;
 
 @implementation Menu
 @synthesize position;
@@ -21,7 +21,11 @@ BOOL cantCont = NO;
 
 + (void) shown: (BOOL) sh :(BOOL) c {
 	shown = sh;
-	cantCont = c;
+	gameStart = c;
+}
+
+- (BOOL) showCont {
+	return gameStart && score.home > 0 && score.away > 0;
 }
 
 - (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
@@ -44,7 +48,7 @@ BOOL cantCont = NO;
 
 - (void) addScore {
 	
-	NSString *salt = @"thisIsSoCool!!111";
+	NSString *salt = @"xxx";
 	NSString *res = [NSString stringWithFormat:@"%d", [score score]];
 	NSString *id = [NSString stringWithFormat:@"%d", arc4random()];
 	
@@ -62,8 +66,13 @@ BOOL cantCont = NO;
 	if (location.x > 125 && location.x < 125 + 86 && location.y > b1 && location.y < b1 + 30) {
 		[level reset];
 	} else if (location.x > 125 && location.x < 125 + 86 && location.y > b2 && location.y < b2 + 30) {
-		if (!cantCont) {
-			[level loadSaved];
+		if (!gameStart) {
+			if ([self showCont]) {
+				[level loadSaved];
+			} else {
+				return;
+			}
+
 		} else {
 			[self addScore];
 			return;
@@ -99,8 +108,10 @@ BOOL cantCont = NO;
 		
 		[spriteBatch draw:menu to:[Vector2 vectorWithX:90 y:130] tintWithColor:[Color colorWithRed:255 green:255 blue:255]];
 		[spriteBatch draw:newGame to:[Vector2 vectorWithX:125 y:160] tintWithColor:[Color colorWithRed:255 green:255 blue:255]];
-		if (!cantCont) {
-			[spriteBatch draw:cont to:[Vector2 vectorWithX:120 y:200] tintWithColor:[Color colorWithRed:255 green:255 blue:255]];
+		if (!gameStart) {
+			if ([self showCont]) {
+				[spriteBatch draw:cont to:[Vector2 vectorWithX:120 y:200] tintWithColor:[Color colorWithRed:255 green:255 blue:255]];
+			}
 		} else {
 			[spriteBatch draw:addscore to:[Vector2 vectorWithX:120 y:200] tintWithColor:[Color colorWithRed:255 green:255 blue:255]];
 		}
