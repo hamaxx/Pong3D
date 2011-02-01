@@ -22,6 +22,7 @@
 		370068EC12C2CFCA0082A95A /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068EB12C2CFCA0082A95A /* hit.wav */; };
 		370068EE12C2CFD30082A95A /* miss.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068ED12C2CFD30082A95A /* miss.wav */; };
 		370068FC12C2D0D20082A95A /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068FB12C2D0D20082A95A /* win.wav */; };
+		3730173212F8A2B50029A0FC /* seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3730173112F8A2B50029A0FC /* seed.m */; };
 		373DE6F712F5DB3900664D24 /* addscore.png in Resources */ = {isa = PBXBuildFile; fileRef = 373DE6F612F5DB3900664D24 /* addscore.png */; };
 		375B3ECF12DD188B00C1E006 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3ECE12DD188B00C1E006 /* menu.png */; };
 		375B3EEB12DD1A9900C1E006 /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3EEA12DD1A9900C1E006 /* continue.png */; };
@@ -73,6 +74,7 @@
 		370068EB12C2CFCA0082A95A /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hit.wav; sourceTree = "<group>"; };
 		370068ED12C2CFD30082A95A /* miss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = miss.wav; sourceTree = "<group>"; };
 		370068FB12C2D0D20082A95A /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
+		3730173112F8A2B50029A0FC /* seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = seed.m; sourceTree = "<group>"; };
 		373DE6F612F5DB3900664D24 /* addscore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addscore.png; sourceTree = "<group>"; };
 		375B3ECE12DD188B00C1E006 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		375B3EEA12DD1A9900C1E006 /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 		B504BD45126F0E4A00ACAC3D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3730173112F8A2B50029A0FC /* seed.m */,
 				B504BDC0126F1A1600ACAC3D /* Namespace.Pong3D.h */,
 				B504BDC1126F1A6300ACAC3D /* Namespace.Pong3D.classes.h */,
 				B504BDE7126F256100ACAC3D /* Namespace.Pong3D.protocols.h */,
@@ -421,6 +424,7 @@
 				3700678712C2AE860082A95A /* Sounds.m in Sources */,
 				37BEBAF912DCF0A9003108C4 /* Menu.m in Sources */,
 				3783AB1712F711010026568B /* Label.m in Sources */,
+				3730173212F8A2B50029A0FC /* seed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

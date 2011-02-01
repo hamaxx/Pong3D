@@ -373,6 +373,13 @@
 		vrLen = 1292;
 		vrLoc = 3276;
 	};
+	3730173112F8A2B50029A0FC /* seed.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {939, 585}}";
+			sepNavSelRange = "{127, 0}";
+			sepNavVisRange = "{0, 128}";
+		};
+	};
 	373DE6BA12F0F1F200664D24 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = B504BD47126F0E5C00ACAC3D /* Pong3D.m */;
@@ -922,7 +929,7 @@
 	};
 	B504BDC0126F1A1600ACAC3D /* Namespace.Pong3D.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {939, 537}}";
+			sepNavIntBoundsRect = "{{0, 0}, {939, 585}}";
 			sepNavSelRange = "{299, 0}";
 			sepNavVisRange = "{0, 358}";
 		};
@@ -1009,7 +1016,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {950, 2990}}";
 			sepNavSelRange = "{3840, 0}";
-			sepNavVisRange = "{3276, 1292}";
+			sepNavVisRange = "{3276, 1348}";
 			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
 		};
 	};
