@@ -163,7 +163,7 @@
 	rotateX += accel.y * 50.0f; rotateY += accel.x * 50.0f;
 	Matrix *rotateXmatrix = [Matrix createRotationX:rotateX + 3.14f];
 	Matrix *rotateYmatrix = [Matrix createRotationY:rotateY];
-	Matrix *scaleMatrix = [Matrix createScaleUniform:0.4];
+	Matrix *scaleMatrix = [Matrix createScaleUniform:0.35];
 	
 	effect.world = [[[scaleMatrix multiplyBy:rotateXmatrix] multiplyBy:rotateYmatrix] multiplyBy:[Matrix createTranslation:position]];
 	

@@ -14,7 +14,6 @@
 		3700678712C2AE860082A95A /* Sounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 3700678612C2AE860082A95A /* Sounds.m */; };
 		3700679312C2AF220082A95A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700679212C2AF220082A95A /* AudioToolbox.framework */; };
 		3700679512C2AF220082A95A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700679412C2AF220082A95A /* OpenAL.framework */; };
-		370067D712C2B71D0082A95A /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 370067D612C2B71D0082A95A /* libXNI.a */; };
 		3700682B12C2BAC10082A95A /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3700682A12C2BAC10082A95A /* GameKit.framework */; };
 		3700685112C2C1FC0082A95A /* racket.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3700685012C2C1FC0082A95A /* racket.wav */; };
 		370068D812C2CCFA0082A95A /* wall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068D712C2CCFA0082A95A /* wall.wav */; };
@@ -23,6 +22,9 @@
 		370068EE12C2CFD30082A95A /* miss.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068ED12C2CFD30082A95A /* miss.wav */; };
 		370068FC12C2D0D20082A95A /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 370068FB12C2D0D20082A95A /* win.wav */; };
 		3730173212F8A2B50029A0FC /* Seed.m in Sources */ = {isa = PBXBuildFile; fileRef = 3730173112F8A2B50029A0FC /* Seed.m */; };
+		3730176212F8BC270029A0FC /* zoga.X in Resources */ = {isa = PBXBuildFile; fileRef = 3730176112F8BC270029A0FC /* zoga.X */; };
+		3730178812F8C0F00029A0FC /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3730178712F8C0F00029A0FC /* yellow.png */; };
+		3730178C12F8C1320029A0FC /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 3730178B12F8C1320029A0FC /* red.png */; };
 		373DE6F712F5DB3900664D24 /* addscore.png in Resources */ = {isa = PBXBuildFile; fileRef = 373DE6F612F5DB3900664D24 /* addscore.png */; };
 		375B3ECF12DD188B00C1E006 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3ECE12DD188B00C1E006 /* menu.png */; };
 		375B3EEB12DD1A9900C1E006 /* continue.png in Resources */ = {isa = PBXBuildFile; fileRef = 375B3EEA12DD1A9900C1E006 /* continue.png */; };
@@ -36,6 +38,7 @@
 		37C002E512F85BDF00C291CB /* pongLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 37C002E412F85BDF00C291CB /* pongLogo.png */; };
 		37C0030112F8637C00C291CB /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 37C0030012F8637C00C291CB /* iTunesArtwork */; };
 		37F62E24129CD97B000CB950 /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F62E23129CD97B000CB950 /* Score.m */; };
+		37F9441812F8D93700C8EF5B /* libXNI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37F943EA12F8D6C200C8EF5B /* libXNI.a */; };
 		B504BD48126F0E5C00ACAC3D /* Pong3D.m in Sources */ = {isa = PBXBuildFile; fileRef = B504BD47126F0E5C00ACAC3D /* Pong3D.m */; };
 		B504BD4C126F0E7F00ACAC3D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD4B126F0E7F00ACAC3D /* OpenGLES.framework */; };
 		B504BD4E126F0E7F00ACAC3D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B504BD4D126F0E7F00ACAC3D /* QuartzCore.framework */; };
@@ -55,6 +58,30 @@
 		EA31BF0C1277C3F300F63859 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = EA31BF0B1277C3F300F63859 /* Background.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		37F943E712F8D6C200C8EF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F943DF12F8D6C200C8EF5B /* XNI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D /* libXNI.a */;
+			remoteInfo = XNI;
+		};
+		37F943E912F8D6C200C8EF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F943DF12F8D6C200C8EF5B /* XNI.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B5C6FDD3126DD292002ED666 /* libXNI.a */;
+			remoteInfo = "XNI Release";
+		};
+		37F943ED12F8D6D800C8EF5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37F943DF12F8D6C200C8EF5B /* XNI.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D /* XNI */;
+			remoteInfo = XNI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Pong3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +93,6 @@
 		3700678612C2AE860082A95A /* Sounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sounds.m; sourceTree = "<group>"; };
 		3700679212C2AF220082A95A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		3700679412C2AF220082A95A /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
-		370067D612C2B71D0082A95A /* libXNI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXNI.a; path = ../XNI/libXNI.a; sourceTree = SOURCE_ROOT; };
 		3700682A12C2BAC10082A95A /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		3700685012C2C1FC0082A95A /* racket.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = racket.wav; sourceTree = "<group>"; };
 		370068D712C2CCFA0082A95A /* wall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wall.wav; sourceTree = "<group>"; };
@@ -75,6 +101,9 @@
 		370068ED12C2CFD30082A95A /* miss.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = miss.wav; sourceTree = "<group>"; };
 		370068FB12C2D0D20082A95A /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		3730173112F8A2B50029A0FC /* Seed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Seed.m; sourceTree = "<group>"; };
+		3730176112F8BC270029A0FC /* zoga.X */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zoga.X; sourceTree = "<group>"; };
+		3730178712F8C0F00029A0FC /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		3730178B12F8C1320029A0FC /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		373DE6F612F5DB3900664D24 /* addscore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addscore.png; sourceTree = "<group>"; };
 		375B3ECE12DD188B00C1E006 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		375B3EEA12DD1A9900C1E006 /* continue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = continue.png; sourceTree = "<group>"; };
@@ -91,6 +120,7 @@
 		37C0030012F8637C00C291CB /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		37F62E22129CD97B000CB950 /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
 		37F62E23129CD97B000CB950 /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		37F943DF12F8D6C200C8EF5B /* XNI.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XNI.xcodeproj; path = ../xni/XNI.xcodeproj; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Pong3D-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Pong3D-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		B504BD46126F0E5C00ACAC3D /* Pong3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pong3D.h; sourceTree = "<group>"; };
 		B504BD47126F0E5C00ACAC3D /* Pong3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pong3D.m; sourceTree = "<group>"; };
@@ -137,6 +167,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F9441812F8D93700C8EF5B /* libXNI.a in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -144,7 +175,6 @@
 				B504BD4E126F0E7F00ACAC3D /* QuartzCore.framework in Frameworks */,
 				3700679312C2AF220082A95A /* AudioToolbox.framework in Frameworks */,
 				3700679512C2AF220082A95A /* OpenAL.framework in Frameworks */,
-				370067D712C2B71D0082A95A /* libXNI.a in Frameworks */,
 				3700682B12C2BAC10082A95A /* GameKit.framework in Frameworks */,
 				3783AA2512F6F1EA0026568B /* AVFoundation.framework in Frameworks */,
 			);
@@ -164,6 +194,9 @@
 		28EEBF621118D79A00187D67 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3730178B12F8C1320029A0FC /* red.png */,
+				3730178712F8C0F00029A0FC /* yellow.png */,
+				3730176112F8BC270029A0FC /* zoga.X */,
 				37C0030012F8637C00C291CB /* iTunesArtwork */,
 				37C002E412F85BDF00C291CB /* pongLogo.png */,
 				37C0020912F83AFB00C291CB /* ballModel.x */,
@@ -187,13 +220,13 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				37F943DF12F8D6C200C8EF5B /* XNI.xcodeproj */,
 				EA31BB9D1277A38900F63859 /* JSON */,
 				B504BD45126F0E4A00ACAC3D /* Classes */,
 				28EEBF621118D79A00187D67 /* Resources */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				3700682A12C2BAC10082A95A /* GameKit.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -210,7 +243,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				370067D612C2B71D0082A95A /* libXNI.a */,
+				3700682A12C2BAC10082A95A /* GameKit.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -230,6 +263,15 @@
 				3700678612C2AE860082A95A /* Sounds.m */,
 			);
 			name = Sounds;
+			sourceTree = "<group>";
+		};
+		37F943E012F8D6C200C8EF5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37F943E812F8D6C200C8EF5B /* libXNI.a */,
+				37F943EA12F8D6C200C8EF5B /* libXNI.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B504BD45126F0E4A00ACAC3D /* Classes */ = {
@@ -344,6 +386,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				37F943EE12F8D6D800C8EF5B /* PBXTargetDependency */,
 			);
 			name = Pong3D;
 			productName = XniTemplate;
@@ -367,12 +410,35 @@
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 37F943E012F8D6C200C8EF5B /* Products */;
+					ProjectRef = 37F943DF12F8D6C200C8EF5B /* XNI.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Pong3D */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		37F943E812F8D6C200C8EF5B /* libXNI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXNI.a;
+			remoteRef = 37F943E712F8D6C200C8EF5B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		37F943EA12F8D6C200C8EF5B /* libXNI.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXNI.a;
+			remoteRef = 37F943E912F8D6C200C8EF5B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1D60588D0D05DD3D006BFB54 /* Resources */ = {
@@ -394,6 +460,9 @@
 				37C0020A12F83AFB00C291CB /* ballModel.x in Resources */,
 				37C002E512F85BDF00C291CB /* pongLogo.png in Resources */,
 				37C0030112F8637C00C291CB /* iTunesArtwork in Resources */,
+				3730176212F8BC270029A0FC /* zoga.X in Resources */,
+				3730178812F8C0F00029A0FC /* yellow.png in Resources */,
+				3730178C12F8C1320029A0FC /* red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +498,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37F943EE12F8D6D800C8EF5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XNI;
+			targetProxy = 37F943ED12F8D6D800C8EF5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -475,13 +552,14 @@
 				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				PREBINDING = NO;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				SYMROOT = build;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = ../XNI/usr/local/include;
+				USER_HEADER_SEARCH_PATHS = "../xni/**";
 			};
 			name = Debug;
 		};

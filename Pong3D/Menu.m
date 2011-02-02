@@ -26,7 +26,7 @@ BOOL gameStart = NO;
 }
 
 - (BOOL) showCont {
-	return gameStart && score.home > 0 && score.away > 0;
+	return !gameStart && score.home > 0 && score.away > 0;
 }
 
 - (void) loadContent:(GraphicsDevice *) gd :(ContentManager *)cm {
