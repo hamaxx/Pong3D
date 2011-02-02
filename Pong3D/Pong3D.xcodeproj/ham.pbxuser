@@ -9,7 +9,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 3775E8CE1281CF0500914232 /* XniArchitecture */;
-		activeSDKPreference = iphonesimulator4.2;
+		activeSDKPreference = iphoneos4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Pong3D */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Pong3D */,
@@ -145,6 +145,7 @@
 			37F9443112F8DA7900C8EF5B /* PBXTextBookmark */ = 37F9443112F8DA7900C8EF5B /* PBXTextBookmark */;
 			37F9443212F8DA7900C8EF5B /* PBXTextBookmark */ = 37F9443212F8DA7900C8EF5B /* PBXTextBookmark */;
 			37F9443912F8DAC200C8EF5B /* PBXTextBookmark */ = 37F9443912F8DAC200C8EF5B /* PBXTextBookmark */;
+			37F9449912F8E36C00C8EF5B /* PBXTextBookmark */ = 37F9449912F8E36C00C8EF5B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 3775E8EA1281CF0D00914232 /* Source Control */;
 		userBookmarkGroup = 377FF28512F5FDA7007345E8 /* PBXBookmarkGroup */;
@@ -160,8 +161,8 @@
 	};
 	32CA4F630368D1EE00C91783 /* Pong3D_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {939, 585}}";
-			sepNavSelRange = "{229, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {832, 218}}";
+			sepNavSelRange = "{184, 0}";
 			sepNavVisRange = "{0, 229}";
 		};
 	};
@@ -909,6 +910,16 @@
 		vrLen = 39;
 		vrLoc = 0;
 	};
+	37F9449912F8E36C00C8EF5B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* Pong3D_Prefix.pch */;
+		name = "Pong3D_Prefix.pch: 8";
+		rLen = 0;
+		rLoc = 184;
+		rType = 0;
+		vrLen = 229;
+		vrLoc = 0;
+	};
 	B504BD46126F0E5C00ACAC3D /* Pong3D.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {952, 792}}";
@@ -1049,14 +1060,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {939, 754}}";
 			sepNavSelRange = "{858, 0}";
-			sepNavVisRange = "{241, 822}";
+			sepNavVisRange = "{199, 864}";
 		};
 	};
 	EA31BB7F12779D2100F63859 /* Ball.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {939, 2990}}";
-			sepNavSelRange = "{643, 0}";
-			sepNavVisRange = "{0, 1121}";
+			sepNavIntBoundsRect = "{{0, 0}, {939, 3003}}";
+			sepNavSelRange = "{278, 0}";
+			sepNavVisRange = "{125, 1137}";
 			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
 		};
 	};
